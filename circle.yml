@@ -1,0 +1,23 @@
+machine:
+  xcode:
+    version: "7.0"
+  environment:
+    XCODE_SCHEME: Atlas-iOS
+    XCODE_WORKSPACE: Atlas.xcworkspace
+    DEVELOPER_NAME: 'iPhone Distribution: Sky'
+    APPNAME: Atlas-iOS
+    PROFILE_UUID: 30fc0261-b07e-421a-8b11-ae29168827d2
+    TESTFLIGHT_DIST_LIST: your-dist-list-name
+
+dependencies:
+  pre:
+    - chmod +x setup.sh
+    - ./setup.sh
+
+deployment:
+  testflight:
+    branch: master
+    commands:
+      - ./scripts/add-key.sh
+      - ./scripts/testflight.sh
+      - ./scripts/remove-key.sh

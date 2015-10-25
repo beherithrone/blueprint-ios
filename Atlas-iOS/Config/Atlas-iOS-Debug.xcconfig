@@ -1,0 +1,45 @@
+//
+//  Atlas-iOS-Debug.xcconfig
+//  Atlas-iOS
+//
+//  Copyright © 2015 Sky UK. All rights reserved.
+//
+
+// MARK: ARCHITECTURES
+// MARK: Build Active Architecture Only
+ONLY_ACTIVE_ARCH = YES
+
+// MARK: - BUILD OPTIONS
+// MARK: Debug Information Format
+DEBUG_INFORMATION_FORMAT = dwarf
+
+// MARK: Enable Testability
+ENABLE_TESTABILITY = YES
+
+// MARK: Product Name
+PRODUCT_NAME = $(TARGET_NAME)
+
+// MARK: -
+// MARK: APPLE LLVM 7.0 - CODE GENERATION
+
+// MARK: Generate Position-Dependent Code
+GCC_DYNAMIC_NO_PIC = NO
+
+// MARK: Optimization Level
+GCC_OPTIMIZATION_LEVEL = 0
+
+// MARK: -
+// MARK: APPLE LLVM 7.0 - PREPROCESSING
+// MARK: Preprocessor Macros
+GCC_PREPROCESSOR_DEFINITIONS = DEBUG=1 $(inherited)
+
+// MARK: -
+// MARK: SWIFT COMPILER - CODE GENERATION
+
+// MARK: Optimization Level
+SWIFT_OPTIMIZATION_LEVEL = -Onone
+
+// MARK: -
+// MARK: USER-DEFINED
+MTL_ENABLE_DEBUG_INFO = YES
+

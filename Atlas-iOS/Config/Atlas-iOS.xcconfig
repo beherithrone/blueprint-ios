@@ -1,0 +1,135 @@
+//
+//  Atlas-iOS.xcconfig
+//  Atlas-iOS
+//
+//  Copyright © 2015 Sky UK. All rights reserved.
+//
+
+// MARK: ARCHITECTURES
+// MARK: Base SDK
+SDKROOT = iphoneos
+
+// MARK: -
+// MARK: CODE SIGNING
+// MARK: Code Signing Identity
+CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Developer
+
+// MARK: -
+// MARK: DEPLOYMENT
+// MARK: Strip Debug Symbols During Copy
+COPY_PHASE_STRIP = NO
+
+// MARK: Targeted Device Family
+TARGETED_DEVICE_FAMILY = 1,2
+
+// MARK: -
+// MARK: LINKING
+// MARK: Runpath Search Paths
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks
+
+// MARK: -
+// MARK: PACKAGING
+// MARK: Info.plist File
+INFOPLIST_FILE = Atlas-iOS/Info.plist
+
+// MARK: Product Bundle Identifier
+PRODUCT_BUNDLE_IDENTIFIER = com.Atlas-iOS
+
+// MARK: -
+// MARK: SEARCH PATHS
+// MARK: Always Search User Paths
+ALWAYS_SEARCH_USER_PATHS = NO
+
+// MARK: Framework Search Paths
+FRAMEWORK_SEARCH_PATHS = $(SRCROOT)/../Carthage/Carthage/Build/iOS
+
+// MARK: -
+// MARK: DEPLOYMENT
+// MARK: iOS Deployment Target
+IPHONEOS_DEPLOYMENT_TARGET = 9.0
+
+// MARK: No Common Blocks
+GCC_NO_COMMON_BLOCKS = YES
+
+// MARK: -
+// MARK: APPLE LVVM 7.0 - LANGUAGE
+// MARK: C Language Dialect
+GCC_C_LANGUAGE_STANDARD = gnu99
+
+// MARK: -
+// MARK: APPLE LVM 7.0 - LANGUAGE - C++
+// MARK: C++ Language Dialect
+CLANG_CXX_LANGUAGE_STANDARD = gnu++0x
+
+// MARK: C++ Standard Library
+CLANG_CXX_LIBRARY = libc++
+
+// MARK: -
+// MARK: APPLE LLVM 7.0 - LANGUAGE - MODULES
+// MARK: Enable Modules (C and Objective-C)
+CLANG_ENABLE_MODULES = YES
+
+// MARK: -
+// MARK: APPLE LLVM 7.0 - LANGUAGE - OBJECTIVE C
+// MARK: Objective-C Automatic Reference Counting
+CLANG_ENABLE_OBJC_ARC = YES
+
+// MARK: -
+// MARK: ASSET CATALOG COMPILER - OPTIONS
+// MARK: Asset Catalog App Icon Set Name
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+
+// MARK: -
+// MARK: APPLE LLVM 7.0 - PREPROCESSING
+// MARK: Enable Strict Checking of objc_msgSend Calls
+ENABLE_STRICT_OBJC_MSGSEND = YES
+
+// MARK: -
+// MARK: APPLE LLVM 7.0 - Warnings - All languages
+// MARK: Empty Loop Bodies
+CLANG_WARN_EMPTY_BODY = YES
+
+// MARK: Implicit Boolean Conversion
+CLANG_WARN_BOOL_CONVERSION = YES
+
+// MARK: Implicit Constant Conversions
+CLANG_WARN_CONSTANT_CONVERSION = YES
+
+// MARK: Implicit Conversion to 32 Bit Type
+GCC_WARN_64_TO_32_BIT_CONVERSION = YES
+
+// MARK: Implicit Enum Conversions
+CLANG_WARN_ENUM_CONVERSION = YES
+
+// MARK: Implicit Integer to Pointer Conversions
+CLANG_WARN_INT_CONVERSION = YES
+
+// MARK: Mismatched Return Type
+GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR
+
+// MARK: Uninitialized Variables
+GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE
+
+// MARK: Unreachable Code
+CLANG_WARN_UNREACHABLE_CODE = YES
+
+// MARK: Unused Functions
+GCC_WARN_UNUSED_FUNCTION = YES
+
+// MARK: Unused Variables
+GCC_WARN_UNUSED_VARIABLE = YES
+
+// MARK: -
+// MARK: APPLE LLVM 7.0 - WARNINGS - OBJECTIVE C
+// MARK: Direct usage of 'isa'
+CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR
+
+// MARK: Duplicate Method Definitions
+CLANG_WARN__DUPLICATE_METHOD_MATCH = YES
+
+// MARK: Undeclared Selector
+GCC_WARN_UNDECLARED_SELECTOR = YES
+
+// MARK: Unintentional Root Class
+CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR
+
