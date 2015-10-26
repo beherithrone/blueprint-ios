@@ -123,7 +123,7 @@
 		CEFD2BAB1BD1586A000067CD = {
 			isa = PBXGroup;
 			children = (
-				CEFD2BB61BD1586A000067CD /* Template1-OSX */,
+				CEFD2BB61BD1586A000067CD /* Code */,
 				CEFD2BC81BD1586A000067CD /* Template1-OSXTests */,
 				CEFD2BD31BD1586A000067CD /* Template1-OSXUITests */,
 				CEE6FBCB1BD15AF700594649 /* Frameworks */,
@@ -141,7 +141,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CEFD2BB61BD1586A000067CD /* Template1-OSX */ = {
+		CEFD2BB61BD1586A000067CD /* Code */ = {
 			isa = PBXGroup;
 			children = (
 				CEFD2BB71BD1586A000067CD /* AppDelegate.swift */,
@@ -150,7 +150,7 @@
 				CEFD2BBB1BD1586A000067CD /* Assets.xcassets */,
 				CEFD2BC01BD1586A000067CD /* Info.plist */,
 			);
-			path = "Template1-OSX";
+			path = Code;
 			sourceTree = "<group>";
 		};
 		CEFD2BC81BD1586A000067CD /* Template1-OSXTests */ = {
@@ -445,7 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Template1-OSX/Info.plist";
+				INFOPLIST_FILE = "Code/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Template1-OSX";
@@ -458,7 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Template1-OSX/Info.plist";
+				INFOPLIST_FILE = "Code/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Template1-OSX";
