@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Atlas-macOS
+//  Template1-macOS
 //
 //  Copyright © 2015 Sky UK. All rights reserved.
 //

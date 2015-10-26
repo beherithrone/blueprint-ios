@@ -1,6 +1,6 @@
 //
-//  Atlas-iOS.xcconfig
-//  Atlas-iOS
+//  Template1-iOS.xcconfig
+//  Template1-iOS
 //
 //  Copyright © 2015 Sky UK. All rights reserved.
 //
@@ -30,10 +30,10 @@ LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks
 // MARK: -
 // MARK: PACKAGING
 // MARK: Info.plist File
-INFOPLIST_FILE = Atlas-iOS/Info.plist
+INFOPLIST_FILE = Code/Info.plist
 
 // MARK: Product Bundle Identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.Atlas-iOS
+PRODUCT_BUNDLE_IDENTIFIER = com.Template1-iOS
 
 // MARK: -
 // MARK: SEARCH PATHS
@@ -132,4 +132,3 @@ GCC_WARN_UNDECLARED_SELECTOR = YES
 
 // MARK: Unintentional Root Class
 CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR
-

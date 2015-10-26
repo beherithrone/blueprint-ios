@@ -1,17 +1,17 @@
 //
-//  Atlas_macOSTests.swift
-//  Atlas-macOSTests
+//  Template1_macOSTests.swift
+//  Template1-macOSTests
 //
 //  Copyright © 2015 Sky UK. All rights reserved.
 //
 
 import XCTest
-@testable import Atlas_macOS
+@testable import Template1_macOS
 
 import Core
 import RxSwift
 
-class Atlas_macOSTests: XCTestCase {
+class Template1_macOSTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

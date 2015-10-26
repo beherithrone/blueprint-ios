@@ -2,10 +2,10 @@ machine:
   xcode:
     version: "7.0"
   environment:
-    XCODE_SCHEME: Atlas-iOS
-    XCODE_WORKSPACE: Atlas.xcworkspace
+    XCODE_SCHEME: Template1-iOS
+    XCODE_WORKSPACE: Template1.xcworkspace
     DEVELOPER_NAME: 'iPhone Distribution: Sky'
-    APPNAME: Atlas-iOS
+    APPNAME: Template1-iOS
     PROFILE_UUID: 30fc0261-b07e-421a-8b11-ae29168827d2
     TESTFLIGHT_DIST_LIST: your-dist-list-name
 

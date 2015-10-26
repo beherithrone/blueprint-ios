@@ -1,13 +1,13 @@
 //
-//  Atlas_macOSUITests.swift
-//  Atlas-macOSUITests
+//  Template1_macOSUITests.swift
+//  Template1-macOSUITests
 //
 //  Copyright © 2015 Sky UK. All rights reserved.
 //
 
 import XCTest
 
-class Atlas_macOSUITests: XCTestCase {
+class Template1_macOSUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

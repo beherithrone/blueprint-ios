@@ -34,7 +34,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CE6DABB11BD0FE8C00976127"
                BuildableName = "Template1-iOS.xctest"
-               BlueprintName = "Template1-iOSTests"
+               BlueprintName = "Tests"
                ReferencedContainer = "container:Template1-iOS.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -44,7 +44,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CE6DABBC1BD0FE8C00976127"
                BuildableName = "Template1-iOS.xctest"
-               BlueprintName = "Template1-iOSUITests"
+               BlueprintName = "UITests"
                ReferencedContainer = "container:Template1-iOS.xcodeproj">
             </BuildableReference>
          </TestableReference>
