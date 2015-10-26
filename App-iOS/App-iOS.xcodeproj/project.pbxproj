@@ -365,7 +365,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = "Sky UK";
+				ORGANIZATIONNAME = "Syerit Limited";
 				TargetAttributes = {
 					CE6DAB9D1BD0FE8C00976127 = {
 						CreatedOnToolsVersion = 7.0.1;

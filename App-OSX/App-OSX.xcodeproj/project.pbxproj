@@ -236,7 +236,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = "Sky UK";
+				ORGANIZATIONNAME = "Syerit Limited";
 				TargetAttributes = {
 					CEFD2BB31BD1586A000067CD = {
 						CreatedOnToolsVersion = 7.0.1;

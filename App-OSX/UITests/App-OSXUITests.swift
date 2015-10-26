@@ -2,7 +2,7 @@
 //  App_OSXUITests.swift
 //  App-OSXUITests
 //
-//  Copyright © 2015 Sky UK. All rights reserved.
+//  Copyright © 2015 Syerit Limited. All rights reserved.
 //
 
 import XCTest
