@@ -124,8 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				CEFD2BB61BD1586A000067CD /* Code */,
-				CEFD2BC81BD1586A000067CD /* Template1-OSXTests */,
-				CEFD2BD31BD1586A000067CD /* Template1-OSXUITests */,
+				CEFD2BC81BD1586A000067CD /* Tests */,
+				CEFD2BD31BD1586A000067CD /* UITests */,
 				CEE6FBCB1BD15AF700594649 /* Frameworks */,
 				CEFD2BB51BD1586A000067CD /* Products */,
 			);
@@ -153,22 +153,22 @@
 			path = Code;
 			sourceTree = "<group>";
 		};
-		CEFD2BC81BD1586A000067CD /* Template1-OSXTests */ = {
+		CEFD2BC81BD1586A000067CD /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				CEFD2BC91BD1586A000067CD /* Template1_OSXTests.swift */,
 				CEFD2BCB1BD1586A000067CD /* Info.plist */,
 			);
-			path = "Template1-OSXTests";
+			path = "Tests";
 			sourceTree = "<group>";
 		};
-		CEFD2BD31BD1586A000067CD /* Template1-OSXUITests */ = {
+		CEFD2BD31BD1586A000067CD /* UITests */ = {
 			isa = PBXGroup;
 			children = (
 				CEFD2BD41BD1586A000067CD /* Template1_OSXUITests.swift */,
 				CEFD2BD61BD1586A000067CD /* Info.plist */,
 			);
-			path = "Template1-OSXUITests";
+			path = "UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,9 +193,9 @@
 			productReference = CEFD2BB41BD1586A000067CD /* Template1-OSX.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CEFD2BC41BD1586A000067CD /* Template1-OSXTests */ = {
+		CEFD2BC41BD1586A000067CD /* Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEFD2BDC1BD1586A000067CD /* Build configuration list for PBXNativeTarget "Template1-OSXTests" */;
+			buildConfigurationList = CEFD2BDC1BD1586A000067CD /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
 				CEFD2BC11BD1586A000067CD /* Sources */,
 				CEFD2BC21BD1586A000067CD /* Frameworks */,
@@ -206,14 +206,14 @@
 			dependencies = (
 				CEFD2BC71BD1586A000067CD /* PBXTargetDependency */,
 			);
-			name = "Template1-OSXTests";
-			productName = "Template1-OSXTests";
+			name = "Tests";
+			productName = "Tests";
 			productReference = CEFD2BC51BD1586A000067CD /* Template1-OSX.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CEFD2BCF1BD1586A000067CD /* Template1-OSXUITests */ = {
+		CEFD2BCF1BD1586A000067CD /* UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEFD2BDF1BD1586A000067CD /* Build configuration list for PBXNativeTarget "Template1-OSXUITests" */;
+			buildConfigurationList = CEFD2BDF1BD1586A000067CD /* Build configuration list for PBXNativeTarget "UITests" */;
 			buildPhases = (
 				CEFD2BCC1BD1586A000067CD /* Sources */,
 				CEFD2BCD1BD1586A000067CD /* Frameworks */,
@@ -224,8 +224,8 @@
 			dependencies = (
 				CEFD2BD21BD1586A000067CD /* PBXTargetDependency */,
 			);
-			name = "Template1-OSXUITests";
-			productName = "Template1-OSXUITests";
+			name = "UITests";
+			productName = "UITests";
 			productReference = CEFD2BD01BD1586A000067CD /* Template1-OSX.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -265,8 +265,8 @@
 			projectRoot = "";
 			targets = (
 				CEFD2BB31BD1586A000067CD /* Template1-OSX */,
-				CEFD2BC41BD1586A000067CD /* Template1-OSXTests */,
-				CEFD2BCF1BD1586A000067CD /* Template1-OSXUITests */,
+				CEFD2BC41BD1586A000067CD /* Tests */,
+				CEFD2BCF1BD1586A000067CD /* UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -471,9 +471,9 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Template1-OSXTests/Info.plist";
+				INFOPLIST_FILE = "Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Template1-OSXTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tests";
 				PRODUCT_NAME = "Template1-OSX";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Template1-OSX.app/Contents/MacOS/Template1-OSX";
 			};
@@ -484,9 +484,9 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Template1-OSXTests/Info.plist";
+				INFOPLIST_FILE = "Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Template1-OSXTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tests";
 				PRODUCT_NAME = "Template1-OSX";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Template1-OSX.app/Contents/MacOS/Template1-OSX";
 			};
@@ -496,9 +496,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Template1-OSXUITests/Info.plist";
+				INFOPLIST_FILE = "UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Template1-OSXUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UITests";
 				PRODUCT_NAME = "Template1-OSX";
 				TEST_TARGET_NAME = "Template1-OSX";
 				USES_XCTRUNNER = YES;
@@ -509,9 +509,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Template1-OSXUITests/Info.plist";
+				INFOPLIST_FILE = "UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Template1-OSXUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UITests";
 				PRODUCT_NAME = "Template1-OSX";
 				TEST_TARGET_NAME = "Template1-OSX";
 				USES_XCTRUNNER = YES;
@@ -539,7 +539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEFD2BDC1BD1586A000067CD /* Build configuration list for PBXNativeTarget "Template1-OSXTests" */ = {
+		CEFD2BDC1BD1586A000067CD /* Build configuration list for PBXNativeTarget "Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEFD2BDD1BD1586A000067CD /* Debug */,
@@ -548,7 +548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEFD2BDF1BD1586A000067CD /* Build configuration list for PBXNativeTarget "Template1-OSXUITests" */ = {
+		CEFD2BDF1BD1586A000067CD /* Build configuration list for PBXNativeTarget "UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEFD2BE01BD1586A000067CD /* Debug */,
