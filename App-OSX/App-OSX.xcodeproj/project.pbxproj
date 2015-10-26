@@ -159,7 +159,7 @@
 				CEFD2BC91BD1586A000067CD /* App_OSXTests.swift */,
 				CEFD2BCB1BD1586A000067CD /* Info.plist */,
 			);
-			path = "Tests";
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		CEFD2BD31BD1586A000067CD /* UITests */ = {
@@ -168,7 +168,7 @@
 				CEFD2BD41BD1586A000067CD /* App_OSXUITests.swift */,
 				CEFD2BD61BD1586A000067CD /* Info.plist */,
 			);
-			path = "UITests";
+			path = UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,8 +206,8 @@
 			dependencies = (
 				CEFD2BC71BD1586A000067CD /* PBXTargetDependency */,
 			);
-			name = "Tests";
-			productName = "Tests";
+			name = Tests;
+			productName = Tests;
 			productReference = CEFD2BC51BD1586A000067CD /* App-OSX.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -224,8 +224,8 @@
 			dependencies = (
 				CEFD2BD21BD1586A000067CD /* PBXTargetDependency */,
 			);
-			name = "UITests";
-			productName = "UITests";
+			name = UITests;
+			productName = UITests;
 			productReference = CEFD2BD01BD1586A000067CD /* App-OSX.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -445,10 +445,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Code/Info.plist";
+				INFOPLIST_FILE = Code/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.App-OSX";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.Template1-OSX";
 				PRODUCT_NAME = "App-OSX";
 			};
 			name = Debug;
@@ -458,10 +458,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Code/Info.plist";
+				INFOPLIST_FILE = Code/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.App-OSX";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.Template1-OSX";
 				PRODUCT_NAME = "App-OSX";
 			};
 			name = Release;
@@ -471,9 +471,9 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Tests/Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tests;
 				PRODUCT_NAME = "App-OSX";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App-OSX.app/Contents/MacOS/App-OSX";
 			};
@@ -484,9 +484,9 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Tests/Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tests;
 				PRODUCT_NAME = "App-OSX";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App-OSX.app/Contents/MacOS/App-OSX";
 			};
@@ -496,9 +496,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "UITests/Info.plist";
+				INFOPLIST_FILE = UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.UITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UITests;
 				PRODUCT_NAME = "App-OSX";
 				TEST_TARGET_NAME = "App-OSX";
 				USES_XCTRUNNER = YES;
@@ -509,9 +509,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "UITests/Info.plist";
+				INFOPLIST_FILE = UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.UITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UITests;
 				PRODUCT_NAME = "App-OSX";
 				TEST_TARGET_NAME = "App-OSX";
 				USES_XCTRUNNER = YES;

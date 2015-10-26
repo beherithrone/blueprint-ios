@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:App-TV/App-TV.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:App-OSX/App-OSX.xcodeproj">
    </FileRef>
    <FileRef
