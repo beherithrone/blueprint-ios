@@ -77,9 +77,9 @@
 		20A75A961BDEBEFB00EED682 = {
 			isa = PBXGroup;
 			children = (
-				20A75AA11BDEBEFB00EED682 /* App-TV */,
-				20A75AB61BDEBEFB00EED682 /* App-TVTests */,
-				20A75AC11BDEBEFB00EED682 /* App-TVUITests */,
+				20A75AA11BDEBEFB00EED682 /* Code */,
+				20A75AB61BDEBEFB00EED682 /* Tests */,
+				20A75AC11BDEBEFB00EED682 /* UITests */,
 				20A75AA01BDEBEFB00EED682 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,7 +94,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		20A75AA11BDEBEFB00EED682 /* App-TV */ = {
+		20A75AA11BDEBEFB00EED682 /* Code */ = {
 			isa = PBXGroup;
 			children = (
 				20A75AA21BDEBEFB00EED682 /* AppDelegate.swift */,
@@ -104,25 +104,25 @@
 				20A75AAE1BDEBEFB00EED682 /* Info.plist */,
 				20A75AA61BDEBEFB00EED682 /* App_TV.xcdatamodeld */,
 			);
-			path = "App-TV";
+			path = Code;
 			sourceTree = "<group>";
 		};
-		20A75AB61BDEBEFB00EED682 /* App-TVTests */ = {
+		20A75AB61BDEBEFB00EED682 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				20A75AB71BDEBEFB00EED682 /* App_TVTests.swift */,
 				20A75AB91BDEBEFB00EED682 /* Info.plist */,
 			);
-			path = "App-TVTests";
+			path = Tests;
 			sourceTree = "<group>";
 		};
-		20A75AC11BDEBEFB00EED682 /* App-TVUITests */ = {
+		20A75AC11BDEBEFB00EED682 /* UITests */ = {
 			isa = PBXGroup;
 			children = (
 				20A75AC21BDEBEFB00EED682 /* App_TVUITests.swift */,
 				20A75AC41BDEBEFB00EED682 /* Info.plist */,
 			);
-			path = "App-TVUITests";
+			path = UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -390,7 +390,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = "App-TV/Info.plist";
+				INFOPLIST_FILE = "Code/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.Template1-TV";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -402,7 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = "App-TV/Info.plist";
+				INFOPLIST_FILE = "Code/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.Template1-TV";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -476,6 +476,7 @@
 				20A75AC91BDEBEFB00EED682 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20A75ACA1BDEBEFB00EED682 /* Build configuration list for PBXNativeTarget "App-TVTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +485,7 @@
 				20A75ACC1BDEBEFB00EED682 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20A75ACD1BDEBEFB00EED682 /* Build configuration list for PBXNativeTarget "App-TVUITests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +494,7 @@
 				20A75ACF1BDEBEFB00EED682 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
