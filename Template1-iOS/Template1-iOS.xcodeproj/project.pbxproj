@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		209092A31BD57C1C00E59A11 /* Atlas_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2090928F1BD57C1C00E59A11 /* Atlas_iOS.xcdatamodeld */; };
+		209092A31BD57C1C00E59A11 /* Template1_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2090928F1BD57C1C00E59A11 /* Template1_iOS.xcdatamodeld */; };
 		209092A41BD57C1C00E59A11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209092911BD57C1C00E59A11 /* Images.xcassets */; };
 		209092A51BD57C1C00E59A11 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 209092921BD57C1C00E59A11 /* Info.plist */; };
 		209092A61BD57C1C00E59A11 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 209092951BD57C1C00E59A11 /* LaunchScreen.xib */; };
@@ -37,8 +37,8 @@
 		20B232161BD6655800FDA56B /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232151BD6655800FDA56B /* Example.swift */; };
 		20B232181BD6659200FDA56B /* HtmlParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232171BD6659200FDA56B /* HtmlParsing.swift */; };
 		20B2321A1BD66AD100FDA56B /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B232191BD66AD100FDA56B /* RxCocoa.framework */; };
-		CE6DABB71BD0FE8C00976127 /* Atlas_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DABB61BD0FE8C00976127 /* Atlas_iOSTests.swift */; };
-		CE6DABC21BD0FE8C00976127 /* Atlas_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DABC11BD0FE8C00976127 /* Atlas_iOSUITests.swift */; };
+		CE6DABB71BD0FE8C00976127 /* Template1_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DABB61BD0FE8C00976127 /* Template1_iOSTests.swift */; };
+		CE6DABC21BD0FE8C00976127 /* Template1_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DABC11BD0FE8C00976127 /* Template1_iOSUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,19 +47,19 @@
 			containerPortal = CE6DAB961BD0FE8C00976127 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CE6DAB9D1BD0FE8C00976127;
-			remoteInfo = "Atlas-iOS";
+			remoteInfo = "Template1-iOS";
 		};
 		CE6DABBE1BD0FE8C00976127 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CE6DAB961BD0FE8C00976127 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CE6DAB9D1BD0FE8C00976127;
-			remoteInfo = "Atlas-iOS";
+			remoteInfo = "Template1-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		209092901BD57C1C00E59A11 /* Atlas_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Atlas_iOS.xcdatamodel; sourceTree = "<group>"; };
+		209092901BD57C1C00E59A11 /* Template1_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Template1_iOS.xcdatamodel; sourceTree = "<group>"; };
 		209092911BD57C1C00E59A11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		209092921BD57C1C00E59A11 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		209092951BD57C1C00E59A11 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		2090929B1BD57C1C00E59A11 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		2090929D1BD57C1C00E59A11 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2090929F1BD57C1C00E59A11 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
-		209092AF1BD57D0100E59A11 /* Atlas-iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Atlas-iOS-Bridging-Header.h"; path = "../Atlas-iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		209092AF1BD57D0100E59A11 /* Template1-iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Template1-iOS-Bridging-Header.h"; path = "../Template1-iOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		2092BD661BD565BF009F3E10 /* Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Core.framework; path = "../Core/build/Debug-iphoneos/Core.framework"; sourceTree = "<group>"; };
 		20B231E91BD63E7100FDA56B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		20B231EB1BD64D9500FDA56B /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
@@ -93,14 +93,14 @@
 		20B232191BD66AD100FDA56B /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = ../Carthage/Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		CE6DAB9E1BD0FE8C00976127 /* Template1-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Template1-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6DABB21BD0FE8C00976127 /* Template1-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Template1-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE6DABB61BD0FE8C00976127 /* Atlas_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atlas_iOSTests.swift; sourceTree = "<group>"; };
+		CE6DABB61BD0FE8C00976127 /* Template1_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template1_iOSTests.swift; sourceTree = "<group>"; };
 		CE6DABB81BD0FE8C00976127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE6DABBD1BD0FE8C00976127 /* Template1-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Template1-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE6DABC11BD0FE8C00976127 /* Atlas_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atlas_iOSUITests.swift; sourceTree = "<group>"; };
+		CE6DABC11BD0FE8C00976127 /* Template1_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template1_iOSUITests.swift; sourceTree = "<group>"; };
 		CE6DABC31BD0FE8C00976127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEFD28E21BD12C6E000067CD /* Atlas-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Atlas-iOS.xcconfig"; sourceTree = "<group>"; };
-		CEFD29381BD1316D000067CD /* Atlas-iOS-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Atlas-iOS-Debug.xcconfig"; sourceTree = "<group>"; };
-		CEFD29391BD13177000067CD /* Atlas-iOS-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Atlas-iOS-Release.xcconfig"; sourceTree = "<group>"; };
+		CEFD28E21BD12C6E000067CD /* Template1-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Template1-iOS.xcconfig"; sourceTree = "<group>"; };
+		CEFD29381BD1316D000067CD /* Template1-iOS-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Template1-iOS-Debug.xcconfig"; sourceTree = "<group>"; };
+		CEFD29391BD13177000067CD /* Template1-iOS-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Template1-iOS-Release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,7 +154,7 @@
 		209092971BD57C1C00E59A11 /* Objc */ = {
 			isa = PBXGroup;
 			children = (
-				209092AF1BD57D0100E59A11 /* Atlas-iOS-Bridging-Header.h */,
+				209092AF1BD57D0100E59A11 /* Template1-iOS-Bridging-Header.h */,
 				2090929A1BD57C1C00E59A11 /* SWRevealViewController.h */,
 				2090929B1BD57C1C00E59A11 /* SWRevealViewController.m */,
 			);
@@ -231,9 +231,9 @@
 		CE6DAB951BD0FE8C00976127 = {
 			isa = PBXGroup;
 			children = (
-				CE6DABA01BD0FE8C00976127 /* Atlas-iOS */,
-				CE6DABB51BD0FE8C00976127 /* Atlas-iOSTests */,
-				CE6DABC01BD0FE8C00976127 /* Atlas-iOSUITests */,
+				CE6DABA01BD0FE8C00976127 /* Template1-iOS */,
+				CE6DABB51BD0FE8C00976127 /* Template1-iOSTests */,
+				CE6DABC01BD0FE8C00976127 /* Template1-iOSUITests */,
 				CEFD28E11BD12C4B000067CD /* Config */,
 				CEFD29371BD13128000067CD /* Frameworks */,
 				CE6DAB9F1BD0FE8C00976127 /* Products */,
@@ -250,41 +250,41 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CE6DABA01BD0FE8C00976127 /* Atlas-iOS */ = {
+		CE6DABA01BD0FE8C00976127 /* Template1-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				2090928F1BD57C1C00E59A11 /* Atlas_iOS.xcdatamodeld */,
+				2090928F1BD57C1C00E59A11 /* Template1_iOS.xcdatamodeld */,
 				209092911BD57C1C00E59A11 /* Images.xcassets */,
 				209092921BD57C1C00E59A11 /* Info.plist */,
 				209092931BD57C1C00E59A11 /* Source */,
 			);
-			path = "Atlas-iOS";
+			path = "Template1-iOS";
 			sourceTree = "<group>";
 		};
-		CE6DABB51BD0FE8C00976127 /* Atlas-iOSTests */ = {
+		CE6DABB51BD0FE8C00976127 /* Template1-iOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				CE6DABB61BD0FE8C00976127 /* Atlas_iOSTests.swift */,
+				CE6DABB61BD0FE8C00976127 /* Template1_iOSTests.swift */,
 				CE6DABB81BD0FE8C00976127 /* Info.plist */,
 			);
-			path = "Atlas-iOSTests";
+			path = "Template1-iOSTests";
 			sourceTree = "<group>";
 		};
-		CE6DABC01BD0FE8C00976127 /* Atlas-iOSUITests */ = {
+		CE6DABC01BD0FE8C00976127 /* Template1-iOSUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CE6DABC11BD0FE8C00976127 /* Atlas_iOSUITests.swift */,
+				CE6DABC11BD0FE8C00976127 /* Template1_iOSUITests.swift */,
 				CE6DABC31BD0FE8C00976127 /* Info.plist */,
 			);
-			path = "Atlas-iOSUITests";
+			path = "Template1-iOSUITests";
 			sourceTree = "<group>";
 		};
 		CEFD28E11BD12C4B000067CD /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				CEFD28E21BD12C6E000067CD /* Atlas-iOS.xcconfig */,
-				CEFD29381BD1316D000067CD /* Atlas-iOS-Debug.xcconfig */,
-				CEFD29391BD13177000067CD /* Atlas-iOS-Release.xcconfig */,
+				CEFD28E21BD12C6E000067CD /* Template1-iOS.xcconfig */,
+				CEFD29381BD1316D000067CD /* Template1-iOS-Debug.xcconfig */,
+				CEFD29391BD13177000067CD /* Template1-iOS-Release.xcconfig */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -317,7 +317,7 @@
 			dependencies = (
 			);
 			name = "Template1-iOS";
-			productName = "Atlas-iOS";
+			productName = "Template1-iOS";
 			productReference = CE6DAB9E1BD0FE8C00976127 /* Template1-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -335,7 +335,7 @@
 				CE6DABB41BD0FE8C00976127 /* PBXTargetDependency */,
 			);
 			name = "Template1-iOSTests";
-			productName = "Atlas-iOSTests";
+			productName = "Template1-iOSTests";
 			productReference = CE6DABB21BD0FE8C00976127 /* Template1-iOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -353,7 +353,7 @@
 				CE6DABBF1BD0FE8C00976127 /* PBXTargetDependency */,
 			);
 			name = "Template1-iOSUITests";
-			productName = "Atlas-iOSUITests";
+			productName = "Template1-iOSUITests";
 			productReference = CE6DABBD1BD0FE8C00976127 /* Template1-iOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -460,7 +460,7 @@
 				20B232041BD6642800FDA56B /* WikipediaSearchViewController.swift in Sources */,
 				20B2320F1BD664BD00FDA56B /* Dependencies.swift in Sources */,
 				20B231F01BD656CA00FDA56B /* ViewController.swift in Sources */,
-				209092A31BD57C1C00E59A11 /* Atlas_iOS.xcdatamodeld in Sources */,
+				209092A31BD57C1C00E59A11 /* Template1_iOS.xcdatamodeld in Sources */,
 				20B232001BD6642800FDA56B /* CollectionViewImageCell.swift in Sources */,
 				20B232021BD6642800FDA56B /* WikipediaSearchCell.swift in Sources */,
 				20B231ED1BD64D9500FDA56B /* CollectionViewController.swift in Sources */,
@@ -480,7 +480,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE6DABB71BD0FE8C00976127 /* Atlas_iOSTests.swift in Sources */,
+				CE6DABB71BD0FE8C00976127 /* Template1_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,7 +488,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE6DABC21BD0FE8C00976127 /* Atlas_iOSUITests.swift in Sources */,
+				CE6DABC21BD0FE8C00976127 /* Template1_iOSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,40 +510,40 @@
 /* Begin XCBuildConfiguration section */
 		CE6DABC41BD0FE8C00976127 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEFD28E21BD12C6E000067CD /* Atlas-iOS.xcconfig */;
+			baseConfigurationReference = CEFD28E21BD12C6E000067CD /* Template1-iOS.xcconfig */;
 			buildSettings = {
 			};
 			name = Debug;
 		};
 		CE6DABC51BD0FE8C00976127 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEFD28E21BD12C6E000067CD /* Atlas-iOS.xcconfig */;
+			baseConfigurationReference = CEFD28E21BD12C6E000067CD /* Template1-iOS.xcconfig */;
 			buildSettings = {
 			};
 			name = Release;
 		};
 		CE6DABC71BD0FE8C00976127 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEFD29381BD1316D000067CD /* Atlas-iOS-Debug.xcconfig */;
+			baseConfigurationReference = CEFD29381BD1316D000067CD /* Template1-iOS-Debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "Template1-iOS";
-				SWIFT_OBJC_BRIDGING_HEADER = "Atlas-iOS/Source/Atlas-iOS-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Template1-iOS/Source/Template1-iOS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		CE6DABC81BD0FE8C00976127 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEFD29391BD13177000067CD /* Atlas-iOS-Release.xcconfig */;
+			baseConfigurationReference = CEFD29391BD13177000067CD /* Template1-iOS-Release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "Template1-iOS";
-				SWIFT_OBJC_BRIDGING_HEADER = "Atlas-iOS/Source/Atlas-iOS-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Template1-iOS/Source/Template1-iOS-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -551,9 +551,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Atlas-iOSTests/Info.plist";
+				INFOPLIST_FILE = "Template1-iOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Atlas-iOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Template1-iOSTests";
 				PRODUCT_NAME = "Template1-iOS";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Template1-iOS.app/Template1-iOS";
 			};
@@ -563,9 +563,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Atlas-iOSTests/Info.plist";
+				INFOPLIST_FILE = "Template1-iOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Atlas-iOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Template1-iOSTests";
 				PRODUCT_NAME = "Template1-iOS";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Template1-iOS.app/Template1-iOS";
 			};
@@ -574,11 +574,11 @@
 		CE6DABCD1BD0FE8C00976127 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "Atlas-iOSUITests/Info.plist";
+				INFOPLIST_FILE = "Template1-iOSUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Atlas-iOSUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Template1-iOSUITests";
 				PRODUCT_NAME = "Template1-iOS";
-				TEST_TARGET_NAME = "Atlas-iOS";
+				TEST_TARGET_NAME = "Template1-iOS";
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
@@ -586,11 +586,11 @@
 		CE6DABCE1BD0FE8C00976127 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "Atlas-iOSUITests/Info.plist";
+				INFOPLIST_FILE = "Template1-iOSUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Atlas-iOSUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Template1-iOSUITests";
 				PRODUCT_NAME = "Template1-iOS";
-				TEST_TARGET_NAME = "Atlas-iOS";
+				TEST_TARGET_NAME = "Template1-iOS";
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;
@@ -637,13 +637,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		2090928F1BD57C1C00E59A11 /* Atlas_iOS.xcdatamodeld */ = {
+		2090928F1BD57C1C00E59A11 /* Template1_iOS.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				209092901BD57C1C00E59A11 /* Atlas_iOS.xcdatamodel */,
+				209092901BD57C1C00E59A11 /* Template1_iOS.xcdatamodel */,
 			);
-			currentVersion = 209092901BD57C1C00E59A11 /* Atlas_iOS.xcdatamodel */;
-			path = Atlas_iOS.xcdatamodeld;
+			currentVersion = 209092901BD57C1C00E59A11 /* Template1_iOS.xcdatamodel */;
+			path = Template1_iOS.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
