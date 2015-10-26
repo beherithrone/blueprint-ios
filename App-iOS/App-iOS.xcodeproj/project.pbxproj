@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		209092A31BD57C1C00E59A11 /* App_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2090928F1BD57C1C00E59A11 /* App_iOS.xcdatamodeld */; };
-		209092A41BD57C1C00E59A11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209092911BD57C1C00E59A11 /* Images.xcassets */; };
+		209092A41BD57C1C00E59A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209092911BD57C1C00E59A11 /* Assets.xcassets */; };
 		209092A61BD57C1C00E59A11 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 209092951BD57C1C00E59A11 /* LaunchScreen.xib */; };
 		209092A71BD57C1C00E59A11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209092961BD57C1C00E59A11 /* Main.storyboard */; };
 		209092A81BD57C1C00E59A11 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2090929B1BD57C1C00E59A11 /* SWRevealViewController.m */; };
@@ -60,7 +60,7 @@
 
 /* Begin PBXFileReference section */
 		209092901BD57C1C00E59A11 /* App_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = App_iOS.xcdatamodel; sourceTree = "<group>"; };
-		209092911BD57C1C00E59A11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		209092911BD57C1C00E59A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		209092951BD57C1C00E59A11 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		209092961BD57C1C00E59A11 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		2090929A1BD57C1C00E59A11 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
@@ -255,7 +255,7 @@
 			children = (
 				20F764971BDE216200C98B1D /* Info.plist */,
 				2090928F1BD57C1C00E59A11 /* App_iOS.xcdatamodeld */,
-				209092911BD57C1C00E59A11 /* Images.xcassets */,
+				209092911BD57C1C00E59A11 /* Assets.xcassets */,
 				209092931BD57C1C00E59A11 /* Source */,
 			);
 			path = Code;
@@ -407,7 +407,7 @@
 			files = (
 				20B232031BD6642800FDA56B /* WikipediaSearchCell.xib in Resources */,
 				209092A61BD57C1C00E59A11 /* LaunchScreen.xib in Resources */,
-				209092A41BD57C1C00E59A11 /* Images.xcassets in Resources */,
+				209092A41BD57C1C00E59A11 /* Assets.xcassets in Resources */,
 				20B232011BD6642800FDA56B /* WikipediaImageCell.xib in Resources */,
 				209092A71BD57C1C00E59A11 /* Main.storyboard in Resources */,
 				20F764981BDE216200C98B1D /* Info.plist in Resources */,

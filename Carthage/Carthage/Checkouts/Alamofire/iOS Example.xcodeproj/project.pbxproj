@@ -11,7 +11,7 @@
 		F8111E0D19A951050040E7D1 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8111E0C19A951050040E7D1 /* MasterViewController.swift */; };
 		F8111E0F19A951050040E7D1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8111E0E19A951050040E7D1 /* DetailViewController.swift */; };
 		F8111E1219A951050040E7D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8111E1019A951050040E7D1 /* Main.storyboard */; };
-		F8111E1419A951050040E7D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8111E1319A951050040E7D1 /* Images.xcassets */; };
+		F8111E1419A951050040E7D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8111E1319A951050040E7D1 /* Assets.xcassets */; };
 		F818D0E419CA8CFA006034B1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8111E5419A95D7C0040E7D1 /* Alamofire.framework */; };
 		F818D0E619CA8D25006034B1 /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F8111E5419A95D7C0040E7D1 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -75,7 +75,7 @@
 		F8111E0C19A951050040E7D1 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		F8111E0E19A951050040E7D1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		F8111E1119A951050040E7D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F8111E1319A951050040E7D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F8111E1319A951050040E7D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8111E4E19A95D7C0040E7D1 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Alamofire.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,7 +125,7 @@
 			children = (
 				F8111E0919A951050040E7D1 /* Info.plist */,
 				F8111E1019A951050040E7D1 /* Main.storyboard */,
-				F8111E1319A951050040E7D1 /* Images.xcassets */,
+				F8111E1319A951050040E7D1 /* Assets.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -239,7 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8111E1219A951050040E7D1 /* Main.storyboard in Resources */,
-				F8111E1419A951050040E7D1 /* Images.xcassets in Resources */,
+				F8111E1419A951050040E7D1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
