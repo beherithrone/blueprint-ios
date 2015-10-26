@@ -15,8 +15,8 @@
 		CEFD2BB81BD1586A000067CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD2BB71BD1586A000067CD /* AppDelegate.swift */; };
 		CEFD2BBA1BD1586A000067CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD2BB91BD1586A000067CD /* ViewController.swift */; };
 		CEFD2BBC1BD1586A000067CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFD2BBB1BD1586A000067CD /* Assets.xcassets */; };
-		CEFD2BCA1BD1586A000067CD /* Atlas_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD2BC91BD1586A000067CD /* Atlas_macOSTests.swift */; };
-		CEFD2BD51BD1586A000067CD /* Atlas_macOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD2BD41BD1586A000067CD /* Atlas_macOSUITests.swift */; };
+		CEFD2BCA1BD1586A000067CD /* Template1_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD2BC91BD1586A000067CD /* Template1_OSXTests.swift */; };
+		CEFD2BD51BD1586A000067CD /* Template1_OSXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD2BD41BD1586A000067CD /* Template1_OSXUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,14 +25,14 @@
 			containerPortal = CEFD2BAC1BD1586A000067CD /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CEFD2BB31BD1586A000067CD;
-			remoteInfo = "Atlas-macOS";
+			remoteInfo = "Template1-OSX";
 		};
 		CEFD2BD11BD1586A000067CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CEFD2BAC1BD1586A000067CD /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CEFD2BB31BD1586A000067CD;
-			remoteInfo = "Atlas-macOS";
+			remoteInfo = "Template1-OSX";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -61,10 +61,10 @@
 		CEFD2BBB1BD1586A000067CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEFD2BC01BD1586A000067CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEFD2BC51BD1586A000067CD /* Template1-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Template1-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEFD2BC91BD1586A000067CD /* Atlas_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atlas_macOSTests.swift; sourceTree = "<group>"; };
+		CEFD2BC91BD1586A000067CD /* Template1_OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template1_OSXTests.swift; sourceTree = "<group>"; };
 		CEFD2BCB1BD1586A000067CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEFD2BD01BD1586A000067CD /* Template1-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Template1-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEFD2BD41BD1586A000067CD /* Atlas_macOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atlas_macOSUITests.swift; sourceTree = "<group>"; };
+		CEFD2BD41BD1586A000067CD /* Template1_OSXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template1_OSXUITests.swift; sourceTree = "<group>"; };
 		CEFD2BD61BD1586A000067CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,9 +123,9 @@
 		CEFD2BAB1BD1586A000067CD = {
 			isa = PBXGroup;
 			children = (
-				CEFD2BB61BD1586A000067CD /* Atlas-macOS */,
-				CEFD2BC81BD1586A000067CD /* Atlas-macOSTests */,
-				CEFD2BD31BD1586A000067CD /* Atlas-macOSUITests */,
+				CEFD2BB61BD1586A000067CD /* Template1-OSX */,
+				CEFD2BC81BD1586A000067CD /* Template1-OSXTests */,
+				CEFD2BD31BD1586A000067CD /* Template1-OSXUITests */,
 				CEE6FBCB1BD15AF700594649 /* Frameworks */,
 				CEFD2BB51BD1586A000067CD /* Products */,
 			);
@@ -141,7 +141,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CEFD2BB61BD1586A000067CD /* Atlas-macOS */ = {
+		CEFD2BB61BD1586A000067CD /* Template1-OSX */ = {
 			isa = PBXGroup;
 			children = (
 				CEFD2BB71BD1586A000067CD /* AppDelegate.swift */,
@@ -150,25 +150,25 @@
 				CEFD2BBB1BD1586A000067CD /* Assets.xcassets */,
 				CEFD2BC01BD1586A000067CD /* Info.plist */,
 			);
-			path = "Atlas-macOS";
+			path = "Template1-OSX";
 			sourceTree = "<group>";
 		};
-		CEFD2BC81BD1586A000067CD /* Atlas-macOSTests */ = {
+		CEFD2BC81BD1586A000067CD /* Template1-OSXTests */ = {
 			isa = PBXGroup;
 			children = (
-				CEFD2BC91BD1586A000067CD /* Atlas_macOSTests.swift */,
+				CEFD2BC91BD1586A000067CD /* Template1_OSXTests.swift */,
 				CEFD2BCB1BD1586A000067CD /* Info.plist */,
 			);
-			path = "Atlas-macOSTests";
+			path = "Template1-OSXTests";
 			sourceTree = "<group>";
 		};
-		CEFD2BD31BD1586A000067CD /* Atlas-macOSUITests */ = {
+		CEFD2BD31BD1586A000067CD /* Template1-OSXUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CEFD2BD41BD1586A000067CD /* Atlas_macOSUITests.swift */,
+				CEFD2BD41BD1586A000067CD /* Template1_OSXUITests.swift */,
 				CEFD2BD61BD1586A000067CD /* Info.plist */,
 			);
-			path = "Atlas-macOSUITests";
+			path = "Template1-OSXUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,7 +189,7 @@
 			dependencies = (
 			);
 			name = "Template1-OSX";
-			productName = "Atlas-macOS";
+			productName = "Template1-OSX";
 			productReference = CEFD2BB41BD1586A000067CD /* Template1-OSX.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -207,7 +207,7 @@
 				CEFD2BC71BD1586A000067CD /* PBXTargetDependency */,
 			);
 			name = "Template1-OSXTests";
-			productName = "Atlas-macOSTests";
+			productName = "Template1-OSXTests";
 			productReference = CEFD2BC51BD1586A000067CD /* Template1-OSX.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -225,7 +225,7 @@
 				CEFD2BD21BD1586A000067CD /* PBXTargetDependency */,
 			);
 			name = "Template1-OSXUITests";
-			productName = "Atlas-macOSUITests";
+			productName = "Template1-OSXUITests";
 			productReference = CEFD2BD01BD1586A000067CD /* Template1-OSX.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -330,7 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEFD2BCA1BD1586A000067CD /* Atlas_macOSTests.swift in Sources */,
+				CEFD2BCA1BD1586A000067CD /* Template1_OSXTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEFD2BD51BD1586A000067CD /* Atlas_macOSUITests.swift in Sources */,
+				CEFD2BD51BD1586A000067CD /* Template1_OSXUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,10 +445,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Atlas-macOS/Info.plist";
+				INFOPLIST_FILE = "Template1-OSX/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Atlas-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Template1-OSX";
 				PRODUCT_NAME = "Template1-OSX";
 			};
 			name = Debug;
@@ -458,10 +458,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Atlas-macOS/Info.plist";
+				INFOPLIST_FILE = "Template1-OSX/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Atlas-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Template1-OSX";
 				PRODUCT_NAME = "Template1-OSX";
 			};
 			name = Release;
@@ -471,9 +471,9 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Atlas-macOSTests/Info.plist";
+				INFOPLIST_FILE = "Template1-OSXTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Atlas-macOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Template1-OSXTests";
 				PRODUCT_NAME = "Template1-OSX";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Template1-OSX.app/Contents/MacOS/Template1-OSX";
 			};
@@ -484,9 +484,9 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Atlas-macOSTests/Info.plist";
+				INFOPLIST_FILE = "Template1-OSXTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Atlas-macOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Template1-OSXTests";
 				PRODUCT_NAME = "Template1-OSX";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Template1-OSX.app/Contents/MacOS/Template1-OSX";
 			};
@@ -496,11 +496,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Atlas-macOSUITests/Info.plist";
+				INFOPLIST_FILE = "Template1-OSXUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Atlas-macOSUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Template1-OSXUITests";
 				PRODUCT_NAME = "Template1-OSX";
-				TEST_TARGET_NAME = "Atlas-macOS";
+				TEST_TARGET_NAME = "Template1-OSX";
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
@@ -509,11 +509,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Atlas-macOSUITests/Info.plist";
+				INFOPLIST_FILE = "Template1-OSXUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Atlas-macOSUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Template1-OSXUITests";
 				PRODUCT_NAME = "Template1-OSX";
-				TEST_TARGET_NAME = "Atlas-macOS";
+				TEST_TARGET_NAME = "Template1-OSX";
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;
