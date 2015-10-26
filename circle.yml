@@ -2,10 +2,10 @@ machine:
   xcode:
     version: "7.0"
   environment:
-    XCODE_SCHEME: Template1-iOS
-    XCODE_WORKSPACE: Template1.xcworkspace
+    XCODE_SCHEME: App-iOS
+    XCODE_WORKSPACE: App.xcworkspace
     DEVELOPER_NAME: 'iPhone Distribution: Sky'
-    APPNAME: Template1-iOS
+    APPNAME: App-iOS
     PROFILE_UUID: 30fc0261-b07e-421a-8b11-ae29168827d2
     TESTFLIGHT_DIST_LIST: your-dist-list-name
 

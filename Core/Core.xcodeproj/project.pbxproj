@@ -29,7 +29,7 @@
 			containerPortal = CEFD290C1BD12FBB000067CD /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CEE6FBAC1BD1595000594649;
-			remoteInfo = "Core macOS";
+			remoteInfo = "Core OSX";
 		};
 		CEFD29211BD12FBB000067CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -58,7 +58,7 @@
 		CE9F09411BD52A4800068ECB /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		CE9F09431BD52ADA00068ECB /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
 		CEE6FBAD1BD1595000594649 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEE6FBB61BD1595000594649 /* Core macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE6FBB61BD1595000594649 /* Core OSX Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core OSX Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE6FBD31BD15D5000594649 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = ../Carthage/Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		CEE6FBD51BD15D5700594649 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = ../Carthage/Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
 		CEFD29151BD12FBB000067CD /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,7 +135,7 @@
 				CEFD29151BD12FBB000067CD /* Core.framework */,
 				CEFD291F1BD12FBB000067CD /* Core iOS Tests.xctest */,
 				CEE6FBAD1BD1595000594649 /* Core.framework */,
-				CEE6FBB61BD1595000594649 /* Core macOS Tests.xctest */,
+				CEE6FBB61BD1595000594649 /* Core OSX Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,9 +197,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		CEE6FBAC1BD1595000594649 /* Core macOS */ = {
+		CEE6FBAC1BD1595000594649 /* Core OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEE6FBC21BD1595000594649 /* Build configuration list for PBXNativeTarget "Core macOS" */;
+			buildConfigurationList = CEE6FBC21BD1595000594649 /* Build configuration list for PBXNativeTarget "Core OSX" */;
 			buildPhases = (
 				CEE6FBA81BD1595000594649 /* Sources */,
 				CEE6FBA91BD1595000594649 /* Frameworks */,
@@ -210,14 +210,14 @@
 			);
 			dependencies = (
 			);
-			name = "Core macOS";
-			productName = "Core macOS";
+			name = "Core OSX";
+			productName = "Core OSX";
 			productReference = CEE6FBAD1BD1595000594649 /* Core.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CEE6FBB51BD1595000594649 /* Core macOS Tests */ = {
+		CEE6FBB51BD1595000594649 /* Core OSX Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEE6FBC31BD1595000594649 /* Build configuration list for PBXNativeTarget "Core macOS Tests" */;
+			buildConfigurationList = CEE6FBC31BD1595000594649 /* Build configuration list for PBXNativeTarget "Core OSX Tests" */;
 			buildPhases = (
 				CEE6FBB21BD1595000594649 /* Sources */,
 				CEE6FBB31BD1595000594649 /* Frameworks */,
@@ -229,9 +229,9 @@
 			dependencies = (
 				CEE6FBB91BD1595000594649 /* PBXTargetDependency */,
 			);
-			name = "Core macOS Tests";
-			productName = "Core macOSTests";
-			productReference = CEE6FBB61BD1595000594649 /* Core macOS Tests.xctest */;
+			name = "Core OSX Tests";
+			productName = "Core OSXTests";
+			productReference = CEE6FBB61BD1595000594649 /* Core OSX Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		CEFD29141BD12FBB000067CD /* Core iOS */ = {
@@ -310,8 +310,8 @@
 			targets = (
 				CEFD29141BD12FBB000067CD /* Core iOS */,
 				CEFD291E1BD12FBB000067CD /* Core iOS Tests */,
-				CEE6FBAC1BD1595000594649 /* Core macOS */,
-				CEE6FBB51BD1595000594649 /* Core macOS Tests */,
+				CEE6FBAC1BD1595000594649 /* Core OSX */,
+				CEE6FBB51BD1595000594649 /* Core OSX Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -420,7 +420,7 @@
 /* Begin PBXTargetDependency section */
 		CEE6FBB91BD1595000594649 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CEE6FBAC1BD1595000594649 /* Core macOS */;
+			target = CEE6FBAC1BD1595000594649 /* Core OSX */;
 			targetProxy = CEE6FBB81BD1595000594649 /* PBXContainerItemProxy */;
 		};
 		CEFD29221BD12FBB000067CD /* PBXTargetDependency */ = {
@@ -445,7 +445,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Core-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Core-OSX";
 				PRODUCT_NAME = Core;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -466,7 +466,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Core-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Core-OSX";
 				PRODUCT_NAME = Core;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -481,7 +481,7 @@
 				INFOPLIST_FILE = CoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Core-macOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Core-OSXTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -495,7 +495,7 @@
 				INFOPLIST_FILE = CoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Core-macOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Core-OSXTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -656,7 +656,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CEE6FBC21BD1595000594649 /* Build configuration list for PBXNativeTarget "Core macOS" */ = {
+		CEE6FBC21BD1595000594649 /* Build configuration list for PBXNativeTarget "Core OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEE6FBBE1BD1595000594649 /* Debug */,
@@ -665,7 +665,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEE6FBC31BD1595000594649 /* Build configuration list for PBXNativeTarget "Core macOS Tests" */ = {
+		CEE6FBC31BD1595000594649 /* Build configuration list for PBXNativeTarget "Core OSX Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEE6FBC01BD1595000594649 /* Debug */,

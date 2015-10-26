@@ -2,10 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/paveljacko/Documents/DEVELOPMENT/Syerit/TEMPLATE/template1-ios/Template1-OSX/Template1-OSX.xcodeproj">
+      location = "group:App-OSX/App-OSX.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:/Users/paveljacko/Documents/DEVELOPMENT/Syerit/TEMPLATE/template1-ios/Template1-iOS/Template1-iOS.xcodeproj">
+      location = "group:App-iOS/App-iOS.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Core/Core.xcodeproj">

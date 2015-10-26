@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CEE6FBAC1BD1595000594649"
-               BuildableName = "Core.framework"
-               BlueprintName = "Core OSX"
-               ReferencedContainer = "container:Core.xcodeproj">
+               BlueprintIdentifier = "CEFD2BB31BD1586A000067CD"
+               BuildableName = "App-OSX.app"
+               BlueprintName = "App-OSX"
+               ReferencedContainer = "container:App-OSX.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CEE6FBB51BD1595000594649"
-               BuildableName = "Core OSX Tests.xctest"
-               BlueprintName = "Core OSX Tests"
-               ReferencedContainer = "container:Core.xcodeproj">
+               BlueprintIdentifier = "CEFD2BC41BD1586A000067CD"
+               BuildableName = "App-OSX.xctest"
+               BlueprintName = "Tests"
+               ReferencedContainer = "container:App-OSX.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CEFD2BCF1BD1586A000067CD"
+               BuildableName = "App-OSX.xctest"
+               BlueprintName = "UITests"
+               ReferencedContainer = "container:App-OSX.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CEE6FBAC1BD1595000594649"
-            BuildableName = "Core.framework"
-            BlueprintName = "Core OSX"
-            ReferencedContainer = "container:Core.xcodeproj">
+            BlueprintIdentifier = "CEFD2BB31BD1586A000067CD"
+            BuildableName = "App-OSX.app"
+            BlueprintName = "App-OSX"
+            ReferencedContainer = "container:App-OSX.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -61,15 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CEE6FBAC1BD1595000594649"
-            BuildableName = "Core.framework"
-            BlueprintName = "Core OSX"
-            ReferencedContainer = "container:Core.xcodeproj">
+            BlueprintIdentifier = "CEFD2BB31BD1586A000067CD"
+            BuildableName = "App-OSX.app"
+            BlueprintName = "App-OSX"
+            ReferencedContainer = "container:App-OSX.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -79,15 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CEE6FBAC1BD1595000594649"
-            BuildableName = "Core.framework"
-            BlueprintName = "Core OSX"
-            ReferencedContainer = "container:Core.xcodeproj">
+            BlueprintIdentifier = "CEFD2BB31BD1586A000067CD"
+            BuildableName = "App-OSX.app"
+            BlueprintName = "App-OSX"
+            ReferencedContainer = "container:App-OSX.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
