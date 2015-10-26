@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEDCA9CB1BD6349F0000C140 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE6FBC91BD15AF100594649 /* Core.framework */; };
+		CEDCA9CC1BD6349F0000C140 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEE6FBC91BD15AF100594649 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CEDCA9D21BD639880000C140 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDCA9D11BD639880000C140 /* RxSwift.framework */; };
+		CEDCA9D31BD639880000C140 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEDCA9D11BD639880000C140 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CEE6FBC81BD15AB500594649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE6FBC71BD15AB500594649 /* Main.storyboard */; };
+		CEFD2BB81BD1586A000067CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD2BB71BD1586A000067CD /* AppDelegate.swift */; };
+		CEFD2BBA1BD1586A000067CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD2BB91BD1586A000067CD /* ViewController.swift */; };
+		CEFD2BBC1BD1586A000067CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFD2BBB1BD1586A000067CD /* Assets.xcassets */; };
+		CEFD2BCA1BD1586A000067CD /* Atlas_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD2BC91BD1586A000067CD /* Atlas_macOSTests.swift */; };
+		CEFD2BD51BD1586A000067CD /* Atlas_macOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD2BD41BD1586A000067CD /* Atlas_macOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEFD2BC61BD1586A000067CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFD2BAC1BD1586A000067CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFD2BB31BD1586A000067CD;
+			remoteInfo = "Atlas-macOS";
+		};
+		CEFD2BD11BD1586A000067CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFD2BAC1BD1586A000067CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFD2BB31BD1586A000067CD;
+			remoteInfo = "Atlas-macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEDCA9CD1BD634A00000C140 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CEDCA9D31BD639880000C140 /* RxSwift.framework in Embed Frameworks */,
+				CEDCA9CC1BD6349F0000C140 /* Core.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CEDCA9D11BD639880000C140 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
+		CEE6FBC71BD15AB500594649 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CEE6FBC91BD15AF100594649 /* Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Core.framework; path = ../Core/Carthage/Build/Mac/Core.framework; sourceTree = "<group>"; };
+		CEFD2BB41BD1586A000067CD /* Template1-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Template1-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFD2BB71BD1586A000067CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEFD2BB91BD1586A000067CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEFD2BBB1BD1586A000067CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEFD2BC01BD1586A000067CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFD2BC51BD1586A000067CD /* Template1-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Template1-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFD2BC91BD1586A000067CD /* Atlas_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atlas_macOSTests.swift; sourceTree = "<group>"; };
+		CEFD2BCB1BD1586A000067CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFD2BD01BD1586A000067CD /* Template1-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Template1-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFD2BD41BD1586A000067CD /* Atlas_macOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atlas_macOSUITests.swift; sourceTree = "<group>"; };
+		CEFD2BD61BD1586A000067CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFD2BB11BD1586A000067CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDCA9D21BD639880000C140 /* RxSwift.framework in Frameworks */,
+				CEDCA9CB1BD6349F0000C140 /* Core.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFD2BC21BD1586A000067CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFD2BCD1BD1586A000067CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEE6FBC51BD15A7D00594649 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CEFD2BB91BD1586A000067CD /* ViewController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		CEE6FBC61BD15AA400594649 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				CEE6FBC71BD15AB500594649 /* Main.storyboard */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		CEE6FBCB1BD15AF700594649 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEDCA9D11BD639880000C140 /* RxSwift.framework */,
+				CEE6FBC91BD15AF100594649 /* Core.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEFD2BAB1BD1586A000067CD = {
+			isa = PBXGroup;
+			children = (
+				CEFD2BB61BD1586A000067CD /* Atlas-macOS */,
+				CEFD2BC81BD1586A000067CD /* Atlas-macOSTests */,
+				CEFD2BD31BD1586A000067CD /* Atlas-macOSUITests */,
+				CEE6FBCB1BD15AF700594649 /* Frameworks */,
+				CEFD2BB51BD1586A000067CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFD2BB51BD1586A000067CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFD2BB41BD1586A000067CD /* Template1-OSX.app */,
+				CEFD2BC51BD1586A000067CD /* Template1-OSX.xctest */,
+				CEFD2BD01BD1586A000067CD /* Template1-OSX.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFD2BB61BD1586A000067CD /* Atlas-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEFD2BB71BD1586A000067CD /* AppDelegate.swift */,
+				CEE6FBC51BD15A7D00594649 /* Source */,
+				CEE6FBC61BD15AA400594649 /* Layout */,
+				CEFD2BBB1BD1586A000067CD /* Assets.xcassets */,
+				CEFD2BC01BD1586A000067CD /* Info.plist */,
+			);
+			path = "Atlas-macOS";
+			sourceTree = "<group>";
+		};
+		CEFD2BC81BD1586A000067CD /* Atlas-macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFD2BC91BD1586A000067CD /* Atlas_macOSTests.swift */,
+				CEFD2BCB1BD1586A000067CD /* Info.plist */,
+			);
+			path = "Atlas-macOSTests";
+			sourceTree = "<group>";
+		};
+		CEFD2BD31BD1586A000067CD /* Atlas-macOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFD2BD41BD1586A000067CD /* Atlas_macOSUITests.swift */,
+				CEFD2BD61BD1586A000067CD /* Info.plist */,
+			);
+			path = "Atlas-macOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFD2BB31BD1586A000067CD /* Template1-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFD2BD91BD1586A000067CD /* Build configuration list for PBXNativeTarget "Template1-OSX" */;
+			buildPhases = (
+				CEFD2BB01BD1586A000067CD /* Sources */,
+				CEFD2BB11BD1586A000067CD /* Frameworks */,
+				CEFD2BB21BD1586A000067CD /* Resources */,
+				CEDCA9CD1BD634A00000C140 /* Embed Frameworks */,
+				CEE6FBCF1BD15BD100594649 /* Carthage Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Template1-OSX";
+			productName = "Atlas-macOS";
+			productReference = CEFD2BB41BD1586A000067CD /* Template1-OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEFD2BC41BD1586A000067CD /* Template1-OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFD2BDC1BD1586A000067CD /* Build configuration list for PBXNativeTarget "Template1-OSXTests" */;
+			buildPhases = (
+				CEFD2BC11BD1586A000067CD /* Sources */,
+				CEFD2BC21BD1586A000067CD /* Frameworks */,
+				CEFD2BC31BD1586A000067CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFD2BC71BD1586A000067CD /* PBXTargetDependency */,
+			);
+			name = "Template1-OSXTests";
+			productName = "Atlas-macOSTests";
+			productReference = CEFD2BC51BD1586A000067CD /* Template1-OSX.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEFD2BCF1BD1586A000067CD /* Template1-OSXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFD2BDF1BD1586A000067CD /* Build configuration list for PBXNativeTarget "Template1-OSXUITests" */;
+			buildPhases = (
+				CEFD2BCC1BD1586A000067CD /* Sources */,
+				CEFD2BCD1BD1586A000067CD /* Frameworks */,
+				CEFD2BCE1BD1586A000067CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFD2BD21BD1586A000067CD /* PBXTargetDependency */,
+			);
+			name = "Template1-OSXUITests";
+			productName = "Atlas-macOSUITests";
+			productReference = CEFD2BD01BD1586A000067CD /* Template1-OSX.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFD2BAC1BD1586A000067CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Sky UK";
+				TargetAttributes = {
+					CEFD2BB31BD1586A000067CD = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					CEFD2BC41BD1586A000067CD = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CEFD2BB31BD1586A000067CD;
+					};
+					CEFD2BCF1BD1586A000067CD = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CEFD2BB31BD1586A000067CD;
+					};
+				};
+			};
+			buildConfigurationList = CEFD2BAF1BD1586A000067CD /* Build configuration list for PBXProject "Template1-OSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEFD2BAB1BD1586A000067CD;
+			productRefGroup = CEFD2BB51BD1586A000067CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFD2BB31BD1586A000067CD /* Template1-OSX */,
+				CEFD2BC41BD1586A000067CD /* Template1-OSXTests */,
+				CEFD2BCF1BD1586A000067CD /* Template1-OSXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFD2BB21BD1586A000067CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE6FBC81BD15AB500594649 /* Main.storyboard in Resources */,
+				CEFD2BBC1BD1586A000067CD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFD2BC31BD1586A000067CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFD2BCE1BD1586A000067CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEE6FBCF1BD15BD100594649 /* Carthage Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/../Carthage/Carthage/Build/Mac/Alamofire.framework",
+				"$(SRCROOT)/../Carthage/Carthage/Build/Mac/RxSwift.framework",
+			);
+			name = "Carthage Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFD2BB01BD1586A000067CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFD2BBA1BD1586A000067CD /* ViewController.swift in Sources */,
+				CEFD2BB81BD1586A000067CD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFD2BC11BD1586A000067CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFD2BCA1BD1586A000067CD /* Atlas_macOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFD2BCC1BD1586A000067CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFD2BD51BD1586A000067CD /* Atlas_macOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEFD2BC71BD1586A000067CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFD2BB31BD1586A000067CD /* Template1-OSX */;
+			targetProxy = CEFD2BC61BD1586A000067CD /* PBXContainerItemProxy */;
+		};
+		CEFD2BD21BD1586A000067CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFD2BB31BD1586A000067CD /* Template1-OSX */;
+			targetProxy = CEFD2BD11BD1586A000067CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEFD2BD71BD1586A000067CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Carthage/Build/Mac";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEFD2BD81BD1586A000067CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Carthage/Build/Mac";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CEFD2BDA1BD1586A000067CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Atlas-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Atlas-macOS";
+				PRODUCT_NAME = "Template1-OSX";
+			};
+			name = Debug;
+		};
+		CEFD2BDB1BD1586A000067CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Atlas-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Atlas-macOS";
+				PRODUCT_NAME = "Template1-OSX";
+			};
+			name = Release;
+		};
+		CEFD2BDD1BD1586A000067CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Atlas-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Atlas-macOSTests";
+				PRODUCT_NAME = "Template1-OSX";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Template1-OSX.app/Contents/MacOS/Template1-OSX";
+			};
+			name = Debug;
+		};
+		CEFD2BDE1BD1586A000067CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Atlas-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Atlas-macOSTests";
+				PRODUCT_NAME = "Template1-OSX";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Template1-OSX.app/Contents/MacOS/Template1-OSX";
+			};
+			name = Release;
+		};
+		CEFD2BE01BD1586A000067CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Atlas-macOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Atlas-macOSUITests";
+				PRODUCT_NAME = "Template1-OSX";
+				TEST_TARGET_NAME = "Atlas-macOS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CEFD2BE11BD1586A000067CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Atlas-macOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Atlas-macOSUITests";
+				PRODUCT_NAME = "Template1-OSX";
+				TEST_TARGET_NAME = "Atlas-macOS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFD2BAF1BD1586A000067CD /* Build configuration list for PBXProject "Template1-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFD2BD71BD1586A000067CD /* Debug */,
+				CEFD2BD81BD1586A000067CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFD2BD91BD1586A000067CD /* Build configuration list for PBXNativeTarget "Template1-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFD2BDA1BD1586A000067CD /* Debug */,
+				CEFD2BDB1BD1586A000067CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFD2BDC1BD1586A000067CD /* Build configuration list for PBXNativeTarget "Template1-OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFD2BDD1BD1586A000067CD /* Debug */,
+				CEFD2BDE1BD1586A000067CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFD2BDF1BD1586A000067CD /* Build configuration list for PBXNativeTarget "Template1-OSXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFD2BE01BD1586A000067CD /* Debug */,
+				CEFD2BE11BD1586A000067CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEFD2BAC1BD1586A000067CD /* Project object */;
+}

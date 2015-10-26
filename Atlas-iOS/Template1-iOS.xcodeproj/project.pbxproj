@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		209092A31BD57C1C00E59A11 /* Atlas_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2090928F1BD57C1C00E59A11 /* Atlas_iOS.xcdatamodeld */; };
+		209092A41BD57C1C00E59A11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209092911BD57C1C00E59A11 /* Images.xcassets */; };
+		209092A51BD57C1C00E59A11 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 209092921BD57C1C00E59A11 /* Info.plist */; };
+		209092A61BD57C1C00E59A11 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 209092951BD57C1C00E59A11 /* LaunchScreen.xib */; };
+		209092A71BD57C1C00E59A11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209092961BD57C1C00E59A11 /* Main.storyboard */; };
+		209092A81BD57C1C00E59A11 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2090929B1BD57C1C00E59A11 /* SWRevealViewController.m */; };
+		209092A91BD57C1C00E59A11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2090929D1BD57C1C00E59A11 /* AppDelegate.swift */; };
+		209092AB1BD57C1C00E59A11 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2090929F1BD57C1C00E59A11 /* MenuController.swift */; };
+		2092BD671BD565BF009F3E10 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2092BD661BD565BF009F3E10 /* Core.framework */; };
+		20B231EA1BD63E7100FDA56B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B231E91BD63E7100FDA56B /* MapKit.framework */; };
+		20B231ED1BD64D9500FDA56B /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231EB1BD64D9500FDA56B /* CollectionViewController.swift */; };
+		20B231EE1BD64D9500FDA56B /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231EC1BD64D9500FDA56B /* GridCell.swift */; };
+		20B231F01BD656CA00FDA56B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231EF1BD656CA00FDA56B /* ViewController.swift */; };
+		20B231F31BD6573700FDA56B /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B231F21BD6573700FDA56B /* RxSwift.framework */; };
+		20B231F81BD663F300FDA56B /* SearchResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231F61BD663F300FDA56B /* SearchResultViewModel.swift */; };
+		20B231F91BD663F300FDA56B /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231F71BD663F300FDA56B /* SearchViewModel.swift */; };
+		20B232001BD6642800FDA56B /* CollectionViewImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231FB1BD6642800FDA56B /* CollectionViewImageCell.swift */; };
+		20B232011BD6642800FDA56B /* WikipediaImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B231FC1BD6642800FDA56B /* WikipediaImageCell.xib */; };
+		20B232021BD6642800FDA56B /* WikipediaSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231FD1BD6642800FDA56B /* WikipediaSearchCell.swift */; };
+		20B232031BD6642800FDA56B /* WikipediaSearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B231FE1BD6642800FDA56B /* WikipediaSearchCell.xib */; };
+		20B232041BD6642800FDA56B /* WikipediaSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231FF1BD6642800FDA56B /* WikipediaSearchViewController.swift */; };
+		20B2320A1BD6644F00FDA56B /* WikipediaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232071BD6644F00FDA56B /* WikipediaAPI.swift */; };
+		20B2320B1BD6644F00FDA56B /* WikipediaPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232081BD6644F00FDA56B /* WikipediaPage.swift */; };
+		20B2320C1BD6644F00FDA56B /* WikipediaSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232091BD6644F00FDA56B /* WikipediaSearchResult.swift */; };
+		20B2320F1BD664BD00FDA56B /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B2320E1BD664BD00FDA56B /* Dependencies.swift */; };
+		20B232111BD664D500FDA56B /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232101BD664D500FDA56B /* Wireframe.swift */; };
+		20B232141BD6650E00FDA56B /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232131BD6650E00FDA56B /* ImageService.swift */; };
+		20B232161BD6655800FDA56B /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232151BD6655800FDA56B /* Example.swift */; };
+		20B232181BD6659200FDA56B /* HtmlParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232171BD6659200FDA56B /* HtmlParsing.swift */; };
+		20B2321A1BD66AD100FDA56B /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B232191BD66AD100FDA56B /* RxCocoa.framework */; };
+		CE6DABB71BD0FE8C00976127 /* Atlas_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DABB61BD0FE8C00976127 /* Atlas_iOSTests.swift */; };
+		CE6DABC21BD0FE8C00976127 /* Atlas_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DABC11BD0FE8C00976127 /* Atlas_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE6DABB31BD0FE8C00976127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6DAB961BD0FE8C00976127 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE6DAB9D1BD0FE8C00976127;
+			remoteInfo = "Atlas-iOS";
+		};
+		CE6DABBE1BD0FE8C00976127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6DAB961BD0FE8C00976127 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE6DAB9D1BD0FE8C00976127;
+			remoteInfo = "Atlas-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		209092901BD57C1C00E59A11 /* Atlas_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Atlas_iOS.xcdatamodel; sourceTree = "<group>"; };
+		209092911BD57C1C00E59A11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		209092921BD57C1C00E59A11 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		209092951BD57C1C00E59A11 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		209092961BD57C1C00E59A11 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2090929A1BD57C1C00E59A11 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		2090929B1BD57C1C00E59A11 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		2090929D1BD57C1C00E59A11 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2090929F1BD57C1C00E59A11 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		209092AF1BD57D0100E59A11 /* Atlas-iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Atlas-iOS-Bridging-Header.h"; path = "../Atlas-iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		2092BD661BD565BF009F3E10 /* Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Core.framework; path = "../Core/build/Debug-iphoneos/Core.framework"; sourceTree = "<group>"; };
+		20B231E91BD63E7100FDA56B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		20B231EB1BD64D9500FDA56B /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		20B231EC1BD64D9500FDA56B /* GridCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
+		20B231EF1BD656CA00FDA56B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20B231F21BD6573700FDA56B /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		20B231F61BD663F300FDA56B /* SearchResultViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultViewModel.swift; sourceTree = "<group>"; };
+		20B231F71BD663F300FDA56B /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		20B231FB1BD6642800FDA56B /* CollectionViewImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewImageCell.swift; sourceTree = "<group>"; };
+		20B231FC1BD6642800FDA56B /* WikipediaImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WikipediaImageCell.xib; sourceTree = "<group>"; };
+		20B231FD1BD6642800FDA56B /* WikipediaSearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaSearchCell.swift; sourceTree = "<group>"; };
+		20B231FE1BD6642800FDA56B /* WikipediaSearchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WikipediaSearchCell.xib; sourceTree = "<group>"; };
+		20B231FF1BD6642800FDA56B /* WikipediaSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaSearchViewController.swift; sourceTree = "<group>"; };
+		20B232071BD6644F00FDA56B /* WikipediaAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaAPI.swift; sourceTree = "<group>"; };
+		20B232081BD6644F00FDA56B /* WikipediaPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaPage.swift; sourceTree = "<group>"; };
+		20B232091BD6644F00FDA56B /* WikipediaSearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaSearchResult.swift; sourceTree = "<group>"; };
+		20B2320E1BD664BD00FDA56B /* Dependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
+		20B232101BD664D500FDA56B /* Wireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
+		20B232131BD6650E00FDA56B /* ImageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		20B232151BD6655800FDA56B /* Example.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		20B232171BD6659200FDA56B /* HtmlParsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HtmlParsing.swift; sourceTree = "<group>"; };
+		20B232191BD66AD100FDA56B /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = ../Carthage/Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		CE6DAB9E1BD0FE8C00976127 /* Template1-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Template1-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6DABB21BD0FE8C00976127 /* Template1-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Template1-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6DABB61BD0FE8C00976127 /* Atlas_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atlas_iOSTests.swift; sourceTree = "<group>"; };
+		CE6DABB81BD0FE8C00976127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6DABBD1BD0FE8C00976127 /* Template1-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Template1-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6DABC11BD0FE8C00976127 /* Atlas_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atlas_iOSUITests.swift; sourceTree = "<group>"; };
+		CE6DABC31BD0FE8C00976127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFD28E21BD12C6E000067CD /* Atlas-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Atlas-iOS.xcconfig"; sourceTree = "<group>"; };
+		CEFD29381BD1316D000067CD /* Atlas-iOS-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Atlas-iOS-Debug.xcconfig"; sourceTree = "<group>"; };
+		CEFD29391BD13177000067CD /* Atlas-iOS-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Atlas-iOS-Release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE6DAB9B1BD0FE8C00976127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B2321A1BD66AD100FDA56B /* RxCocoa.framework in Frameworks */,
+				20B231F31BD6573700FDA56B /* RxSwift.framework in Frameworks */,
+				20B231EA1BD63E7100FDA56B /* MapKit.framework in Frameworks */,
+				2092BD671BD565BF009F3E10 /* Core.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6DABAF1BD0FE8C00976127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6DABBA1BD0FE8C00976127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		209092931BD57C1C00E59A11 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				209092941BD57C1C00E59A11 /* Layout */,
+				209092971BD57C1C00E59A11 /* Objc */,
+				2090929C1BD57C1C00E59A11 /* Swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		209092941BD57C1C00E59A11 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				209092951BD57C1C00E59A11 /* LaunchScreen.xib */,
+				209092961BD57C1C00E59A11 /* Main.storyboard */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		209092971BD57C1C00E59A11 /* Objc */ = {
+			isa = PBXGroup;
+			children = (
+				209092AF1BD57D0100E59A11 /* Atlas-iOS-Bridging-Header.h */,
+				2090929A1BD57C1C00E59A11 /* SWRevealViewController.h */,
+				2090929B1BD57C1C00E59A11 /* SWRevealViewController.m */,
+			);
+			path = Objc;
+			sourceTree = "<group>";
+		};
+		2090929C1BD57C1C00E59A11 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				20B232121BD664FE00FDA56B /* Services */,
+				20B2320D1BD664A000FDA56B /* Other */,
+				20B232061BD6643F00FDA56B /* Api */,
+				20B231FA1BD6641700FDA56B /* View */,
+				20B231F51BD6627200FDA56B /* ViewModel */,
+				20B231EF1BD656CA00FDA56B /* ViewController.swift */,
+				20B231EB1BD64D9500FDA56B /* CollectionViewController.swift */,
+				20B231EC1BD64D9500FDA56B /* GridCell.swift */,
+				2090929D1BD57C1C00E59A11 /* AppDelegate.swift */,
+				2090929F1BD57C1C00E59A11 /* MenuController.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		20B231F51BD6627200FDA56B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				20B231F61BD663F300FDA56B /* SearchResultViewModel.swift */,
+				20B231F71BD663F300FDA56B /* SearchViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		20B231FA1BD6641700FDA56B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20B231FB1BD6642800FDA56B /* CollectionViewImageCell.swift */,
+				20B231FC1BD6642800FDA56B /* WikipediaImageCell.xib */,
+				20B231FD1BD6642800FDA56B /* WikipediaSearchCell.swift */,
+				20B231FE1BD6642800FDA56B /* WikipediaSearchCell.xib */,
+				20B231FF1BD6642800FDA56B /* WikipediaSearchViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		20B232061BD6643F00FDA56B /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				20B232071BD6644F00FDA56B /* WikipediaAPI.swift */,
+				20B232081BD6644F00FDA56B /* WikipediaPage.swift */,
+				20B232091BD6644F00FDA56B /* WikipediaSearchResult.swift */,
+			);
+			name = Api;
+			sourceTree = "<group>";
+		};
+		20B2320D1BD664A000FDA56B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				20B232151BD6655800FDA56B /* Example.swift */,
+				20B232101BD664D500FDA56B /* Wireframe.swift */,
+				20B2320E1BD664BD00FDA56B /* Dependencies.swift */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		20B232121BD664FE00FDA56B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				20B232171BD6659200FDA56B /* HtmlParsing.swift */,
+				20B232131BD6650E00FDA56B /* ImageService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		CE6DAB951BD0FE8C00976127 = {
+			isa = PBXGroup;
+			children = (
+				CE6DABA01BD0FE8C00976127 /* Atlas-iOS */,
+				CE6DABB51BD0FE8C00976127 /* Atlas-iOSTests */,
+				CE6DABC01BD0FE8C00976127 /* Atlas-iOSUITests */,
+				CEFD28E11BD12C4B000067CD /* Config */,
+				CEFD29371BD13128000067CD /* Frameworks */,
+				CE6DAB9F1BD0FE8C00976127 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE6DAB9F1BD0FE8C00976127 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE6DAB9E1BD0FE8C00976127 /* Template1-iOS.app */,
+				CE6DABB21BD0FE8C00976127 /* Template1-iOS.xctest */,
+				CE6DABBD1BD0FE8C00976127 /* Template1-iOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE6DABA01BD0FE8C00976127 /* Atlas-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2090928F1BD57C1C00E59A11 /* Atlas_iOS.xcdatamodeld */,
+				209092911BD57C1C00E59A11 /* Images.xcassets */,
+				209092921BD57C1C00E59A11 /* Info.plist */,
+				209092931BD57C1C00E59A11 /* Source */,
+			);
+			path = "Atlas-iOS";
+			sourceTree = "<group>";
+		};
+		CE6DABB51BD0FE8C00976127 /* Atlas-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE6DABB61BD0FE8C00976127 /* Atlas_iOSTests.swift */,
+				CE6DABB81BD0FE8C00976127 /* Info.plist */,
+			);
+			path = "Atlas-iOSTests";
+			sourceTree = "<group>";
+		};
+		CE6DABC01BD0FE8C00976127 /* Atlas-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE6DABC11BD0FE8C00976127 /* Atlas_iOSUITests.swift */,
+				CE6DABC31BD0FE8C00976127 /* Info.plist */,
+			);
+			path = "Atlas-iOSUITests";
+			sourceTree = "<group>";
+		};
+		CEFD28E11BD12C4B000067CD /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				CEFD28E21BD12C6E000067CD /* Atlas-iOS.xcconfig */,
+				CEFD29381BD1316D000067CD /* Atlas-iOS-Debug.xcconfig */,
+				CEFD29391BD13177000067CD /* Atlas-iOS-Release.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		CEFD29371BD13128000067CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20B232191BD66AD100FDA56B /* RxCocoa.framework */,
+				20B231F21BD6573700FDA56B /* RxSwift.framework */,
+				20B231E91BD63E7100FDA56B /* MapKit.framework */,
+				2092BD661BD565BF009F3E10 /* Core.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE6DAB9D1BD0FE8C00976127 /* Template1-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6DABC61BD0FE8C00976127 /* Build configuration list for PBXNativeTarget "Template1-iOS" */;
+			buildPhases = (
+				CE6DAB9A1BD0FE8C00976127 /* Sources */,
+				CE6DAB9B1BD0FE8C00976127 /* Frameworks */,
+				CE6DAB9C1BD0FE8C00976127 /* Resources */,
+				20B231F11BD656E000FDA56B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Template1-iOS";
+			productName = "Atlas-iOS";
+			productReference = CE6DAB9E1BD0FE8C00976127 /* Template1-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE6DABB11BD0FE8C00976127 /* Template1-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6DABC91BD0FE8C00976127 /* Build configuration list for PBXNativeTarget "Template1-iOSTests" */;
+			buildPhases = (
+				CE6DABAE1BD0FE8C00976127 /* Sources */,
+				CE6DABAF1BD0FE8C00976127 /* Frameworks */,
+				CE6DABB01BD0FE8C00976127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE6DABB41BD0FE8C00976127 /* PBXTargetDependency */,
+			);
+			name = "Template1-iOSTests";
+			productName = "Atlas-iOSTests";
+			productReference = CE6DABB21BD0FE8C00976127 /* Template1-iOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE6DABBC1BD0FE8C00976127 /* Template1-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6DABCC1BD0FE8C00976127 /* Build configuration list for PBXNativeTarget "Template1-iOSUITests" */;
+			buildPhases = (
+				CE6DABB91BD0FE8C00976127 /* Sources */,
+				CE6DABBA1BD0FE8C00976127 /* Frameworks */,
+				CE6DABBB1BD0FE8C00976127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE6DABBF1BD0FE8C00976127 /* PBXTargetDependency */,
+			);
+			name = "Template1-iOSUITests";
+			productName = "Atlas-iOSUITests";
+			productReference = CE6DABBD1BD0FE8C00976127 /* Template1-iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE6DAB961BD0FE8C00976127 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Sky UK";
+				TargetAttributes = {
+					CE6DAB9D1BD0FE8C00976127 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					CE6DABB11BD0FE8C00976127 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CE6DAB9D1BD0FE8C00976127;
+					};
+					CE6DABBC1BD0FE8C00976127 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CE6DAB9D1BD0FE8C00976127;
+					};
+				};
+			};
+			buildConfigurationList = CE6DAB991BD0FE8C00976127 /* Build configuration list for PBXProject "Template1-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE6DAB951BD0FE8C00976127;
+			productRefGroup = CE6DAB9F1BD0FE8C00976127 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE6DAB9D1BD0FE8C00976127 /* Template1-iOS */,
+				CE6DABB11BD0FE8C00976127 /* Template1-iOSTests */,
+				CE6DABBC1BD0FE8C00976127 /* Template1-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE6DAB9C1BD0FE8C00976127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209092A51BD57C1C00E59A11 /* Info.plist in Resources */,
+				20B232031BD6642800FDA56B /* WikipediaSearchCell.xib in Resources */,
+				209092A61BD57C1C00E59A11 /* LaunchScreen.xib in Resources */,
+				209092A41BD57C1C00E59A11 /* Images.xcassets in Resources */,
+				20B232011BD6642800FDA56B /* WikipediaImageCell.xib in Resources */,
+				209092A71BD57C1C00E59A11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6DABB01BD0FE8C00976127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6DABBB1BD0FE8C00976127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20B231F11BD656E000FDA56B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/../Carthage/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/../Carthage/Carthage/Build/iOS/RxCocoa.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE6DAB9A1BD0FE8C00976127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B232111BD664D500FDA56B /* Wireframe.swift in Sources */,
+				209092AB1BD57C1C00E59A11 /* MenuController.swift in Sources */,
+				20B2320A1BD6644F00FDA56B /* WikipediaAPI.swift in Sources */,
+				209092A91BD57C1C00E59A11 /* AppDelegate.swift in Sources */,
+				20B232041BD6642800FDA56B /* WikipediaSearchViewController.swift in Sources */,
+				20B2320F1BD664BD00FDA56B /* Dependencies.swift in Sources */,
+				20B231F01BD656CA00FDA56B /* ViewController.swift in Sources */,
+				209092A31BD57C1C00E59A11 /* Atlas_iOS.xcdatamodeld in Sources */,
+				20B232001BD6642800FDA56B /* CollectionViewImageCell.swift in Sources */,
+				20B232021BD6642800FDA56B /* WikipediaSearchCell.swift in Sources */,
+				20B231ED1BD64D9500FDA56B /* CollectionViewController.swift in Sources */,
+				20B232141BD6650E00FDA56B /* ImageService.swift in Sources */,
+				209092A81BD57C1C00E59A11 /* SWRevealViewController.m in Sources */,
+				20B232161BD6655800FDA56B /* Example.swift in Sources */,
+				20B2320C1BD6644F00FDA56B /* WikipediaSearchResult.swift in Sources */,
+				20B231F91BD663F300FDA56B /* SearchViewModel.swift in Sources */,
+				20B231EE1BD64D9500FDA56B /* GridCell.swift in Sources */,
+				20B232181BD6659200FDA56B /* HtmlParsing.swift in Sources */,
+				20B2320B1BD6644F00FDA56B /* WikipediaPage.swift in Sources */,
+				20B231F81BD663F300FDA56B /* SearchResultViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6DABAE1BD0FE8C00976127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6DABB71BD0FE8C00976127 /* Atlas_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6DABB91BD0FE8C00976127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6DABC21BD0FE8C00976127 /* Atlas_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE6DABB41BD0FE8C00976127 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE6DAB9D1BD0FE8C00976127 /* Template1-iOS */;
+			targetProxy = CE6DABB31BD0FE8C00976127 /* PBXContainerItemProxy */;
+		};
+		CE6DABBF1BD0FE8C00976127 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE6DAB9D1BD0FE8C00976127 /* Template1-iOS */;
+			targetProxy = CE6DABBE1BD0FE8C00976127 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE6DABC41BD0FE8C00976127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEFD28E21BD12C6E000067CD /* Atlas-iOS.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		CE6DABC51BD0FE8C00976127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEFD28E21BD12C6E000067CD /* Atlas-iOS.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		CE6DABC71BD0FE8C00976127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEFD29381BD1316D000067CD /* Atlas-iOS-Debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Template1-iOS";
+				SWIFT_OBJC_BRIDGING_HEADER = "Atlas-iOS/Source/Atlas-iOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE6DABC81BD0FE8C00976127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEFD29391BD13177000067CD /* Atlas-iOS-Release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Template1-iOS";
+				SWIFT_OBJC_BRIDGING_HEADER = "Atlas-iOS/Source/Atlas-iOS-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		CE6DABCA1BD0FE8C00976127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Atlas-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Atlas-iOSTests";
+				PRODUCT_NAME = "Template1-iOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Template1-iOS.app/Template1-iOS";
+			};
+			name = Debug;
+		};
+		CE6DABCB1BD0FE8C00976127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Atlas-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Atlas-iOSTests";
+				PRODUCT_NAME = "Template1-iOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Template1-iOS.app/Template1-iOS";
+			};
+			name = Release;
+		};
+		CE6DABCD1BD0FE8C00976127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Atlas-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Atlas-iOSUITests";
+				PRODUCT_NAME = "Template1-iOS";
+				TEST_TARGET_NAME = "Atlas-iOS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CE6DABCE1BD0FE8C00976127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Atlas-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Atlas-iOSUITests";
+				PRODUCT_NAME = "Template1-iOS";
+				TEST_TARGET_NAME = "Atlas-iOS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE6DAB991BD0FE8C00976127 /* Build configuration list for PBXProject "Template1-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6DABC41BD0FE8C00976127 /* Debug */,
+				CE6DABC51BD0FE8C00976127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6DABC61BD0FE8C00976127 /* Build configuration list for PBXNativeTarget "Template1-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6DABC71BD0FE8C00976127 /* Debug */,
+				CE6DABC81BD0FE8C00976127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6DABC91BD0FE8C00976127 /* Build configuration list for PBXNativeTarget "Template1-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6DABCA1BD0FE8C00976127 /* Debug */,
+				CE6DABCB1BD0FE8C00976127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6DABCC1BD0FE8C00976127 /* Build configuration list for PBXNativeTarget "Template1-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6DABCD1BD0FE8C00976127 /* Debug */,
+				CE6DABCE1BD0FE8C00976127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2090928F1BD57C1C00E59A11 /* Atlas_iOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				209092901BD57C1C00E59A11 /* Atlas_iOS.xcdatamodel */,
+			);
+			currentVersion = 209092901BD57C1C00E59A11 /* Atlas_iOS.xcdatamodel */;
+			path = Atlas_iOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE6DAB961BD0FE8C00976127 /* Project object */;
+}
