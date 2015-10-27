@@ -157,8 +157,8 @@
 		CEFD290B1BD12FBB000067CD = {
 			isa = PBXGroup;
 			children = (
-				CEFD29171BD12FBB000067CD /* Core */,
-				CEFD29231BD12FBB000067CD /* CoreTests */,
+				CEFD29171BD12FBB000067CD /* Code */,
+				CEFD29231BD12FBB000067CD /* Tests */,
 				CEE6FBDA1BD15F3100594649 /* Frameworks */,
 				CEFD29161BD12FBB000067CD /* Products */,
 			);
@@ -175,22 +175,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CEFD29171BD12FBB000067CD /* Core */ = {
+		CEFD29171BD12FBB000067CD /* Code */ = {
 			isa = PBXGroup;
 			children = (
 				20A75C481BDF8EFB00EED682 /* Info.plist */,
 				20A75C491BDF8EFB00EED682 /* Source */,
 			);
-			path = Core;
+			path = Code;
 			sourceTree = "<group>";
 		};
-		CEFD29231BD12FBB000067CD /* CoreTests */ = {
+		CEFD29231BD12FBB000067CD /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				CEFD29241BD12FBB000067CD /* CoreTests.swift */,
 				CEFD29261BD12FBB000067CD /* Info.plist */,
 			);
-			path = CoreTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -461,11 +461,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Carthage/Build/Mac";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/Core/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Code/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.Core-OSX";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.core;
 				PRODUCT_NAME = Core;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -482,11 +482,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Carthage/Build/Mac";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/Core/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Code/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.Core-OSX";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.core;
 				PRODUCT_NAME = Core;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -621,7 +621,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Carthage/Build/iOS";
-				INFOPLIST_FILE = Core/Info.plist;
+				INFOPLIST_FILE = Code/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -641,7 +641,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Carthage/Build/iOS";
-				INFOPLIST_FILE = Core/Info.plist;
+				INFOPLIST_FILE = Code/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
