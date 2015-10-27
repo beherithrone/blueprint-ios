@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CEFD2BB31BD1586A000067CD"
-               BuildableName = "App-OSX.app"
-               BlueprintName = "App-OSX"
+               BuildableName = "Template1.app"
+               BlueprintName = "Template1"
                ReferencedContainer = "container:App-OSX.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CEFD2BC41BD1586A000067CD"
-               BuildableName = "App-OSX.xctest"
+               BuildableName = "Template1.xctest"
                BlueprintName = "Tests"
                ReferencedContainer = "container:App-OSX.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CEFD2BCF1BD1586A000067CD"
-               BuildableName = "App-OSX.xctest"
+               BuildableName = "Template1.xctest"
                BlueprintName = "UITests"
                ReferencedContainer = "container:App-OSX.xcodeproj">
             </BuildableReference>
@@ -53,8 +53,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CEFD2BB31BD1586A000067CD"
-            BuildableName = "App-OSX.app"
-            BlueprintName = "App-OSX"
+            BuildableName = "Template1.app"
+            BlueprintName = "Template1"
             ReferencedContainer = "container:App-OSX.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -76,8 +76,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CEFD2BB31BD1586A000067CD"
-            BuildableName = "App-OSX.app"
-            BlueprintName = "App-OSX"
+            BuildableName = "Template1.app"
+            BlueprintName = "Template1"
             ReferencedContainer = "container:App-OSX.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -95,8 +95,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CEFD2BB31BD1586A000067CD"
-            BuildableName = "App-OSX.app"
-            BlueprintName = "App-OSX"
+            BuildableName = "Template1.app"
+            BlueprintName = "Template1"
             ReferencedContainer = "container:App-OSX.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

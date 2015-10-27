@@ -8,6 +8,8 @@
 import UIKit
 import Fabric
 import Crashlytics
+import TwitterKit
+import MoPub
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,7 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        Fabric.with([Crashlytics.self])
+        Fabric.with([Crashlytics.self, Twitter.self, MoPub.self])
+
         return true
     }
 

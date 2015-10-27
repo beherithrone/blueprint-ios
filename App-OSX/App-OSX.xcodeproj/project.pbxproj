@@ -55,15 +55,15 @@
 		CEDCA9D11BD639880000C140 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
 		CEE6FBC71BD15AB500594649 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		CEE6FBC91BD15AF100594649 /* Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Core.framework; path = ../Core/Carthage/Build/Mac/Core.framework; sourceTree = "<group>"; };
-		CEFD2BB41BD1586A000067CD /* App-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFD2BB41BD1586A000067CD /* Template1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFD2BB71BD1586A000067CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEFD2BB91BD1586A000067CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CEFD2BBB1BD1586A000067CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEFD2BC01BD1586A000067CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEFD2BC51BD1586A000067CD /* App-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFD2BC51BD1586A000067CD /* Template1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Template1.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFD2BC91BD1586A000067CD /* App_OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_OSXTests.swift; sourceTree = "<group>"; };
 		CEFD2BCB1BD1586A000067CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEFD2BD01BD1586A000067CD /* App-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFD2BD01BD1586A000067CD /* Template1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Template1.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFD2BD41BD1586A000067CD /* App_OSXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_OSXUITests.swift; sourceTree = "<group>"; };
 		CEFD2BD61BD1586A000067CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,9 +134,9 @@
 		CEFD2BB51BD1586A000067CD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEFD2BB41BD1586A000067CD /* App-OSX.app */,
-				CEFD2BC51BD1586A000067CD /* App-OSX.xctest */,
-				CEFD2BD01BD1586A000067CD /* App-OSX.xctest */,
+				CEFD2BB41BD1586A000067CD /* Template1.app */,
+				CEFD2BC51BD1586A000067CD /* Template1.xctest */,
+				CEFD2BD01BD1586A000067CD /* Template1.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -174,9 +174,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CEFD2BB31BD1586A000067CD /* App-OSX */ = {
+		CEFD2BB31BD1586A000067CD /* Template1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEFD2BD91BD1586A000067CD /* Build configuration list for PBXNativeTarget "App-OSX" */;
+			buildConfigurationList = CEFD2BD91BD1586A000067CD /* Build configuration list for PBXNativeTarget "Template1" */;
 			buildPhases = (
 				CEFD2BB01BD1586A000067CD /* Sources */,
 				CEFD2BB11BD1586A000067CD /* Frameworks */,
@@ -188,9 +188,9 @@
 			);
 			dependencies = (
 			);
-			name = "App-OSX";
-			productName = "App-OSX";
-			productReference = CEFD2BB41BD1586A000067CD /* App-OSX.app */;
+			name = Template1;
+			productName = Template1;
+			productReference = CEFD2BB41BD1586A000067CD /* Template1.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CEFD2BC41BD1586A000067CD /* Tests */ = {
@@ -208,7 +208,7 @@
 			);
 			name = Tests;
 			productName = Tests;
-			productReference = CEFD2BC51BD1586A000067CD /* App-OSX.xctest */;
+			productReference = CEFD2BC51BD1586A000067CD /* Template1.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		CEFD2BCF1BD1586A000067CD /* UITests */ = {
@@ -226,7 +226,7 @@
 			);
 			name = UITests;
 			productName = UITests;
-			productReference = CEFD2BD01BD1586A000067CD /* App-OSX.xctest */;
+			productReference = CEFD2BD01BD1586A000067CD /* Template1.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -264,7 +264,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CEFD2BB31BD1586A000067CD /* App-OSX */,
+				CEFD2BB31BD1586A000067CD /* Template1 */,
 				CEFD2BC41BD1586A000067CD /* Tests */,
 				CEFD2BCF1BD1586A000067CD /* UITests */,
 			);
@@ -347,12 +347,12 @@
 /* Begin PBXTargetDependency section */
 		CEFD2BC71BD1586A000067CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CEFD2BB31BD1586A000067CD /* App-OSX */;
+			target = CEFD2BB31BD1586A000067CD /* Template1 */;
 			targetProxy = CEFD2BC61BD1586A000067CD /* PBXContainerItemProxy */;
 		};
 		CEFD2BD21BD1586A000067CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CEFD2BB31BD1586A000067CD /* App-OSX */;
+			target = CEFD2BB31BD1586A000067CD /* Template1 */;
 			targetProxy = CEFD2BD11BD1586A000067CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -448,8 +448,8 @@
 				INFOPLIST_FILE = Code/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.Template1-OSX";
-				PRODUCT_NAME = "App-OSX";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.osx;
+				PRODUCT_NAME = Template1;
 			};
 			name = Debug;
 		};
@@ -461,8 +461,8 @@
 				INFOPLIST_FILE = Code/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.Template1-OSX";
-				PRODUCT_NAME = "App-OSX";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.osx;
+				PRODUCT_NAME = Template1;
 			};
 			name = Release;
 		};
@@ -474,7 +474,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tests;
-				PRODUCT_NAME = "App-OSX";
+				PRODUCT_NAME = Template1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App-OSX.app/Contents/MacOS/App-OSX";
 			};
 			name = Debug;
@@ -487,7 +487,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tests;
-				PRODUCT_NAME = "App-OSX";
+				PRODUCT_NAME = Template1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App-OSX.app/Contents/MacOS/App-OSX";
 			};
 			name = Release;
@@ -499,7 +499,7 @@
 				INFOPLIST_FILE = UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.UITests;
-				PRODUCT_NAME = "App-OSX";
+				PRODUCT_NAME = Template1;
 				TEST_TARGET_NAME = "App-OSX";
 				USES_XCTRUNNER = YES;
 			};
@@ -512,7 +512,7 @@
 				INFOPLIST_FILE = UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.UITests;
-				PRODUCT_NAME = "App-OSX";
+				PRODUCT_NAME = Template1;
 				TEST_TARGET_NAME = "App-OSX";
 				USES_XCTRUNNER = YES;
 			};
@@ -530,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEFD2BD91BD1586A000067CD /* Build configuration list for PBXNativeTarget "App-OSX" */ = {
+		CEFD2BD91BD1586A000067CD /* Build configuration list for PBXNativeTarget "Template1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEFD2BDA1BD1586A000067CD /* Debug */,

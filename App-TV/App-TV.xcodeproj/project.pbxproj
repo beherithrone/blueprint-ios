@@ -34,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		20A75A9F1BDEBEFB00EED682 /* App-TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App-TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20A75A9F1BDEBEFB00EED682 /* Template1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A75AA21BDEBEFB00EED682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20A75AA41BDEBEFB00EED682 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20A75AA71BDEBEFB00EED682 /* App_TV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = App_TV.xcdatamodel; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 		20A75AA01BDEBEFB00EED682 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				20A75A9F1BDEBEFB00EED682 /* App-TV.app */,
+				20A75A9F1BDEBEFB00EED682 /* Template1.app */,
 				20A75AB31BDEBEFB00EED682 /* App-TVTests.xctest */,
 				20A75ABE1BDEBEFB00EED682 /* App-TVUITests.xctest */,
 			);
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		20A75A9E1BDEBEFB00EED682 /* App-TV */ = {
+		20A75A9E1BDEBEFB00EED682 /* Template1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20A75AC71BDEBEFB00EED682 /* Build configuration list for PBXNativeTarget "App-TV" */;
+			buildConfigurationList = 20A75AC71BDEBEFB00EED682 /* Build configuration list for PBXNativeTarget "Template1" */;
 			buildPhases = (
 				20A75A9B1BDEBEFB00EED682 /* Sources */,
 				20A75A9C1BDEBEFB00EED682 /* Frameworks */,
@@ -140,9 +140,9 @@
 			);
 			dependencies = (
 			);
-			name = "App-TV";
-			productName = "App-TV";
-			productReference = 20A75A9F1BDEBEFB00EED682 /* App-TV.app */;
+			name = Template1;
+			productName = Template1;
+			productReference = 20A75A9F1BDEBEFB00EED682 /* Template1.app */;
 			productType = "com.apple.product-type.application";
 		};
 		20A75AB21BDEBEFB00EED682 /* App-TVTests */ = {
@@ -217,7 +217,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				20A75A9E1BDEBEFB00EED682 /* App-TV */,
+				20A75A9E1BDEBEFB00EED682 /* Template1 */,
 				20A75AB21BDEBEFB00EED682 /* App-TVTests */,
 				20A75ABD1BDEBEFB00EED682 /* App-TVUITests */,
 			);
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		20A75AB51BDEBEFB00EED682 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 20A75A9E1BDEBEFB00EED682 /* App-TV */;
+			target = 20A75A9E1BDEBEFB00EED682 /* Template1 */;
 			targetProxy = 20A75AB41BDEBEFB00EED682 /* PBXContainerItemProxy */;
 		};
 		20A75AC01BDEBEFB00EED682 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 20A75A9E1BDEBEFB00EED682 /* App-TV */;
+			target = 20A75A9E1BDEBEFB00EED682 /* Template1 */;
 			targetProxy = 20A75ABF1BDEBEFB00EED682 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -390,9 +390,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = "Code/Info.plist";
+				INFOPLIST_FILE = Code/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.Template1-TV";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.tv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -402,9 +402,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = "Code/Info.plist";
+				INFOPLIST_FILE = Code/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.Template1-TV";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.tv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -469,7 +469,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20A75AC71BDEBEFB00EED682 /* Build configuration list for PBXNativeTarget "App-TV" */ = {
+		20A75AC71BDEBEFB00EED682 /* Build configuration list for PBXNativeTarget "Template1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20A75AC81BDEBEFB00EED682 /* Debug */,

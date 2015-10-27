@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "20A75A9E1BDEBEFB00EED682"
-               BuildableName = "App-TV.app"
-               BlueprintName = "App-TV"
+               BuildableName = "Template1.app"
+               BlueprintName = "Template1"
                ReferencedContainer = "container:App-TV.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -53,8 +53,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "20A75A9E1BDEBEFB00EED682"
-            BuildableName = "App-TV.app"
-            BlueprintName = "App-TV"
+            BuildableName = "Template1.app"
+            BlueprintName = "Template1"
             ReferencedContainer = "container:App-TV.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -76,8 +76,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "20A75A9E1BDEBEFB00EED682"
-            BuildableName = "App-TV.app"
-            BlueprintName = "App-TV"
+            BuildableName = "Template1.app"
+            BlueprintName = "Template1"
             ReferencedContainer = "container:App-TV.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -95,8 +95,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "20A75A9E1BDEBEFB00EED682"
-            BuildableName = "App-TV.app"
-            BlueprintName = "App-TV"
+            BuildableName = "Template1.app"
+            BlueprintName = "Template1"
             ReferencedContainer = "container:App-TV.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -29,6 +29,11 @@
 		20A75C331BDF89C800EED682 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		20A75C591BDF985400EED682 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A75C571BDF985400EED682 /* Fabric.framework */; };
 		20A75C5A1BDF985400EED682 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A75C581BDF985400EED682 /* Crashlytics.framework */; };
+		20A75C5E1BDF9E2D00EED682 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A75C5B1BDF9E2D00EED682 /* TwitterKit.framework */; };
+		20A75C5F1BDF9E2D00EED682 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20A75C5C1BDF9E2D00EED682 /* TwitterKitResources.bundle */; };
+		20A75C601BDF9E2D00EED682 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A75C5D1BDF9E2D00EED682 /* TwitterCore.framework */; };
+		20A75C631BDF9EF600EED682 /* MoPub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A75C611BDF9EF600EED682 /* MoPub.framework */; };
+		20A75C641BDF9EF600EED682 /* MoPub.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20A75C621BDF9EF600EED682 /* MoPub.bundle */; };
 		20B231EA1BD63E7100FDA56B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B231E91BD63E7100FDA56B /* MapKit.framework */; };
 		20B231ED1BD64D9500FDA56B /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231EB1BD64D9500FDA56B /* CollectionViewController.swift */; };
 		20B231EE1BD64D9500FDA56B /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231EC1BD64D9500FDA56B /* GridCell.swift */; };
@@ -134,6 +139,11 @@
 		20A75C2F1BDF84E400EED682 /* WikipediaSearchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WikipediaSearchCell.xib; sourceTree = "<group>"; };
 		20A75C571BDF985400EED682 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		20A75C581BDF985400EED682 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		20A75C5B1BDF9E2D00EED682 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		20A75C5C1BDF9E2D00EED682 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		20A75C5D1BDF9E2D00EED682 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		20A75C611BDF9EF600EED682 /* MoPub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MoPub.framework; sourceTree = "<group>"; };
+		20A75C621BDF9EF600EED682 /* MoPub.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MoPub.bundle; path = MoPub.framework/Versions/A/Resources/MoPub.bundle; sourceTree = "<group>"; };
 		20B231E91BD63E7100FDA56B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		20B231EB1BD64D9500FDA56B /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		20B231EC1BD64D9500FDA56B /* GridCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
@@ -181,9 +191,12 @@
 			files = (
 				20B2321A1BD66AD100FDA56B /* RxCocoa.framework in Frameworks */,
 				20A75C5A1BDF985400EED682 /* Crashlytics.framework in Frameworks */,
+				20A75C601BDF9E2D00EED682 /* TwitterCore.framework in Frameworks */,
 				20B231F31BD6573700FDA56B /* RxSwift.framework in Frameworks */,
 				20B231EA1BD63E7100FDA56B /* MapKit.framework in Frameworks */,
 				20A75C591BDF985400EED682 /* Fabric.framework in Frameworks */,
+				20A75C631BDF9EF600EED682 /* MoPub.framework in Frameworks */,
+				20A75C5E1BDF9E2D00EED682 /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +412,11 @@
 		CEFD29371BD13128000067CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				20A75C611BDF9EF600EED682 /* MoPub.framework */,
+				20A75C621BDF9EF600EED682 /* MoPub.bundle */,
+				20A75C5B1BDF9E2D00EED682 /* TwitterKit.framework */,
+				20A75C5C1BDF9E2D00EED682 /* TwitterKitResources.bundle */,
+				20A75C5D1BDF9E2D00EED682 /* TwitterCore.framework */,
 				20A75C571BDF985400EED682 /* Fabric.framework */,
 				20A75C581BDF985400EED682 /* Crashlytics.framework */,
 				20B232191BD66AD100FDA56B /* RxCocoa.framework */,
@@ -579,11 +597,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				209092A61BD57C1C00E59A11 /* LaunchScreen.xib in Resources */,
+				20A75C5F1BDF9E2D00EED682 /* TwitterKitResources.bundle in Resources */,
 				20A75C311BDF84E400EED682 /* WikipediaSearchCell.xib in Resources */,
 				209092A41BD57C1C00E59A11 /* Assets.xcassets in Resources */,
 				209092A71BD57C1C00E59A11 /* Main.storyboard in Resources */,
 				20A75C301BDF84E400EED682 /* WikipediaImageCell.xib in Resources */,
 				20F764981BDE216200C98B1D /* Info.plist in Resources */,
+				20A75C641BDF9EF600EED682 /* MoPub.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
