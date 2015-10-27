@@ -7,20 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20A75C461BDF8DB800EED682 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A75C451BDF8DB800EED682 /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20A75C471BDF8DB800EED682 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A75C451BDF8DB800EED682 /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20A75C4F1BDF8EFB00EED682 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20A75C481BDF8EFB00EED682 /* Info.plist */; };
+		20A75C501BDF8EFB00EED682 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20A75C481BDF8EFB00EED682 /* Info.plist */; };
+		20A75C511BDF8EFB00EED682 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A75C4B1BDF8EFB00EED682 /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20A75C521BDF8EFB00EED682 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A75C4B1BDF8EFB00EED682 /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20A75C531BDF8EFB00EED682 /* CoreClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A75C4E1BDF8EFB00EED682 /* CoreClass.swift */; };
+		20A75C541BDF8EFB00EED682 /* CoreClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A75C4E1BDF8EFB00EED682 /* CoreClass.swift */; };
 		CE9F09421BD52A4800068ECB /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9F09411BD52A4800068ECB /* RxSwift.framework */; };
 		CE9F09441BD52ADA00068ECB /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9F09431BD52ADA00068ECB /* RxSwift.framework */; };
 		CE9F09471BD530DF00068ECB /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE9F09431BD52ADA00068ECB /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CE9F09481BD530DF00068ECB /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEE6FBD51BD15D5700594649 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CED947531BD4E809002479BF /* CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD29241BD12FBB000067CD /* CoreTests.swift */; };
 		CEE6FBB71BD1595000594649 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE6FBAD1BD1595000594649 /* Core.framework */; };
-		CEE6FBCE1BD15B7C00594649 /* CoreClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD29351BD130EA000067CD /* CoreClass.swift */; };
 		CEE6FBD41BD15D5000594649 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE6FBD31BD15D5000594649 /* Alamofire.framework */; };
 		CEE6FBD91BD15EB900594649 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE6FBD51BD15D5700594649 /* Alamofire.framework */; };
 		CEFD29201BD12FBB000067CD /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFD29151BD12FBB000067CD /* Core.framework */; };
 		CEFD29251BD12FBB000067CD /* CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD29241BD12FBB000067CD /* CoreTests.swift */; };
-		CEFD29361BD130EA000067CD /* CoreClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD29351BD130EA000067CD /* CoreClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +57,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		20A75C451BDF8DB800EED682 /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		20A75C481BDF8EFB00EED682 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20A75C4B1BDF8EFB00EED682 /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		20A75C4E1BDF8EFB00EED682 /* CoreClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreClass.swift; sourceTree = "<group>"; };
 		CE9F09411BD52A4800068ECB /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		CE9F09431BD52ADA00068ECB /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
 		CEE6FBAD1BD1595000594649 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,11 +67,9 @@
 		CEE6FBD31BD15D5000594649 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = ../Carthage/Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		CEE6FBD51BD15D5700594649 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = ../Carthage/Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
 		CEFD29151BD12FBB000067CD /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEFD291A1BD12FBB000067CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEFD291F1BD12FBB000067CD /* Core iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFD29241BD12FBB000067CD /* CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTests.swift; sourceTree = "<group>"; };
 		CEFD29261BD12FBB000067CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEFD29351BD130EA000067CD /* CoreClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,12 +110,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20A75C441BDF8DB800EED682 /* Source */ = {
+		20A75C491BDF8EFB00EED682 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				20A75C451BDF8DB800EED682 /* Core.h */,
+				20A75C4A1BDF8EFB00EED682 /* Objc */,
+				20A75C4C1BDF8EFB00EED682 /* Swift */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		20A75C4A1BDF8EFB00EED682 /* Objc */ = {
+			isa = PBXGroup;
+			children = (
+				20A75C4B1BDF8EFB00EED682 /* Core.h */,
+			);
+			path = Objc;
+			sourceTree = "<group>";
+		};
+		20A75C4C1BDF8EFB00EED682 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				20A75C4D1BDF8EFB00EED682 /* Model */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		20A75C4D1BDF8EFB00EED682 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20A75C4E1BDF8EFB00EED682 /* CoreClass.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		CEE6FBDA1BD15F3100594649 /* Frameworks */ = {
@@ -151,10 +178,8 @@
 		CEFD29171BD12FBB000067CD /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				20A75C441BDF8DB800EED682 /* Source */,
-				CEFD292F1BD12FD0000067CD /* Model */,
-				CEFD29301BD12FD0000067CD /* Networking */,
-				CEFD291A1BD12FBB000067CD /* Info.plist */,
+				20A75C481BDF8EFB00EED682 /* Info.plist */,
+				20A75C491BDF8EFB00EED682 /* Source */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -168,21 +193,6 @@
 			path = CoreTests;
 			sourceTree = "<group>";
 		};
-		CEFD292F1BD12FD0000067CD /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				CEFD29351BD130EA000067CD /* CoreClass.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CEFD29301BD12FD0000067CD /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Networking;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -190,7 +200,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20A75C471BDF8DB800EED682 /* Core.h in Headers */,
+				20A75C521BDF8EFB00EED682 /* Core.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +208,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20A75C461BDF8DB800EED682 /* Core.h in Headers */,
+				20A75C511BDF8EFB00EED682 /* Core.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +339,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20A75C501BDF8EFB00EED682 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +354,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20A75C4F1BDF8EFB00EED682 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,7 +407,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE6FBCE1BD15B7C00594649 /* CoreClass.swift in Sources */,
+				20A75C541BDF8EFB00EED682 /* CoreClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +423,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEFD29361BD130EA000067CD /* CoreClass.swift in Sources */,
+				20A75C531BDF8EFB00EED682 /* CoreClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
