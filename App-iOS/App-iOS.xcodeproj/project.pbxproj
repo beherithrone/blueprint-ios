@@ -14,7 +14,6 @@
 		209092A81BD57C1C00E59A11 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2090929B1BD57C1C00E59A11 /* SWRevealViewController.m */; };
 		209092A91BD57C1C00E59A11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2090929D1BD57C1C00E59A11 /* AppDelegate.swift */; };
 		209092AB1BD57C1C00E59A11 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2090929F1BD57C1C00E59A11 /* MenuController.swift */; };
-		2092BD671BD565BF009F3E10 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2092BD661BD565BF009F3E10 /* Core.framework */; };
 		20A75BC51BDECC4F00EED682 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A75BC31BDECC4F00EED682 /* Interface.storyboard */; };
 		20A75BC71BDECC4F00EED682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A75BC61BDECC4F00EED682 /* Assets.xcassets */; };
 		20A75BCE1BDECC4F00EED682 /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 20A75BCD1BDECC4F00EED682 /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -27,7 +26,9 @@
 		20A75BEB1BDECD5500EED682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209092911BD57C1C00E59A11 /* Assets.xcassets */; };
 		20A75C301BDF84E400EED682 /* WikipediaImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A75C2E1BDF84E400EED682 /* WikipediaImageCell.xib */; };
 		20A75C311BDF84E400EED682 /* WikipediaSearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A75C2F1BDF84E400EED682 /* WikipediaSearchCell.xib */; };
-		20A75C331BDF89C800EED682 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A75C321BDF89C800EED682 /* Core.framework */; };
+		20A75C331BDF89C800EED682 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		20A75C591BDF985400EED682 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A75C571BDF985400EED682 /* Fabric.framework */; };
+		20A75C5A1BDF985400EED682 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A75C581BDF985400EED682 /* Crashlytics.framework */; };
 		20B231EA1BD63E7100FDA56B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B231E91BD63E7100FDA56B /* MapKit.framework */; };
 		20B231ED1BD64D9500FDA56B /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231EB1BD64D9500FDA56B /* CollectionViewController.swift */; };
 		20B231EE1BD64D9500FDA56B /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231EC1BD64D9500FDA56B /* GridCell.swift */; };
@@ -117,7 +118,6 @@
 		2090929B1BD57C1C00E59A11 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		2090929D1BD57C1C00E59A11 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2090929F1BD57C1C00E59A11 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
-		2092BD661BD565BF009F3E10 /* Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Core.framework; path = "../Core/build/Debug-iphoneos/Core.framework"; sourceTree = "<group>"; };
 		209092AF1BD57D0100E59A11 /* App-iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App-iOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		20A75BC11BDECC4E00EED682 /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A75BC41BDECC4F00EED682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -132,6 +132,8 @@
 		20A75BDC1BDECC4F00EED682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20A75C2E1BDF84E400EED682 /* WikipediaImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WikipediaImageCell.xib; sourceTree = "<group>"; };
 		20A75C2F1BDF84E400EED682 /* WikipediaSearchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WikipediaSearchCell.xib; sourceTree = "<group>"; };
+		20A75C571BDF985400EED682 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		20A75C581BDF985400EED682 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		20B231E91BD63E7100FDA56B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		20B231EB1BD64D9500FDA56B /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		20B231EC1BD64D9500FDA56B /* GridCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
@@ -169,7 +171,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20A75C331BDF89C800EED682 /* Core.framework in Frameworks */,
+				20A75C331BDF89C800EED682 /* (null) in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,8 +180,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				20B2321A1BD66AD100FDA56B /* RxCocoa.framework in Frameworks */,
+				20A75C5A1BDF985400EED682 /* Crashlytics.framework in Frameworks */,
 				20B231F31BD6573700FDA56B /* RxSwift.framework in Frameworks */,
 				20B231EA1BD63E7100FDA56B /* MapKit.framework in Frameworks */,
+				20A75C591BDF985400EED682 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,7 +399,8 @@
 		CEFD29371BD13128000067CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				20A75C321BDF89C800EED682 /* Core.framework */,
+				20A75C571BDF985400EED682 /* Fabric.framework */,
+				20A75C581BDF985400EED682 /* Crashlytics.framework */,
 				20B232191BD66AD100FDA56B /* RxCocoa.framework */,
 				20B231F21BD6573700FDA56B /* RxSwift.framework */,
 				20B231E91BD63E7100FDA56B /* MapKit.framework */,
@@ -449,6 +454,7 @@
 				CE6DAB9C1BD0FE8C00976127 /* Resources */,
 				20B231F11BD656E000FDA56B /* ShellScript */,
 				20A75BE71BDECC4F00EED682 /* Embed Watch Content */,
+				20A75C561BDF981300EED682 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -598,6 +604,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		20A75C561BDF981300EED682 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 2fd4e5361e810d659fa0bf5490388ee951d345a6 b015301063be99469649109666ff4a67b4a0aff0b12524cf7d711b033826625a";
+		};
 		20B231F11BD656E000FDA56B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -913,6 +932,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Code/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -931,6 +954,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Code/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
