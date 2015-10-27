@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CE6DAB9D1BD0FE8C00976127"
-               BuildableName = "App-iOS.app"
+               BuildableName = "Template1.app"
                BlueprintName = "App-iOS"
                ReferencedContainer = "container:App-iOS.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CE6DABB11BD0FE8C00976127"
-               BuildableName = "App-iOS.xctest"
+               BuildableName = "Template1.xctest"
                BlueprintName = "Tests"
                ReferencedContainer = "container:App-iOS.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CE6DABBC1BD0FE8C00976127"
-               BuildableName = "App-iOS.xctest"
+               BuildableName = "Template1.xctest"
                BlueprintName = "UITests"
                ReferencedContainer = "container:App-iOS.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE6DAB9D1BD0FE8C00976127"
-            BuildableName = "App-iOS.app"
+            BuildableName = "Template1.app"
             BlueprintName = "App-iOS"
             ReferencedContainer = "container:App-iOS.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE6DAB9D1BD0FE8C00976127"
-            BuildableName = "App-iOS.app"
+            BuildableName = "Template1.app"
             BlueprintName = "App-iOS"
             ReferencedContainer = "container:App-iOS.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE6DAB9D1BD0FE8C00976127"
-            BuildableName = "App-iOS.app"
+            BuildableName = "Template1.app"
             BlueprintName = "App-iOS"
             ReferencedContainer = "container:App-iOS.xcodeproj">
          </BuildableReference>

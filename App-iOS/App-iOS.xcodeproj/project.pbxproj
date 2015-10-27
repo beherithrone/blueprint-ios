@@ -940,7 +940,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.Template1-iOS";
-				PRODUCT_NAME = "App-iOS";
+				PRODUCT_NAME = "Template1";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Code/Source/Objc/App-iOS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -962,7 +962,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.Template1-iOS";
-				PRODUCT_NAME = "App-iOS";
+				PRODUCT_NAME = "Template1";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Code/Source/Objc/App-iOS-Bridging-Header.h";
 			};
@@ -975,7 +975,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tests;
-				PRODUCT_NAME = "App-iOS";
+				PRODUCT_NAME = "Template1";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App-iOS.app/App-iOS";
 			};
 			name = Debug;
@@ -987,7 +987,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tests;
-				PRODUCT_NAME = "App-iOS";
+				PRODUCT_NAME = "Template1";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App-iOS.app/App-iOS";
 			};
 			name = Release;
@@ -998,7 +998,7 @@
 				INFOPLIST_FILE = UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.UITests;
-				PRODUCT_NAME = "App-iOS";
+				PRODUCT_NAME = "Template1";
 				TEST_TARGET_NAME = "App-iOS";
 				USES_XCTRUNNER = YES;
 			};
@@ -1010,7 +1010,7 @@
 				INFOPLIST_FILE = UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.UITests;
-				PRODUCT_NAME = "App-iOS";
+				PRODUCT_NAME = "Template1";
 				TEST_TARGET_NAME = "App-iOS";
 				USES_XCTRUNNER = YES;
 			};
