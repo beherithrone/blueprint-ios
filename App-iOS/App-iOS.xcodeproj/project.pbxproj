@@ -78,14 +78,14 @@
 			containerPortal = CE6DAB961BD0FE8C00976127 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CE6DAB9D1BD0FE8C00976127;
-			remoteInfo = "Template1";
+			remoteInfo = Template1;
 		};
 		CE6DABBE1BD0FE8C00976127 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CE6DAB961BD0FE8C00976127 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CE6DAB9D1BD0FE8C00976127;
-			remoteInfo = "Template1";
+			remoteInfo = Template1;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -165,10 +165,10 @@
 		20B232191BD66AD100FDA56B /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = ../Carthage/Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		20F764971BDE216200C98B1D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE6DAB9E1BD0FE8C00976127 /* Template1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE6DABB21BD0FE8C00976127 /* App-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "App-iOS.xctest"; path = Template1.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6DABB21BD0FE8C00976127 /* Template1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Template1.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6DABB61BD0FE8C00976127 /* App_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_iOSTests.swift; sourceTree = "<group>"; };
 		CE6DABB81BD0FE8C00976127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE6DABBD1BD0FE8C00976127 /* App-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "App-iOS.xctest"; path = Template1.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6DABBD1BD0FE8C00976127 /* Template1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Template1.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6DABC11BD0FE8C00976127 /* App_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_iOSUITests.swift; sourceTree = "<group>"; };
 		CE6DABC31BD0FE8C00976127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEFD28E21BD12C6E000067CD /* App-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "App-iOS.xcconfig"; sourceTree = "<group>"; };
@@ -362,8 +362,8 @@
 			isa = PBXGroup;
 			children = (
 				CE6DAB9E1BD0FE8C00976127 /* Template1.app */,
-				CE6DABB21BD0FE8C00976127 /* App-iOS.xctest */,
-				CE6DABBD1BD0FE8C00976127 /* App-iOS.xctest */,
+				CE6DABB21BD0FE8C00976127 /* Template1.xctest */,
+				CE6DABBD1BD0FE8C00976127 /* Template1.xctest */,
 				20A75BC11BDECC4E00EED682 /* Watch.app */,
 				20A75BCD1BDECC4F00EED682 /* Watch Extension.appex */,
 			);
@@ -463,9 +463,9 @@
 			productReference = 20A75BCD1BDECC4F00EED682 /* Watch Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
-		CE6DAB9D1BD0FE8C00976127 /* App-iOS */ = {
+		CE6DAB9D1BD0FE8C00976127 /* Template1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE6DABC61BD0FE8C00976127 /* Build configuration list for PBXNativeTarget "App-iOS" */;
+			buildConfigurationList = CE6DABC61BD0FE8C00976127 /* Build configuration list for PBXNativeTarget "Template1" */;
 			buildPhases = (
 				CE6DAB9A1BD0FE8C00976127 /* Sources */,
 				CE6DAB9B1BD0FE8C00976127 /* Frameworks */,
@@ -479,8 +479,8 @@
 			dependencies = (
 				20A75BDE1BDECC4F00EED682 /* PBXTargetDependency */,
 			);
-			name = "Template1";
-			productName = "Template1";
+			name = Template1;
+			productName = Template1;
 			productReference = CE6DAB9E1BD0FE8C00976127 /* Template1.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -499,7 +499,7 @@
 			);
 			name = Tests;
 			productName = Tests;
-			productReference = CE6DABB21BD0FE8C00976127 /* App-iOS.xctest */;
+			productReference = CE6DABB21BD0FE8C00976127 /* Template1.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		CE6DABBC1BD0FE8C00976127 /* UITests */ = {
@@ -517,7 +517,7 @@
 			);
 			name = UITests;
 			productName = UITests;
-			productReference = CE6DABBD1BD0FE8C00976127 /* App-iOS.xctest */;
+			productReference = CE6DABBD1BD0FE8C00976127 /* Template1.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -563,7 +563,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE6DAB9D1BD0FE8C00976127 /* App-iOS */,
+				CE6DAB9D1BD0FE8C00976127 /* Template1 */,
 				CE6DABB11BD0FE8C00976127 /* Tests */,
 				CE6DABBC1BD0FE8C00976127 /* UITests */,
 				20A75BC01BDECC4E00EED682 /* Watch */,
@@ -723,12 +723,12 @@
 		};
 		CE6DABB41BD0FE8C00976127 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CE6DAB9D1BD0FE8C00976127 /* App-iOS */;
+			target = CE6DAB9D1BD0FE8C00976127 /* Template1 */;
 			targetProxy = CE6DABB31BD0FE8C00976127 /* PBXContainerItemProxy */;
 		};
 		CE6DABBF1BD0FE8C00976127 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CE6DAB9D1BD0FE8C00976127 /* App-iOS */;
+			target = CE6DAB9D1BD0FE8C00976127 /* Template1 */;
 			targetProxy = CE6DABBE1BD0FE8C00976127 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1019,7 +1019,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.UITests;
 				PRODUCT_NAME = Template1;
-				TEST_TARGET_NAME = "Template1";
+				TEST_TARGET_NAME = Template1;
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
@@ -1031,7 +1031,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.UITests;
 				PRODUCT_NAME = Template1;
-				TEST_TARGET_NAME = "Template1";
+				TEST_TARGET_NAME = Template1;
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;
@@ -1066,7 +1066,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE6DABC61BD0FE8C00976127 /* Build configuration list for PBXNativeTarget "App-iOS" */ = {
+		CE6DABC61BD0FE8C00976127 /* Build configuration list for PBXNativeTarget "Template1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE6DABC71BD0FE8C00976127 /* Debug */,
