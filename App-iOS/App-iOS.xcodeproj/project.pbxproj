@@ -25,6 +25,9 @@
 		20A75BDF1BDECC4F00EED682 /* Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 20A75BC11BDECC4E00EED682 /* Watch.app */; };
 		20A75BEA1BDECD5500EED682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209092911BD57C1C00E59A11 /* Assets.xcassets */; };
 		20A75BEB1BDECD5500EED682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209092911BD57C1C00E59A11 /* Assets.xcassets */; };
+		20A75C301BDF84E400EED682 /* WikipediaImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A75C2E1BDF84E400EED682 /* WikipediaImageCell.xib */; };
+		20A75C311BDF84E400EED682 /* WikipediaSearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A75C2F1BDF84E400EED682 /* WikipediaSearchCell.xib */; };
+		20A75C331BDF89C800EED682 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A75C321BDF89C800EED682 /* Core.framework */; };
 		20B231EA1BD63E7100FDA56B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B231E91BD63E7100FDA56B /* MapKit.framework */; };
 		20B231ED1BD64D9500FDA56B /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231EB1BD64D9500FDA56B /* CollectionViewController.swift */; };
 		20B231EE1BD64D9500FDA56B /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231EC1BD64D9500FDA56B /* GridCell.swift */; };
@@ -33,9 +36,7 @@
 		20B231F81BD663F300FDA56B /* SearchResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231F61BD663F300FDA56B /* SearchResultViewModel.swift */; };
 		20B231F91BD663F300FDA56B /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231F71BD663F300FDA56B /* SearchViewModel.swift */; };
 		20B232001BD6642800FDA56B /* CollectionViewImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231FB1BD6642800FDA56B /* CollectionViewImageCell.swift */; };
-		20B232011BD6642800FDA56B /* WikipediaImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B231FC1BD6642800FDA56B /* WikipediaImageCell.xib */; };
 		20B232021BD6642800FDA56B /* WikipediaSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231FD1BD6642800FDA56B /* WikipediaSearchCell.swift */; };
-		20B232031BD6642800FDA56B /* WikipediaSearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B231FE1BD6642800FDA56B /* WikipediaSearchCell.xib */; };
 		20B232041BD6642800FDA56B /* WikipediaSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231FF1BD6642800FDA56B /* WikipediaSearchViewController.swift */; };
 		20B2320A1BD6644F00FDA56B /* WikipediaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232071BD6644F00FDA56B /* WikipediaAPI.swift */; };
 		20B2320B1BD6644F00FDA56B /* WikipediaPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232081BD6644F00FDA56B /* WikipediaPage.swift */; };
@@ -116,8 +117,8 @@
 		2090929B1BD57C1C00E59A11 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		2090929D1BD57C1C00E59A11 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2090929F1BD57C1C00E59A11 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
-		209092AF1BD57D0100E59A11 /* App-iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "App-iOS-Bridging-Header.h"; path = "../App-iOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		2092BD661BD565BF009F3E10 /* Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Core.framework; path = "../Core/build/Debug-iphoneos/Core.framework"; sourceTree = "<group>"; };
+		209092AF1BD57D0100E59A11 /* App-iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App-iOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		20A75BC11BDECC4E00EED682 /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A75BC41BDECC4F00EED682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		20A75BC61BDECC4F00EED682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -129,6 +130,8 @@
 		20A75BD81BDECC4F00EED682 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		20A75BDA1BDECC4F00EED682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20A75BDC1BDECC4F00EED682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20A75C2E1BDF84E400EED682 /* WikipediaImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WikipediaImageCell.xib; sourceTree = "<group>"; };
+		20A75C2F1BDF84E400EED682 /* WikipediaSearchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WikipediaSearchCell.xib; sourceTree = "<group>"; };
 		20B231E91BD63E7100FDA56B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		20B231EB1BD64D9500FDA56B /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		20B231EC1BD64D9500FDA56B /* GridCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
@@ -137,9 +140,7 @@
 		20B231F61BD663F300FDA56B /* SearchResultViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultViewModel.swift; sourceTree = "<group>"; };
 		20B231F71BD663F300FDA56B /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		20B231FB1BD6642800FDA56B /* CollectionViewImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewImageCell.swift; sourceTree = "<group>"; };
-		20B231FC1BD6642800FDA56B /* WikipediaImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WikipediaImageCell.xib; sourceTree = "<group>"; };
 		20B231FD1BD6642800FDA56B /* WikipediaSearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaSearchCell.swift; sourceTree = "<group>"; };
-		20B231FE1BD6642800FDA56B /* WikipediaSearchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WikipediaSearchCell.xib; sourceTree = "<group>"; };
 		20B231FF1BD6642800FDA56B /* WikipediaSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaSearchViewController.swift; sourceTree = "<group>"; };
 		20B232071BD6644F00FDA56B /* WikipediaAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaAPI.swift; sourceTree = "<group>"; };
 		20B232081BD6644F00FDA56B /* WikipediaPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaPage.swift; sourceTree = "<group>"; };
@@ -168,6 +169,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20A75C331BDF89C800EED682 /* Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,7 +180,6 @@
 				20B2321A1BD66AD100FDA56B /* RxCocoa.framework in Frameworks */,
 				20B231F31BD6573700FDA56B /* RxSwift.framework in Frameworks */,
 				20B231EA1BD63E7100FDA56B /* MapKit.framework in Frameworks */,
-				2092BD671BD565BF009F3E10 /* Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +213,8 @@
 		209092941BD57C1C00E59A11 /* Layout */ = {
 			isa = PBXGroup;
 			children = (
+				20A75C2E1BDF84E400EED682 /* WikipediaImageCell.xib */,
+				20A75C2F1BDF84E400EED682 /* WikipediaSearchCell.xib */,
 				209092951BD57C1C00E59A11 /* LaunchScreen.xib */,
 				209092961BD57C1C00E59A11 /* Main.storyboard */,
 			);
@@ -289,9 +292,7 @@
 			isa = PBXGroup;
 			children = (
 				20B231FB1BD6642800FDA56B /* CollectionViewImageCell.swift */,
-				20B231FC1BD6642800FDA56B /* WikipediaImageCell.xib */,
 				20B231FD1BD6642800FDA56B /* WikipediaSearchCell.swift */,
-				20B231FE1BD6642800FDA56B /* WikipediaSearchCell.xib */,
 				20B231FF1BD6642800FDA56B /* WikipediaSearchViewController.swift */,
 			);
 			name = View;
@@ -394,10 +395,10 @@
 		CEFD29371BD13128000067CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				20A75C321BDF89C800EED682 /* Core.framework */,
 				20B232191BD66AD100FDA56B /* RxCocoa.framework */,
 				20B231F21BD6573700FDA56B /* RxSwift.framework */,
 				20B231E91BD63E7100FDA56B /* MapKit.framework */,
-				2092BD661BD565BF009F3E10 /* Core.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -513,6 +514,7 @@
 					};
 					CE6DAB9D1BD0FE8C00976127 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = J9VFE3KCBB;
 					};
 					CE6DABB11BD0FE8C00976127 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -570,11 +572,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20B232031BD6642800FDA56B /* WikipediaSearchCell.xib in Resources */,
 				209092A61BD57C1C00E59A11 /* LaunchScreen.xib in Resources */,
+				20A75C311BDF84E400EED682 /* WikipediaSearchCell.xib in Resources */,
 				209092A41BD57C1C00E59A11 /* Assets.xcassets in Resources */,
-				20B232011BD6642800FDA56B /* WikipediaImageCell.xib in Resources */,
 				209092A71BD57C1C00E59A11 /* Main.storyboard in Resources */,
+				20A75C301BDF84E400EED682 /* WikipediaImageCell.xib in Resources */,
 				20F764981BDE216200C98B1D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -909,12 +911,15 @@
 			baseConfigurationReference = CEFD29381BD1316D000067CD /* App-iOS-Debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/Code/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.Template1-iOS";
 				PRODUCT_NAME = "App-iOS";
-				SWIFT_OBJC_BRIDGING_HEADER = "Code/Source/App-iOS-Bridging-Header.h";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Code/Source/Objc/App-iOS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -924,12 +929,15 @@
 			baseConfigurationReference = CEFD29391BD13177000067CD /* App-iOS-Release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/Code/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.Template1-iOS";
 				PRODUCT_NAME = "App-iOS";
-				SWIFT_OBJC_BRIDGING_HEADER = "Code/Source/App-iOS-Bridging-Header.h";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Code/Source/Objc/App-iOS-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -991,6 +999,7 @@
 				20A75BE21BDECC4F00EED682 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20A75BE41BDECC4F00EED682 /* Build configuration list for PBXNativeTarget "Watch" */ = {
 			isa = XCConfigurationList;
@@ -999,6 +1008,7 @@
 				20A75BE61BDECC4F00EED682 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE6DAB991BD0FE8C00976127 /* Build configuration list for PBXProject "App-iOS" */ = {
 			isa = XCConfigurationList;
