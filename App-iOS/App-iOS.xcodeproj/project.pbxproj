@@ -78,14 +78,14 @@
 			containerPortal = CE6DAB961BD0FE8C00976127 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CE6DAB9D1BD0FE8C00976127;
-			remoteInfo = "App-iOS";
+			remoteInfo = "Template1";
 		};
 		CE6DABBE1BD0FE8C00976127 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CE6DAB961BD0FE8C00976127 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CE6DAB9D1BD0FE8C00976127;
-			remoteInfo = "App-iOS";
+			remoteInfo = "Template1";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -164,11 +164,11 @@
 		20B232171BD6659200FDA56B /* HtmlParsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HtmlParsing.swift; sourceTree = "<group>"; };
 		20B232191BD66AD100FDA56B /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = ../Carthage/Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		20F764971BDE216200C98B1D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE6DAB9E1BD0FE8C00976127 /* App-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE6DABB21BD0FE8C00976127 /* App-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6DAB9E1BD0FE8C00976127 /* Template1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6DABB21BD0FE8C00976127 /* App-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "App-iOS.xctest"; path = Template1.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6DABB61BD0FE8C00976127 /* App_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_iOSTests.swift; sourceTree = "<group>"; };
 		CE6DABB81BD0FE8C00976127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE6DABBD1BD0FE8C00976127 /* App-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6DABBD1BD0FE8C00976127 /* App-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "App-iOS.xctest"; path = Template1.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6DABC11BD0FE8C00976127 /* App_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_iOSUITests.swift; sourceTree = "<group>"; };
 		CE6DABC31BD0FE8C00976127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEFD28E21BD12C6E000067CD /* App-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "App-iOS.xcconfig"; sourceTree = "<group>"; };
@@ -361,7 +361,7 @@
 		CE6DAB9F1BD0FE8C00976127 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE6DAB9E1BD0FE8C00976127 /* App-iOS.app */,
+				CE6DAB9E1BD0FE8C00976127 /* Template1.app */,
 				CE6DABB21BD0FE8C00976127 /* App-iOS.xctest */,
 				CE6DABBD1BD0FE8C00976127 /* App-iOS.xctest */,
 				20A75BC11BDECC4E00EED682 /* Watch.app */,
@@ -479,9 +479,9 @@
 			dependencies = (
 				20A75BDE1BDECC4F00EED682 /* PBXTargetDependency */,
 			);
-			name = "App-iOS";
-			productName = "App-iOS";
-			productReference = CE6DAB9E1BD0FE8C00976127 /* App-iOS.app */;
+			name = "Template1";
+			productName = "Template1";
+			productReference = CE6DAB9E1BD0FE8C00976127 /* Template1.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CE6DABB11BD0FE8C00976127 /* Tests */ = {
@@ -784,7 +784,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.Template1-iOS.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.ios.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -826,7 +826,7 @@
 				INFOPLIST_FILE = "Watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.Template1-iOS.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.ios.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -877,7 +877,7 @@
 				INFOPLIST_FILE = Watch/Info.plist;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.Template1-iOS.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.ios.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -921,7 +921,7 @@
 				IBSC_MODULE = Watch_Extension;
 				INFOPLIST_FILE = Watch/Info.plist;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.Template1-iOS.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.ios.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -959,8 +959,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Code/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.Template1-iOS";
-				PRODUCT_NAME = "Template1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.ios;
+				PRODUCT_NAME = Template1;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Code/Source/Objc/App-iOS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -981,8 +981,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Code/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.Template1-iOS";
-				PRODUCT_NAME = "Template1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.ios;
+				PRODUCT_NAME = Template1;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Code/Source/Objc/App-iOS-Bridging-Header.h";
 			};
@@ -995,7 +995,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tests;
-				PRODUCT_NAME = "Template1";
+				PRODUCT_NAME = Template1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App-iOS.app/App-iOS";
 			};
 			name = Debug;
@@ -1007,7 +1007,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tests;
-				PRODUCT_NAME = "Template1";
+				PRODUCT_NAME = Template1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App-iOS.app/App-iOS";
 			};
 			name = Release;
@@ -1018,8 +1018,8 @@
 				INFOPLIST_FILE = UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.UITests;
-				PRODUCT_NAME = "Template1";
-				TEST_TARGET_NAME = "App-iOS";
+				PRODUCT_NAME = Template1;
+				TEST_TARGET_NAME = "Template1";
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
@@ -1030,8 +1030,8 @@
 				INFOPLIST_FILE = UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.UITests;
-				PRODUCT_NAME = "Template1";
-				TEST_TARGET_NAME = "App-iOS";
+				PRODUCT_NAME = Template1;
+				TEST_TARGET_NAME = "Template1";
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;

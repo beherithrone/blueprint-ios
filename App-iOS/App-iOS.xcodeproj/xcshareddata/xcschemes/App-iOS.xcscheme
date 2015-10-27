@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CE6DAB9D1BD0FE8C00976127"
                BuildableName = "Template1.app"
-               BlueprintName = "App-iOS"
+               BlueprintName = "Template1"
                ReferencedContainer = "container:App-iOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -54,7 +54,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE6DAB9D1BD0FE8C00976127"
             BuildableName = "Template1.app"
-            BlueprintName = "App-iOS"
+            BlueprintName = "Template1"
             ReferencedContainer = "container:App-iOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -77,7 +77,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE6DAB9D1BD0FE8C00976127"
             BuildableName = "Template1.app"
-            BlueprintName = "App-iOS"
+            BlueprintName = "Template1"
             ReferencedContainer = "container:App-iOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -96,7 +96,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE6DAB9D1BD0FE8C00976127"
             BuildableName = "Template1.app"
-            BlueprintName = "App-iOS"
+            BlueprintName = "Template1"
             ReferencedContainer = "container:App-iOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
