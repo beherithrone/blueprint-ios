@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20A75AA31BDEBEFB00EED682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A75AA21BDEBEFB00EED682 /* AppDelegate.swift */; };
-		20A75AA51BDEBEFB00EED682 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A75AA41BDEBEFB00EED682 /* ViewController.swift */; };
-		20A75AA81BDEBEFB00EED682 /* App_TV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20A75AA61BDEBEFB00EED682 /* App_TV.xcdatamodeld */; };
-		20A75AAB1BDEBEFB00EED682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A75AA91BDEBEFB00EED682 /* Main.storyboard */; };
-		20A75AAD1BDEBEFB00EED682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A75AAC1BDEBEFB00EED682 /* Assets.xcassets */; };
+		203A8D711BE10FC700334D3F /* App_TV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 203A8D671BE10FC700334D3F /* App_TV.xcdatamodeld */; };
+		203A8D721BE10FC700334D3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 203A8D691BE10FC700334D3F /* Assets.xcassets */; };
+		203A8D731BE10FC700334D3F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 203A8D6A1BE10FC700334D3F /* Info.plist */; };
+		203A8D741BE10FC700334D3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203A8D6D1BE10FC700334D3F /* Main.storyboard */; };
+		203A8D751BE10FC700334D3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203A8D6F1BE10FC700334D3F /* AppDelegate.swift */; };
+		203A8D761BE10FC700334D3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203A8D701BE10FC700334D3F /* ViewController.swift */; };
 		20A75AB81BDEBEFB00EED682 /* App_TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A75AB71BDEBEFB00EED682 /* App_TVTests.swift */; };
 		20A75AC31BDEBEFB00EED682 /* App_TVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A75AC21BDEBEFB00EED682 /* App_TVUITests.swift */; };
 /* End PBXBuildFile section */
@@ -34,13 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		203A8D681BE10FC700334D3F /* App_TV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = App_TV.xcdatamodel; sourceTree = "<group>"; };
+		203A8D691BE10FC700334D3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		203A8D6A1BE10FC700334D3F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		203A8D6D1BE10FC700334D3F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		203A8D6F1BE10FC700334D3F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		203A8D701BE10FC700334D3F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20A75A9F1BDEBEFB00EED682 /* Template1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		20A75AA21BDEBEFB00EED682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20A75AA41BDEBEFB00EED682 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		20A75AA71BDEBEFB00EED682 /* App_TV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = App_TV.xcdatamodel; sourceTree = "<group>"; };
-		20A75AAA1BDEBEFB00EED682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		20A75AAC1BDEBEFB00EED682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		20A75AAE1BDEBEFB00EED682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20A75AB31BDEBEFB00EED682 /* App-TVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App-TVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A75AB71BDEBEFB00EED682 /* App_TVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_TVTests.swift; sourceTree = "<group>"; };
 		20A75AB91BDEBEFB00EED682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,6 +75,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		203A8D6B1BE10FC700334D3F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				203A8D6C1BE10FC700334D3F /* Layout */,
+				203A8D6E1BE10FC700334D3F /* Swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		203A8D6C1BE10FC700334D3F /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				203A8D6D1BE10FC700334D3F /* Main.storyboard */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		203A8D6E1BE10FC700334D3F /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				203A8D6F1BE10FC700334D3F /* AppDelegate.swift */,
+				203A8D701BE10FC700334D3F /* ViewController.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
 		20A75A961BDEBEFB00EED682 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +124,10 @@
 		20A75AA11BDEBEFB00EED682 /* Code */ = {
 			isa = PBXGroup;
 			children = (
-				20A75AA21BDEBEFB00EED682 /* AppDelegate.swift */,
-				20A75AA41BDEBEFB00EED682 /* ViewController.swift */,
-				20A75AA91BDEBEFB00EED682 /* Main.storyboard */,
-				20A75AAC1BDEBEFB00EED682 /* Assets.xcassets */,
-				20A75AAE1BDEBEFB00EED682 /* Info.plist */,
-				20A75AA61BDEBEFB00EED682 /* App_TV.xcdatamodeld */,
+				203A8D671BE10FC700334D3F /* App_TV.xcdatamodeld */,
+				203A8D691BE10FC700334D3F /* Assets.xcassets */,
+				203A8D6A1BE10FC700334D3F /* Info.plist */,
+				203A8D6B1BE10FC700334D3F /* Source */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -229,8 +254,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20A75AAD1BDEBEFB00EED682 /* Assets.xcassets in Resources */,
-				20A75AAB1BDEBEFB00EED682 /* Main.storyboard in Resources */,
+				203A8D741BE10FC700334D3F /* Main.storyboard in Resources */,
+				203A8D731BE10FC700334D3F /* Info.plist in Resources */,
+				203A8D721BE10FC700334D3F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,9 +281,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20A75AA51BDEBEFB00EED682 /* ViewController.swift in Sources */,
-				20A75AA31BDEBEFB00EED682 /* AppDelegate.swift in Sources */,
-				20A75AA81BDEBEFB00EED682 /* App_TV.xcdatamodeld in Sources */,
+				203A8D761BE10FC700334D3F /* ViewController.swift in Sources */,
+				203A8D751BE10FC700334D3F /* AppDelegate.swift in Sources */,
+				203A8D711BE10FC700334D3F /* App_TV.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,17 +317,6 @@
 			targetProxy = 20A75ABF1BDEBEFB00EED682 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		20A75AA91BDEBEFB00EED682 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				20A75AAA1BDEBEFB00EED682 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		20A75AC51BDEBEFB00EED682 /* Debug */ = {
@@ -499,12 +514,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		20A75AA61BDEBEFB00EED682 /* App_TV.xcdatamodeld */ = {
+		203A8D671BE10FC700334D3F /* App_TV.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				20A75AA71BDEBEFB00EED682 /* App_TV.xcdatamodel */,
+				203A8D681BE10FC700334D3F /* App_TV.xcdatamodel */,
 			);
-			currentVersion = 20A75AA71BDEBEFB00EED682 /* App_TV.xcdatamodel */;
+			currentVersion = 203A8D681BE10FC700334D3F /* App_TV.xcdatamodel */;
 			path = App_TV.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
