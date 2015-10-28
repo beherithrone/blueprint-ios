@@ -48,7 +48,7 @@
 			containerPortal = CEFD290C1BD12FBB000067CD /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CEFD29141BD12FBB000067CD;
-			remoteInfo = Core;
+			remoteInfo = "Core iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -307,7 +307,7 @@
 			dependencies = (
 			);
 			name = "Core OSX";
-			productName = "Core OSX";
+			productName = "Core";
 			productReference = CEE6FBAD1BD1595000594649 /* Core.framework */;
 			productType = "com.apple.product-type.framework";
 		};
@@ -326,7 +326,7 @@
 				CEE6FBB91BD1595000594649 /* PBXTargetDependency */,
 			);
 			name = "Core OSX Tests";
-			productName = "Core OSXTests";
+			productName = "CoreTests";
 			productReference = CEE6FBB61BD1595000594649 /* Core OSX Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
