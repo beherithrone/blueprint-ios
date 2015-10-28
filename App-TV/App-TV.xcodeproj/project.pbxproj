@@ -160,6 +160,7 @@
 				20A75A9B1BDEBEFB00EED682 /* Sources */,
 				20A75A9C1BDEBEFB00EED682 /* Frameworks */,
 				20A75A9D1BDEBEFB00EED682 /* Resources */,
+				203A8D791BE1311F00334D3F /* Carthage Script */,
 			);
 			buildRules = (
 			);
@@ -276,6 +277,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		203A8D791BE1311F00334D3F /* Carthage Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Carthage Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		20A75A9B1BDEBEFB00EED682 /* Sources */ = {
@@ -435,11 +453,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Tests/Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.App-TV.App-TVTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App-TV.app/App-TV";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Template1.app/Template1";
 			};
 			name = Debug;
 		};
@@ -447,18 +465,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Tests/Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.App-TV.App-TVTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App-TV.app/App-TV";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Template1.app/Template1";
 			};
 			name = Release;
 		};
 		20A75ACE1BDEBEFB00EED682 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "UITests/Info.plist";
+				INFOPLIST_FILE = UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.App-TV.App-TVUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -470,7 +488,7 @@
 		20A75ACF1BDEBEFB00EED682 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "UITests/Info.plist";
+				INFOPLIST_FILE = UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.App-TV.App-TVUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -2,8 +2,7 @@
 //  App_TVTests.swift
 //  App-TVTests
 //
-//  Created by Pavel Jacko on 26/10/2015.
-//  Copyright © 2015 Syerit. All rights reserved.
+//  Copyright © 2015 Syerit Limited. All rights reserved.
 //
 
 import XCTest

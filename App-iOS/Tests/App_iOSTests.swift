@@ -22,7 +22,7 @@ class App_iOSTests: XCTestCase {
         super.tearDown()
     }
     
-    func fakeTests() {
+    func testFake() {
         XCTAssertEqual(1, 1)
     }
 

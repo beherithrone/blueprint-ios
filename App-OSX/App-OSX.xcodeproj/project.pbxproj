@@ -17,18 +17,10 @@
 		CEDCA9D21BD639880000C140 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDCA9D11BD639880000C140 /* RxSwift.framework */; };
 		CEDCA9D31BD639880000C140 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEDCA9D11BD639880000C140 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CEFD2BCA1BD1586A000067CD /* App_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD2BC91BD1586A000067CD /* App_OSXTests.swift */; };
-		CEFD2BD51BD1586A000067CD /* App_OSXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD2BD41BD1586A000067CD /* App_OSXUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		CEFD2BC61BD1586A000067CD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEFD2BAC1BD1586A000067CD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CEFD2BB31BD1586A000067CD;
-			remoteInfo = "App-OSX";
-		};
-		CEFD2BD11BD1586A000067CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CEFD2BAC1BD1586A000067CD /* Project object */;
 			proxyType = 1;
@@ -64,7 +56,6 @@
 		CEFD2BC51BD1586A000067CD /* Template1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Template1.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFD2BC91BD1586A000067CD /* App_OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_OSXTests.swift; sourceTree = "<group>"; };
 		CEFD2BCB1BD1586A000067CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEFD2BD01BD1586A000067CD /* Template1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Template1.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFD2BD41BD1586A000067CD /* App_OSXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_OSXUITests.swift; sourceTree = "<group>"; };
 		CEFD2BD61BD1586A000067CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,13 +71,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CEFD2BC21BD1586A000067CD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEFD2BCD1BD1586A000067CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -147,7 +131,6 @@
 			children = (
 				CEFD2BB41BD1586A000067CD /* Template1.app */,
 				CEFD2BC51BD1586A000067CD /* Template1.xctest */,
-				CEFD2BD01BD1586A000067CD /* Template1.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -220,24 +203,6 @@
 			productReference = CEFD2BC51BD1586A000067CD /* Template1.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CEFD2BCF1BD1586A000067CD /* UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CEFD2BDF1BD1586A000067CD /* Build configuration list for PBXNativeTarget "UITests" */;
-			buildPhases = (
-				CEFD2BCC1BD1586A000067CD /* Sources */,
-				CEFD2BCD1BD1586A000067CD /* Frameworks */,
-				CEFD2BCE1BD1586A000067CD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CEFD2BD21BD1586A000067CD /* PBXTargetDependency */,
-			);
-			name = UITests;
-			productName = UITests;
-			productReference = CEFD2BD01BD1586A000067CD /* Template1.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -251,10 +216,6 @@
 						CreatedOnToolsVersion = 7.0.1;
 					};
 					CEFD2BC41BD1586A000067CD = {
-						CreatedOnToolsVersion = 7.0.1;
-						TestTargetID = CEFD2BB31BD1586A000067CD;
-					};
-					CEFD2BCF1BD1586A000067CD = {
 						CreatedOnToolsVersion = 7.0.1;
 						TestTargetID = CEFD2BB31BD1586A000067CD;
 					};
@@ -275,7 +236,6 @@
 			targets = (
 				CEFD2BB31BD1586A000067CD /* Template1 */,
 				CEFD2BC41BD1586A000067CD /* Tests */,
-				CEFD2BCF1BD1586A000067CD /* UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -292,13 +252,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CEFD2BC31BD1586A000067CD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEFD2BCE1BD1586A000067CD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -344,14 +297,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEFD2BCC1BD1586A000067CD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CEFD2BD51BD1586A000067CD /* App_OSXUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -359,11 +304,6 @@
 			isa = PBXTargetDependency;
 			target = CEFD2BB31BD1586A000067CD /* Template1 */;
 			targetProxy = CEFD2BC61BD1586A000067CD /* PBXContainerItemProxy */;
-		};
-		CEFD2BD21BD1586A000067CD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CEFD2BB31BD1586A000067CD /* Template1 */;
-			targetProxy = CEFD2BD11BD1586A000067CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -502,32 +442,6 @@
 			};
 			name = Release;
 		};
-		CEFD2BE01BD1586A000067CD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.UITests;
-				PRODUCT_NAME = Template1;
-				TEST_TARGET_NAME = "App-OSX";
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		CEFD2BE11BD1586A000067CD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.UITests;
-				PRODUCT_NAME = Template1;
-				TEST_TARGET_NAME = "App-OSX";
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -554,15 +468,6 @@
 			buildConfigurations = (
 				CEFD2BDD1BD1586A000067CD /* Debug */,
 				CEFD2BDE1BD1586A000067CD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CEFD2BDF1BD1586A000067CD /* Build configuration list for PBXNativeTarget "UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CEFD2BE01BD1586A000067CD /* Debug */,
-				CEFD2BE11BD1586A000067CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
