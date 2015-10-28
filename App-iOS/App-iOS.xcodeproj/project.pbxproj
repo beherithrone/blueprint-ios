@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		203A8D781BE1131F00334D3F /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203A8D771BE1131F00334D3F /* Core.framework */; };
 		209092A31BD57C1C00E59A11 /* App_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2090928F1BD57C1C00E59A11 /* App_iOS.xcdatamodeld */; };
 		209092A41BD57C1C00E59A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209092911BD57C1C00E59A11 /* Assets.xcassets */; };
 		209092A61BD57C1C00E59A11 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 209092951BD57C1C00E59A11 /* LaunchScreen.xib */; };
@@ -115,6 +116,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		203A8D771BE1131F00334D3F /* Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Core.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/Template1-edutljhphddznlfkgkxodleorbcp/Build/Products/Debug-iphoneos/Core.framework"; sourceTree = "<group>"; };
 		209092901BD57C1C00E59A11 /* App_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = App_iOS.xcdatamodel; sourceTree = "<group>"; };
 		209092911BD57C1C00E59A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		209092951BD57C1C00E59A11 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				203A8D781BE1131F00334D3F /* Core.framework in Frameworks */,
 				20B2321A1BD66AD100FDA56B /* RxCocoa.framework in Frameworks */,
 				20A75C5A1BDF985400EED682 /* Crashlytics.framework in Frameworks */,
 				20A75C601BDF9E2D00EED682 /* TwitterCore.framework in Frameworks */,
@@ -412,6 +415,7 @@
 		CEFD29371BD13128000067CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				203A8D771BE1131F00334D3F /* Core.framework */,
 				20A75C611BDF9EF600EED682 /* MoPub.framework */,
 				20A75C621BDF9EF600EED682 /* MoPub.bundle */,
 				20A75C5B1BDF9E2D00EED682 /* TwitterKit.framework */,

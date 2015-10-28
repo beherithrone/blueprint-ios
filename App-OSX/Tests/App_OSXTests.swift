@@ -1,6 +1,6 @@
 //
 //  App_OSXTests.swift
-//  App-OSXTests
+//  App_OSXTests
 //
 //  Copyright © 2015 Syerit Limited. All rights reserved.
 //
