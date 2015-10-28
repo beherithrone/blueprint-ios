@@ -580,7 +580,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Code/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.core.Core-TV";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.core.tv";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -599,7 +599,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Code/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.core.Core-TV";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.core.tv";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -613,7 +613,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = CoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.core.Core-TVTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.core.tv.tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -625,7 +625,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = CoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.core.Core-TVTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.core.tv.tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -682,7 +682,7 @@
 				INFOPLIST_FILE = CoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Core-OSXTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.core.osx.tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -696,7 +696,7 @@
 				INFOPLIST_FILE = CoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Core-OSXTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.core.osx.tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -806,7 +806,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.Core-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.core.ios.tests";
 				PRODUCT_NAME = Core;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -826,7 +826,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.Core-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.core.ios.tests";
 				PRODUCT_NAME = Core;
 				SKIP_INSTALL = YES;
 			};
