@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>Core-TV.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>Core-iOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -17,6 +22,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>20200CA41BE0C75400DB893E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>20200CAD1BE0C75400DB893E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>CEE6FBAC1BD1595000594649</key>
 		<dict>
 			<key>primary</key>
