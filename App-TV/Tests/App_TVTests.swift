@@ -1,6 +1,6 @@
 //
 //  App_TVTests.swift
-//  App-TVTests
+//  Tests
 //
 //  Copyright © 2015 Syerit Limited. All rights reserved.
 //
