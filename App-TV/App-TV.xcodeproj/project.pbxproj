@@ -15,6 +15,7 @@
 		203A8D761BE10FC700334D3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203A8D701BE10FC700334D3F /* ViewController.swift */; };
 		20A75AB81BDEBEFB00EED682 /* App_TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A75AB71BDEBEFB00EED682 /* App_TVTests.swift */; };
 		20A75AC31BDEBEFB00EED682 /* App_TVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A75AC21BDEBEFB00EED682 /* App_TVUITests.swift */; };
+		20C902611BE2D5F20004608A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C902601BE2D5F20004608A /* RxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,12 +43,13 @@
 		203A8D6F1BE10FC700334D3F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		203A8D701BE10FC700334D3F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20A75A9F1BDEBEFB00EED682 /* Template1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		20A75AB31BDEBEFB00EED682 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20A75AB31BDEBEFB00EED682 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A75AB71BDEBEFB00EED682 /* App_TVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_TVTests.swift; sourceTree = "<group>"; };
 		20A75AB91BDEBEFB00EED682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20A75ABE1BDEBEFB00EED682 /* UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20A75ABE1BDEBEFB00EED682 /* UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A75AC21BDEBEFB00EED682 /* App_TVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_TVUITests.swift; sourceTree = "<group>"; };
 		20A75AC41BDEBEFB00EED682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C902601BE2D5F20004608A /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Carthage/Build/tvOS/RxSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C902611BE2D5F20004608A /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +107,7 @@
 		20A75A961BDEBEFB00EED682 = {
 			isa = PBXGroup;
 			children = (
+				20C902621BE2D74E0004608A /* Frameworks */,
 				20A75AA11BDEBEFB00EED682 /* Code */,
 				20A75AB61BDEBEFB00EED682 /* Tests */,
 				20A75AC11BDEBEFB00EED682 /* UITests */,
@@ -150,6 +154,14 @@
 			path = UITests;
 			sourceTree = "<group>";
 		};
+		20C902621BE2D74E0004608A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20C902601BE2D5F20004608A /* RxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -184,8 +196,8 @@
 			dependencies = (
 				20A75AB51BDEBEFB00EED682 /* PBXTargetDependency */,
 			);
-			name = "Tests";
-			productName = "Tests";
+			name = Tests;
+			productName = Tests;
 			productReference = 20A75AB31BDEBEFB00EED682 /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -202,8 +214,8 @@
 			dependencies = (
 				20A75AC01BDEBEFB00EED682 /* PBXTargetDependency */,
 			);
-			name = "UITests";
-			productName = "UITests";
+			name = UITests;
+			productName = UITests;
 			productReference = 20A75ABE1BDEBEFB00EED682 /* UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -426,6 +438,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Carthage/Build/iOS";
 				INFOPLIST_FILE = Code/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.tv;
@@ -441,6 +454,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Carthage/Build/iOS";
 				INFOPLIST_FILE = Code/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.tv;
@@ -476,6 +490,7 @@
 		20A75ACE1BDEBEFB00EED682 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Carthage/Build/tvOS";
 				INFOPLIST_FILE = UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.App-TV.UITests";
@@ -488,6 +503,7 @@
 		20A75ACF1BDEBEFB00EED682 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Carthage/Build/tvOS";
 				INFOPLIST_FILE = UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.App-TV.UITests";
