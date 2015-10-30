@@ -110,10 +110,10 @@
 		20A75A961BDEBEFB00EED682 = {
 			isa = PBXGroup;
 			children = (
-				20C902621BE2D74E0004608A /* Frameworks */,
 				20A75AA11BDEBEFB00EED682 /* Code */,
 				20A75AB61BDEBEFB00EED682 /* Tests */,
 				20A75AC11BDEBEFB00EED682 /* UITests */,
+				20C902621BE2D74E0004608A /* Frameworks */,
 				20A75AA01BDEBEFB00EED682 /* Products */,
 			);
 			sourceTree = "<group>";

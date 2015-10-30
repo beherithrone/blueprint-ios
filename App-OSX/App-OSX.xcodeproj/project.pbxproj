@@ -14,10 +14,8 @@
 		203A8D661BE10F4400334D3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203A8D611BE10F4400334D3F /* ViewController.swift */; };
 		20C902661BE36FC70004608A /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C902641BE36FC70004608A /* Fabric.framework */; };
 		20C902671BE36FC70004608A /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C902651BE36FC70004608A /* Crashlytics.framework */; };
-		CEDCA9CB1BD6349F0000C140 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE6FBC91BD15AF100594649 /* Core.framework */; };
-		CEDCA9CC1BD6349F0000C140 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEE6FBC91BD15AF100594649 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CEDCA9D21BD639880000C140 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDCA9D11BD639880000C140 /* RxSwift.framework */; };
-		CEDCA9D31BD639880000C140 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEDCA9D11BD639880000C140 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		20C9026B1BE378570004608A /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C9026A1BE378570004608A /* Core.framework */; };
+		20C9026C1BE378730004608A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDCA9D11BD639880000C140 /* RxSwift.framework */; };
 		CEFD2BCA1BD1586A000067CD /* App_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD2BC91BD1586A000067CD /* App_OSXTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,21 +29,6 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		CEDCA9CD1BD634A00000C140 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				CEDCA9D31BD639880000C140 /* RxSwift.framework in Embed Frameworks */,
-				CEDCA9CC1BD6349F0000C140 /* Core.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		203A8D5A1BE10F4400334D3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		203A8D5B1BE10F4400334D3F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,8 +37,8 @@
 		203A8D611BE10F4400334D3F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20C902641BE36FC70004608A /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		20C902651BE36FC70004608A /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		20C9026A1BE378570004608A /* Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Core.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/Template1-edutljhphddznlfkgkxodleorbcp/Build/Products/Debug-iphoneos/Core.framework"; sourceTree = "<group>"; };
 		CEDCA9D11BD639880000C140 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
-		CEE6FBC91BD15AF100594649 /* Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Core.framework; path = ../Core/Carthage/Build/Mac/Core.framework; sourceTree = "<group>"; };
 		CEFD2BB41BD1586A000067CD /* Template1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFD2BC51BD1586A000067CD /* Template1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Template1.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFD2BC91BD1586A000067CD /* App_OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_OSXTests.swift; sourceTree = "<group>"; };
@@ -69,8 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEDCA9D21BD639880000C140 /* RxSwift.framework in Frameworks */,
-				CEDCA9CB1BD6349F0000C140 /* Core.framework in Frameworks */,
+				20C9026C1BE378730004608A /* RxSwift.framework in Frameworks */,
+				20C9026B1BE378570004608A /* Core.framework in Frameworks */,
 				20C902671BE36FC70004608A /* Crashlytics.framework in Frameworks */,
 				20C902661BE36FC70004608A /* Fabric.framework in Frameworks */,
 			);
@@ -115,10 +98,10 @@
 		CEE6FBCB1BD15AF700594649 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				20C9026A1BE378570004608A /* Core.framework */,
 				20C902641BE36FC70004608A /* Fabric.framework */,
 				20C902651BE36FC70004608A /* Crashlytics.framework */,
 				CEDCA9D11BD639880000C140 /* RxSwift.framework */,
-				CEE6FBC91BD15AF100594649 /* Core.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -181,7 +164,6 @@
 				CEFD2BB01BD1586A000067CD /* Sources */,
 				CEFD2BB11BD1586A000067CD /* Frameworks */,
 				CEFD2BB21BD1586A000067CD /* Resources */,
-				CEDCA9CD1BD634A00000C140 /* Embed Frameworks */,
 				CEE6FBCF1BD15BD100594649 /* Carthage Script */,
 				20C902631BE36F6F0004608A /* Carshalytics */,
 			);
