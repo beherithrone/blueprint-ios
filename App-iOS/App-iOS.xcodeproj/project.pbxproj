@@ -347,15 +347,23 @@
 			name = Services;
 			sourceTree = "<group>";
 		};
+		20C9026D1BE380CF0004608A /* App-Watch */ = {
+			isa = PBXGroup;
+			children = (
+				20A75BD11BDECC4F00EED682 /* Watch Extension */,
+				20A75BC21BDECC4F00EED682 /* Watch */,
+			);
+			path = "App-Watch";
+			sourceTree = "<group>";
+		};
 		CE6DAB951BD0FE8C00976127 = {
 			isa = PBXGroup;
 			children = (
+				20C9026D1BE380CF0004608A /* App-Watch */,
 				CE6DABA01BD0FE8C00976127 /* Code */,
 				CE6DABB51BD0FE8C00976127 /* Tests */,
 				CE6DABC01BD0FE8C00976127 /* UITests */,
 				CEFD28E11BD12C4B000067CD /* Config */,
-				20A75BC21BDECC4F00EED682 /* Watch */,
-				20A75BD11BDECC4F00EED682 /* Watch Extension */,
 				CEFD29371BD13128000067CD /* Frameworks */,
 				CE6DAB9F1BD0FE8C00976127 /* Products */,
 			);
@@ -788,7 +796,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Watch Extension/Info.plist";
+				INFOPLIST_FILE = "App-Watch/Watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -834,7 +842,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Watch Extension/Info.plist";
+				INFOPLIST_FILE = "App-Watch/Watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.ios.watchkitapp.watchkitextension;
@@ -887,7 +895,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IBSC_MODULE = Watch_Extension;
-				INFOPLIST_FILE = Watch/Info.plist;
+				INFOPLIST_FILE = App-Watch/Watch/Info.plist;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.ios.watchkitapp;
@@ -933,7 +941,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IBSC_MODULE = Watch_Extension;
-				INFOPLIST_FILE = Watch/Info.plist;
+				INFOPLIST_FILE = App-Watch/Watch/Info.plist;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.ios.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
