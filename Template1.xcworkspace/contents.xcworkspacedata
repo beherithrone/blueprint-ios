@@ -2,14 +2,65 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:App-TV/App-TV.xcodeproj">
+      location = "group:App-iOS/App-iOS.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:App-OSX/App-OSX.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:App-iOS/App-iOS.xcodeproj">
+      location = "group:App-TV/App-TV.xcodeproj">
    </FileRef>
+   <Group
+      location = "group:App-Watch"
+      name = "App-Watch">
+      <Group
+         location = "group:Watch"
+         name = "Watch">
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:Interface.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Watch Extension"
+         name = "Watch Extension">
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <FileRef
+               location = "group:README__ignoredByTemplate__">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:ExtensionDelegate.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:InterfaceController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:NotificationController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PushNotificationPayload.apns">
+         </FileRef>
+      </Group>
+   </Group>
    <FileRef
       location = "group:Core/Core.xcodeproj">
    </FileRef>
