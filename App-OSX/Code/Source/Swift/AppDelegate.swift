@@ -6,6 +6,9 @@
 //
 
 import Cocoa
+import Fabric
+import Crashlytics
+import Core
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -14,10 +17,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         // Insert code here to initialize your application
+        Fabric.with([Crashlytics.self])
+
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {
         // Insert code here to tear down your application
+        let core = CoreClass()
+        core.coreStuff()
     }
 
 

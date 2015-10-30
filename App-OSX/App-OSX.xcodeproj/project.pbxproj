@@ -12,6 +12,8 @@
 		203A8D641BE10F4400334D3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203A8D5E1BE10F4400334D3F /* Main.storyboard */; };
 		203A8D651BE10F4400334D3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203A8D601BE10F4400334D3F /* AppDelegate.swift */; };
 		203A8D661BE10F4400334D3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203A8D611BE10F4400334D3F /* ViewController.swift */; };
+		20C902661BE36FC70004608A /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C902641BE36FC70004608A /* Fabric.framework */; };
+		20C902671BE36FC70004608A /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C902651BE36FC70004608A /* Crashlytics.framework */; };
 		CEDCA9CB1BD6349F0000C140 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE6FBC91BD15AF100594649 /* Core.framework */; };
 		CEDCA9CC1BD6349F0000C140 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEE6FBC91BD15AF100594649 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CEDCA9D21BD639880000C140 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDCA9D11BD639880000C140 /* RxSwift.framework */; };
@@ -50,6 +52,8 @@
 		203A8D5E1BE10F4400334D3F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		203A8D601BE10F4400334D3F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		203A8D611BE10F4400334D3F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20C902641BE36FC70004608A /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		20C902651BE36FC70004608A /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		CEDCA9D11BD639880000C140 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
 		CEE6FBC91BD15AF100594649 /* Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Core.framework; path = ../Core/Carthage/Build/Mac/Core.framework; sourceTree = "<group>"; };
 		CEFD2BB41BD1586A000067CD /* Template1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template1.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +71,8 @@
 			files = (
 				CEDCA9D21BD639880000C140 /* RxSwift.framework in Frameworks */,
 				CEDCA9CB1BD6349F0000C140 /* Core.framework in Frameworks */,
+				20C902671BE36FC70004608A /* Crashlytics.framework in Frameworks */,
+				20C902661BE36FC70004608A /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +115,8 @@
 		CEE6FBCB1BD15AF700594649 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				20C902641BE36FC70004608A /* Fabric.framework */,
+				20C902651BE36FC70004608A /* Crashlytics.framework */,
 				CEDCA9D11BD639880000C140 /* RxSwift.framework */,
 				CEE6FBC91BD15AF100594649 /* Core.framework */,
 			);
@@ -175,6 +183,7 @@
 				CEFD2BB21BD1586A000067CD /* Resources */,
 				CEDCA9CD1BD634A00000C140 /* Embed Frameworks */,
 				CEE6FBCF1BD15BD100594649 /* Carthage Script */,
+				20C902631BE36F6F0004608A /* Carshalytics */,
 			);
 			buildRules = (
 			);
@@ -261,6 +270,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		20C902631BE36F6F0004608A /* Carshalytics */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Carshalytics;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 2fd4e5361e810d659fa0bf5490388ee951d345a6 b015301063be99469649109666ff4a67b4a0aff0b12524cf7d711b033826625a";
+		};
 		CEE6FBCF1BD15BD100594649 /* Carthage Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -395,6 +418,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Code/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -408,6 +435,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Code/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
