@@ -272,7 +272,6 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/../Carthage/Carthage/Build/Mac/Alamofire.framework",
 				"$(SRCROOT)/../Carthage/Carthage/Build/Mac/RxSwift.framework",
 			);
 			name = "Carthage Script";

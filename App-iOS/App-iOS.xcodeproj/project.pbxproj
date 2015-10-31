@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		203A8D781BE1131F00334D3F /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203A8D771BE1131F00334D3F /* Core.framework */; };
 		209092A31BD57C1C00E59A11 /* App_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2090928F1BD57C1C00E59A11 /* App_iOS.xcdatamodeld */; };
 		209092A41BD57C1C00E59A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209092911BD57C1C00E59A11 /* Assets.xcassets */; };
 		209092A61BD57C1C00E59A11 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 209092951BD57C1C00E59A11 /* LaunchScreen.xib */; };
@@ -54,6 +53,8 @@
 		20B232161BD6655800FDA56B /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232151BD6655800FDA56B /* Example.swift */; };
 		20B232181BD6659200FDA56B /* HtmlParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232171BD6659200FDA56B /* HtmlParsing.swift */; };
 		20B2321A1BD66AD100FDA56B /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B232191BD66AD100FDA56B /* RxCocoa.framework */; };
+		20C903211BE5068B0004608A /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C903201BE5068B0004608A /* Core.framework */; };
+		20C903221BE5068B0004608A /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20C903201BE5068B0004608A /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		20F764981BDE216200C98B1D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20F764971BDE216200C98B1D /* Info.plist */; };
 		CE6DABB71BD0FE8C00976127 /* App_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DABB61BD0FE8C00976127 /* App_iOSTests.swift */; };
 		CE6DABC21BD0FE8C00976127 /* App_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DABC11BD0FE8C00976127 /* App_iOSUITests.swift */; };
@@ -113,10 +114,20 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		20C903231BE5068B0004608A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				20C903221BE5068B0004608A /* Core.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		203A8D771BE1131F00334D3F /* Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Core.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/Template1-edutljhphddznlfkgkxodleorbcp/Build/Products/Debug-iphoneos/Core.framework"; sourceTree = "<group>"; };
 		209092901BD57C1C00E59A11 /* App_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = App_iOS.xcdatamodel; sourceTree = "<group>"; };
 		209092911BD57C1C00E59A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		209092951BD57C1C00E59A11 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -165,6 +176,7 @@
 		20B232151BD6655800FDA56B /* Example.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
 		20B232171BD6659200FDA56B /* HtmlParsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HtmlParsing.swift; sourceTree = "<group>"; };
 		20B232191BD66AD100FDA56B /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = ../Carthage/Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		20C903201BE5068B0004608A /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Core.framework; path = "/Users/paveljacko/Library/Developer/Xcode/DerivedData/Template1-edutljhphddznlfkgkxodleorbcp/Build/Products/Debug-iphoneos/Core.framework"; sourceTree = "<absolute>"; };
 		20F764971BDE216200C98B1D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE6DAB9E1BD0FE8C00976127 /* Template1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6DABB21BD0FE8C00976127 /* Template1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Template1.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -191,7 +203,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				203A8D781BE1131F00334D3F /* Core.framework in Frameworks */,
 				20B2321A1BD66AD100FDA56B /* RxCocoa.framework in Frameworks */,
 				20A75C5A1BDF985400EED682 /* Crashlytics.framework in Frameworks */,
 				20A75C601BDF9E2D00EED682 /* TwitterCore.framework in Frameworks */,
@@ -199,6 +210,7 @@
 				20B231EA1BD63E7100FDA56B /* MapKit.framework in Frameworks */,
 				20A75C591BDF985400EED682 /* Fabric.framework in Frameworks */,
 				20A75C631BDF9EF600EED682 /* MoPub.framework in Frameworks */,
+				20C903211BE5068B0004608A /* Core.framework in Frameworks */,
 				20A75C5E1BDF9E2D00EED682 /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,6 +371,7 @@
 		CE6DAB951BD0FE8C00976127 = {
 			isa = PBXGroup;
 			children = (
+				20C903201BE5068B0004608A /* Core.framework */,
 				20C9026D1BE380CF0004608A /* App-Watch */,
 				CE6DABA01BD0FE8C00976127 /* Code */,
 				CE6DABB51BD0FE8C00976127 /* Tests */,
@@ -423,7 +436,6 @@
 		CEFD29371BD13128000067CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				203A8D771BE1131F00334D3F /* Core.framework */,
 				20A75C611BDF9EF600EED682 /* MoPub.framework */,
 				20A75C621BDF9EF600EED682 /* MoPub.bundle */,
 				20A75C5B1BDF9E2D00EED682 /* TwitterKit.framework */,
@@ -485,6 +497,7 @@
 				20B231F11BD656E000FDA56B /* ShellScript */,
 				20A75BE71BDECC4F00EED682 /* Embed Watch Content */,
 				20A75C561BDF981300EED682 /* ShellScript */,
+				20C903231BE5068B0004608A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -895,7 +908,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IBSC_MODULE = Watch_Extension;
-				INFOPLIST_FILE = App-Watch/Watch/Info.plist;
+				INFOPLIST_FILE = "App-Watch/Watch/Info.plist";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.ios.watchkitapp;
@@ -941,7 +954,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IBSC_MODULE = Watch_Extension;
-				INFOPLIST_FILE = App-Watch/Watch/Info.plist;
+				INFOPLIST_FILE = "App-Watch/Watch/Info.plist";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.ios.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -957,6 +970,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CEFD28E21BD12C6E000067CD /* App-iOS.xcconfig */;
 			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 			};
 			name = Debug;
 		};
@@ -964,6 +978,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CEFD28E21BD12C6E000067CD /* App-iOS.xcconfig */;
 			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 			};
 			name = Release;
 		};
@@ -974,14 +989,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Code/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @executable_path/../Frameworks @loader_path/../Frameworks @loader_path/../../Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.ios;
 				PRODUCT_NAME = Template1;
 				PROVISIONING_PROFILE = "";
@@ -997,14 +1012,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Code/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @executable_path/../Frameworks @loader_path/../Frameworks @loader_path/../../Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.ios;
 				PRODUCT_NAME = Template1;
 				PROVISIONING_PROFILE = "";
