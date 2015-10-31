@@ -32,8 +32,6 @@
 		20A75C5E1BDF9E2D00EED682 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A75C5B1BDF9E2D00EED682 /* TwitterKit.framework */; };
 		20A75C5F1BDF9E2D00EED682 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20A75C5C1BDF9E2D00EED682 /* TwitterKitResources.bundle */; };
 		20A75C601BDF9E2D00EED682 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A75C5D1BDF9E2D00EED682 /* TwitterCore.framework */; };
-		20A75C631BDF9EF600EED682 /* MoPub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A75C611BDF9EF600EED682 /* MoPub.framework */; };
-		20A75C641BDF9EF600EED682 /* MoPub.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20A75C621BDF9EF600EED682 /* MoPub.bundle */; };
 		20B231EA1BD63E7100FDA56B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B231E91BD63E7100FDA56B /* MapKit.framework */; };
 		20B231ED1BD64D9500FDA56B /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231EB1BD64D9500FDA56B /* CollectionViewController.swift */; };
 		20B231EE1BD64D9500FDA56B /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231EC1BD64D9500FDA56B /* GridCell.swift */; };
@@ -53,8 +51,8 @@
 		20B232161BD6655800FDA56B /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232151BD6655800FDA56B /* Example.swift */; };
 		20B232181BD6659200FDA56B /* HtmlParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232171BD6659200FDA56B /* HtmlParsing.swift */; };
 		20B2321A1BD66AD100FDA56B /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B232191BD66AD100FDA56B /* RxCocoa.framework */; };
-		20C903211BE5068B0004608A /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C903201BE5068B0004608A /* Core.framework */; };
-		20C903221BE5068B0004608A /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20C903201BE5068B0004608A /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		20C9033E1BE554C00004608A /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C9033D1BE554C00004608A /* Core.framework */; };
+		20C9033F1BE554C00004608A /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20C9033D1BE554C00004608A /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		20F764981BDE216200C98B1D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20F764971BDE216200C98B1D /* Info.plist */; };
 		CE6DABB71BD0FE8C00976127 /* App_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DABB61BD0FE8C00976127 /* App_iOSTests.swift */; };
 		CE6DABC21BD0FE8C00976127 /* App_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DABC11BD0FE8C00976127 /* App_iOSUITests.swift */; };
@@ -114,13 +112,13 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20C903231BE5068B0004608A /* Embed Frameworks */ = {
+		20C903401BE554C10004608A /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				20C903221BE5068B0004608A /* Core.framework in Embed Frameworks */,
+				20C9033F1BE554C00004608A /* Core.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,8 +153,6 @@
 		20A75C5B1BDF9E2D00EED682 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
 		20A75C5C1BDF9E2D00EED682 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
 		20A75C5D1BDF9E2D00EED682 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
-		20A75C611BDF9EF600EED682 /* MoPub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MoPub.framework; sourceTree = "<group>"; };
-		20A75C621BDF9EF600EED682 /* MoPub.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MoPub.bundle; path = MoPub.framework/Versions/A/Resources/MoPub.bundle; sourceTree = "<group>"; };
 		20B231E91BD63E7100FDA56B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		20B231EB1BD64D9500FDA56B /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		20B231EC1BD64D9500FDA56B /* GridCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
@@ -176,7 +172,7 @@
 		20B232151BD6655800FDA56B /* Example.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
 		20B232171BD6659200FDA56B /* HtmlParsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HtmlParsing.swift; sourceTree = "<group>"; };
 		20B232191BD66AD100FDA56B /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = ../Carthage/Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
-		20C903201BE5068B0004608A /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Core.framework; path = "/Users/paveljacko/Library/Developer/Xcode/DerivedData/Template1-edutljhphddznlfkgkxodleorbcp/Build/Products/Debug-iphoneos/Core.framework"; sourceTree = "<absolute>"; };
+		20C9033D1BE554C00004608A /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Core.framework; path = "/Users/paveljacko/Library/Developer/Xcode/DerivedData/Template1-edutljhphddznlfkgkxodleorbcp/Build/Products/Debug-iphoneos/Core.framework"; sourceTree = "<absolute>"; };
 		20F764971BDE216200C98B1D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE6DAB9E1BD0FE8C00976127 /* Template1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6DABB21BD0FE8C00976127 /* Template1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Template1.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -206,11 +202,10 @@
 				20B2321A1BD66AD100FDA56B /* RxCocoa.framework in Frameworks */,
 				20A75C5A1BDF985400EED682 /* Crashlytics.framework in Frameworks */,
 				20A75C601BDF9E2D00EED682 /* TwitterCore.framework in Frameworks */,
+				20C9033E1BE554C00004608A /* Core.framework in Frameworks */,
 				20B231F31BD6573700FDA56B /* RxSwift.framework in Frameworks */,
 				20B231EA1BD63E7100FDA56B /* MapKit.framework in Frameworks */,
 				20A75C591BDF985400EED682 /* Fabric.framework in Frameworks */,
-				20A75C631BDF9EF600EED682 /* MoPub.framework in Frameworks */,
-				20C903211BE5068B0004608A /* Core.framework in Frameworks */,
 				20A75C5E1BDF9E2D00EED682 /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,9 +430,7 @@
 		CEFD29371BD13128000067CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				20C903201BE5068B0004608A /* Core.framework */,
-				20A75C611BDF9EF600EED682 /* MoPub.framework */,
-				20A75C621BDF9EF600EED682 /* MoPub.bundle */,
+				20C9033D1BE554C00004608A /* Core.framework */,
 				20A75C5B1BDF9E2D00EED682 /* TwitterKit.framework */,
 				20A75C5C1BDF9E2D00EED682 /* TwitterKitResources.bundle */,
 				20A75C5D1BDF9E2D00EED682 /* TwitterCore.framework */,
@@ -497,7 +490,8 @@
 				20B231F11BD656E000FDA56B /* ShellScript */,
 				20A75BE71BDECC4F00EED682 /* Embed Watch Content */,
 				20A75C561BDF981300EED682 /* ShellScript */,
-				20C903231BE5068B0004608A /* Embed Frameworks */,
+				20C9033C1BE53F380004608A /* ShellScript */,
+				20C903401BE554C10004608A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -630,7 +624,6 @@
 				209092A71BD57C1C00E59A11 /* Main.storyboard in Resources */,
 				20A75C301BDF84E400EED682 /* WikipediaImageCell.xib in Resources */,
 				20F764981BDE216200C98B1D /* Info.plist in Resources */,
-				20A75C641BDF9EF600EED682 /* MoPub.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,6 +671,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		20C9033C1BE53F380004608A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"${CONFIGURATION_BUILD_DIR}/Core.Framework\"\nmkdir -p Satan\nif [[ -d \"Frameworks\" ]]; then\nrm -fr Frameworks\nfi";
 		};
 /* End PBXShellScriptBuildPhase section */
 

@@ -9,7 +9,7 @@ import UIKit
 import Fabric
 import Crashlytics
 import TwitterKit
-import MoPub
+//import MoPub
 import Core
 
 @UIApplicationMain
@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        Fabric.with([Crashlytics.self, Twitter.self, MoPub.self])
+        Fabric.with([Crashlytics.self, Twitter.self/*, MoPub.self*/])
         
         let core = CoreClass()
         core.coreStuff()
