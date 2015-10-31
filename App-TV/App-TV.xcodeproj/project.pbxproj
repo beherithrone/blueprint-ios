@@ -9,15 +9,14 @@
 /* Begin PBXBuildFile section */
 		203A8D711BE10FC700334D3F /* App_TV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 203A8D671BE10FC700334D3F /* App_TV.xcdatamodeld */; };
 		203A8D721BE10FC700334D3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 203A8D691BE10FC700334D3F /* Assets.xcassets */; };
-		203A8D731BE10FC700334D3F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 203A8D6A1BE10FC700334D3F /* Info.plist */; };
 		203A8D741BE10FC700334D3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203A8D6D1BE10FC700334D3F /* Main.storyboard */; };
 		203A8D751BE10FC700334D3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203A8D6F1BE10FC700334D3F /* AppDelegate.swift */; };
 		203A8D761BE10FC700334D3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203A8D701BE10FC700334D3F /* ViewController.swift */; };
 		20A75AB81BDEBEFB00EED682 /* App_TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A75AB71BDEBEFB00EED682 /* App_TVTests.swift */; };
 		20A75AC31BDEBEFB00EED682 /* App_TVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A75AC21BDEBEFB00EED682 /* App_TVUITests.swift */; };
 		20C902611BE2D5F20004608A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C902601BE2D5F20004608A /* RxSwift.framework */; };
-		20C903281BE5099E0004608A /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C903271BE5099E0004608A /* Core.framework */; };
-		20C903291BE5099E0004608A /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20C903271BE5099E0004608A /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		20C903421BE568E40004608A /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C903411BE568E40004608A /* Core.framework */; };
+		20C903431BE568E40004608A /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20C903411BE568E40004608A /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,13 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		20C9032A1BE5099E0004608A /* Embed Frameworks */ = {
+		20C903441BE568E50004608A /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				20C903291BE5099E0004608A /* Core.framework in Embed Frameworks */,
+				20C903431BE568E40004608A /* Core.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,7 +65,7 @@
 		20A75AC21BDEBEFB00EED682 /* App_TVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_TVUITests.swift; sourceTree = "<group>"; };
 		20A75AC41BDEBEFB00EED682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20C902601BE2D5F20004608A /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Carthage/Build/tvOS/RxSwift.framework; sourceTree = "<group>"; };
-		20C903271BE5099E0004608A /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Core.framework; path = "/Users/paveljacko/Library/Developer/Xcode/DerivedData/Template1-edutljhphddznlfkgkxodleorbcp/Build/Products/Debug-iphoneos/Core.framework"; sourceTree = "<absolute>"; };
+		20C903411BE568E40004608A /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Core.framework; path = "/Users/paveljacko/Library/Developer/Xcode/DerivedData/Template1-edutljhphddznlfkgkxodleorbcp/Build/Products/Debug-iphoneos/Core.framework"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +74,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20C902611BE2D5F20004608A /* RxSwift.framework in Frameworks */,
-				20C903281BE5099E0004608A /* Core.framework in Frameworks */,
+				20C903421BE568E40004608A /* Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +174,7 @@
 		20C902621BE2D74E0004608A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				20C903271BE5099E0004608A /* Core.framework */,
+				20C903411BE568E40004608A /* Core.framework */,
 				20C902601BE2D5F20004608A /* RxSwift.framework */,
 			);
 			name = Frameworks;
@@ -192,7 +191,7 @@
 				20A75A9C1BDEBEFB00EED682 /* Frameworks */,
 				20A75A9D1BDEBEFB00EED682 /* Resources */,
 				203A8D791BE1311F00334D3F /* Carthage Script */,
-				20C9032A1BE5099E0004608A /* Embed Frameworks */,
+				20C903441BE568E50004608A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -289,7 +288,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				203A8D741BE10FC700334D3F /* Main.storyboard in Resources */,
-				203A8D731BE10FC700334D3F /* Info.plist in Resources */,
 				203A8D721BE10FC700334D3F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,8 +459,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Carthage/Build/iOS";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Carthage/Build/tvOS";
 				INFOPLIST_FILE = Code/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.tv;
@@ -478,8 +475,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Carthage/Build/iOS";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Carthage/Build/tvOS";
 				INFOPLIST_FILE = Code/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.tv;

@@ -24,7 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let core = CoreClass()
         core.coreStuff()
-
+        core.coreStuffWithRxSwift()
+        core.coreStuffWithThirdPartyLibrary()
         return true
     }
 
