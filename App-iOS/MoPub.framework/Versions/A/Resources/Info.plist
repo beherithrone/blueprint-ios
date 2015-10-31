@@ -19,10 +19,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleSupportedPlatforms</key>
-	<array>
-		<string>iPhoneOS</string>
-		<string>iPhoneSimulator</string>
-	</array>
+	
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 </dict>
