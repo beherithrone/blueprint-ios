@@ -16,7 +16,8 @@
 		20A75AB81BDEBEFB00EED682 /* App_TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A75AB71BDEBEFB00EED682 /* App_TVTests.swift */; };
 		20A75AC31BDEBEFB00EED682 /* App_TVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A75AC21BDEBEFB00EED682 /* App_TVUITests.swift */; };
 		20C902611BE2D5F20004608A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C902601BE2D5F20004608A /* RxSwift.framework */; };
-		20C902691BE376D30004608A /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C902681BE376D30004608A /* Core.framework */; };
+		20C903281BE5099E0004608A /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C903271BE5099E0004608A /* Core.framework */; };
+		20C903291BE5099E0004608A /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20C903271BE5099E0004608A /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		20C9032A1BE5099E0004608A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				20C903291BE5099E0004608A /* Core.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		203A8D681BE10FC700334D3F /* App_TV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = App_TV.xcdatamodel; sourceTree = "<group>"; };
 		203A8D691BE10FC700334D3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,7 +66,7 @@
 		20A75AC21BDEBEFB00EED682 /* App_TVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_TVUITests.swift; sourceTree = "<group>"; };
 		20A75AC41BDEBEFB00EED682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20C902601BE2D5F20004608A /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Carthage/Build/tvOS/RxSwift.framework; sourceTree = "<group>"; };
-		20C902681BE376D30004608A /* Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Core.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/Template1-edutljhphddznlfkgkxodleorbcp/Build/Products/Debug-iphoneos/Core.framework"; sourceTree = "<group>"; };
+		20C903271BE5099E0004608A /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Core.framework; path = "/Users/paveljacko/Library/Developer/Xcode/DerivedData/Template1-edutljhphddznlfkgkxodleorbcp/Build/Products/Debug-iphoneos/Core.framework"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20C902691BE376D30004608A /* Core.framework in Frameworks */,
 				20C902611BE2D5F20004608A /* RxSwift.framework in Frameworks */,
+				20C903281BE5099E0004608A /* Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,7 +175,7 @@
 		20C902621BE2D74E0004608A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				20C902681BE376D30004608A /* Core.framework */,
+				20C903271BE5099E0004608A /* Core.framework */,
 				20C902601BE2D5F20004608A /* RxSwift.framework */,
 			);
 			name = Frameworks;
@@ -177,6 +192,7 @@
 				20A75A9C1BDEBEFB00EED682 /* Frameworks */,
 				20A75A9D1BDEBEFB00EED682 /* Resources */,
 				203A8D791BE1311F00334D3F /* Carthage Script */,
+				20C9032A1BE5099E0004608A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

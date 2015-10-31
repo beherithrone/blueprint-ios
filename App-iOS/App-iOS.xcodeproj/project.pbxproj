@@ -371,7 +371,6 @@
 		CE6DAB951BD0FE8C00976127 = {
 			isa = PBXGroup;
 			children = (
-				20C903201BE5068B0004608A /* Core.framework */,
 				20C9026D1BE380CF0004608A /* App-Watch */,
 				CE6DABA01BD0FE8C00976127 /* Code */,
 				CE6DABB51BD0FE8C00976127 /* Tests */,
@@ -436,6 +435,7 @@
 		CEFD29371BD13128000067CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				20C903201BE5068B0004608A /* Core.framework */,
 				20A75C611BDF9EF600EED682 /* MoPub.framework */,
 				20A75C621BDF9EF600EED682 /* MoPub.bundle */,
 				20A75C5B1BDF9E2D00EED682 /* TwitterKit.framework */,
@@ -971,6 +971,7 @@
 			baseConfigurationReference = CEFD28E21BD12C6E000067CD /* App-iOS.xcconfig */;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = YES;
 			};
 			name = Debug;
 		};
@@ -979,6 +980,7 @@
 			baseConfigurationReference = CEFD28E21BD12C6E000067CD /* App-iOS.xcconfig */;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = YES;
 			};
 			name = Release;
 		};
@@ -989,7 +991,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1012,7 +1014,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
