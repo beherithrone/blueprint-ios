@@ -17,6 +17,7 @@
 		20A75C531BDF8EFB00EED682 /* CoreClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A75C4E1BDF8EFB00EED682 /* CoreClass.swift */; };
 		20A75C541BDF8EFB00EED682 /* CoreClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A75C4E1BDF8EFB00EED682 /* CoreClass.swift */; };
 		20C902721BE4B6D60004608A /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A75C4B1BDF8EFB00EED682 /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20C902731BE4B9190004608A /* CoreClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A75C4E1BDF8EFB00EED682 /* CoreClass.swift */; };
 		CE9F09421BD52A4800068ECB /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9F09411BD52A4800068ECB /* RxSwift.framework */; };
 		CE9F09441BD52ADA00068ECB /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9F09431BD52ADA00068ECB /* RxSwift.framework */; };
 		CE9F09471BD530DF00068ECB /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE9F09431BD52ADA00068ECB /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -509,6 +510,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C902731BE4B9190004608A /* CoreClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
