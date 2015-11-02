@@ -8,6 +8,7 @@ before_install:
     - ./setup.sh
 
 script:
+- carthage build
 - xctool build-tests -destination 'platform=iOS Simulator,name=iPhone 6' -workspace Template1.xcworkspace -scheme Core-iOS
 - xctool build-tests -destination 'platform=iOS Simulator,name=iPhone 6' -workspace Template1.xcworkspace -scheme App-iOS
 - xctool run-tests -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6' -workspace Template1.xcworkspace -scheme App-iOS
