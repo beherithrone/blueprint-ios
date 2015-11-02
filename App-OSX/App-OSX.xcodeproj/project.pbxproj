@@ -72,6 +72,7 @@
 		203A8D5C1BE10F4400334D3F /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				20DB39D61BE7CDC6003A2B6B /* Objc */,
 				203A8D5D1BE10F4400334D3F /* Layout */,
 				203A8D5F1BE10F4400334D3F /* Swift */,
 			);
@@ -93,6 +94,13 @@
 				203A8D611BE10F4400334D3F /* ViewController.swift */,
 			);
 			path = Swift;
+			sourceTree = "<group>";
+		};
+		20DB39D61BE7CDC6003A2B6B /* Objc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Objc;
 			sourceTree = "<group>";
 		};
 		CEE6FBCB1BD15AF700594649 /* Frameworks */ = {
@@ -201,6 +209,7 @@
 		CEFD2BAC1BD1586A000067CD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Syerit Limited";
 				TargetAttributes = {
@@ -403,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Template1.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -414,6 +424,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.osx;
 				PRODUCT_NAME = Template1;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -421,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Template1.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
