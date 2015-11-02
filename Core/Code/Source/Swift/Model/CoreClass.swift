@@ -7,7 +7,6 @@
 
 import Foundation
 
-import Alamofire
 import RxSwift
 
 public class CoreClass {
@@ -21,7 +20,7 @@ public class CoreClass {
     }
 
     public func coreStuffWithThirdPartyLibrary() {
-        print("Core stuff with third party library (Alamofire): \(Manager.defaultHTTPHeaders)")
+        //print("Core stuff with third party library (Alamofire): \(Manager.defaultHTTPHeaders)")
     }
 
     public func coreStuffWithRxSwift() {

@@ -9,7 +9,8 @@ import UIKit
 import Fabric
 import Crashlytics
 import TwitterKit
-import MoPub
+//import MoPub
+import Core
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,8 +20,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        Fabric.with([Crashlytics.self, Twitter.self, MoPub.self])
-
+        Fabric.with([Crashlytics.self, Twitter.self/*, MoPub.self*/])
+        
+        let core = CoreClass()
+        core.coreStuff()
+        core.coreStuffWithRxSwift()
+        core.coreStuffWithThirdPartyLibrary()
+        
+        /*let sequence = sequenceOf(1, 2)
+        _ = sequence.subscribe({ event in
+            print("iOS app stuff with RxSwift: \(event)")
+        })*/
         return true
     }
 

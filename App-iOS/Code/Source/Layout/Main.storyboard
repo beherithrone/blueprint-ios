@@ -88,7 +88,7 @@
         <!--Search Test-->
         <scene sceneID="wXD-ht-XKE">
             <objects>
-                <viewController id="XK3-tb-yum" customClass="WikipediaSearchViewController" customModule="Template1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XK3-tb-yum" customClass="SearchViewController" customModule="Template1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6Wh-uJ-Ttf"/>
                         <viewControllerLayoutGuide type="bottom" id="H7B-ER-YQJ"/>

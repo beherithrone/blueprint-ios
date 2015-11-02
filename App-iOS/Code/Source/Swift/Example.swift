@@ -6,15 +6,9 @@
 //
 
 import Foundation
+import UIKit
 
-#if os(iOS)
-    import UIKit
-    typealias Image = UIImage
-#elseif os(OSX)
-    import Cocoa
-    import AppKit
-    typealias Image = NSImage
-#endif
+
 
 let MB = 1024 * 1024
 
@@ -35,11 +29,5 @@ extension String {
 }
 
 func showAlert(message: String) {
-    #if os(iOS)
-        UIAlertView(title: "RxExample", message: message, delegate: nil, cancelButtonTitle: "OK").show()
-    #elseif os(OSX)
-        let alert = NSAlert()
-        alert.messageText = message
-        alert.runModal()
-    #endif
+    UIAlertView(title: "RxExample", message: message, delegate: nil, cancelButtonTitle: "OK").show()
 }

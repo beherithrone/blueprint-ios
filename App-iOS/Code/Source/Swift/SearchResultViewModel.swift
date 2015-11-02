@@ -12,15 +12,15 @@ import RxCocoa
 #endif
 
 class SearchResultViewModel {
-    let searchResult: WikipediaSearchResult
+    let searchResult: SearchResult
 
     var title: Observable<String>
     var imageURLs: Observable<[NSURL]>
 
-    let API = DefaultWikipediaAPI.sharedAPI
+    let API = DefaultAPI.sharedAPI
     let $: Dependencies = Dependencies.sharedDependencies
 
-    init(searchResult: WikipediaSearchResult) {
+    init(searchResult: SearchResult) {
         self.searchResult = searchResult
 
         self.title = never()

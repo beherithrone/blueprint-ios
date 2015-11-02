@@ -33,8 +33,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "20A75AB21BDEBEFB00EED682"
-               BuildableName = "App-TVTests.xctest"
-               BlueprintName = "App-TVTests"
+               BuildableName = "Tests.xctest"
+               BlueprintName = "Tests"
                ReferencedContainer = "container:App-TV.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -43,8 +43,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "20A75ABD1BDEBEFB00EED682"
-               BuildableName = "App-TVUITests.xctest"
-               BlueprintName = "App-TVUITests"
+               BuildableName = "UITests.xctest"
+               BlueprintName = "UITests"
                ReferencedContainer = "container:App-TV.xcodeproj">
             </BuildableReference>
          </TestableReference>

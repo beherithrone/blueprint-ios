@@ -24,16 +24,14 @@
 		20A75BDF1BDECC4F00EED682 /* Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 20A75BC11BDECC4E00EED682 /* Watch.app */; };
 		20A75BEA1BDECD5500EED682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209092911BD57C1C00E59A11 /* Assets.xcassets */; };
 		20A75BEB1BDECD5500EED682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209092911BD57C1C00E59A11 /* Assets.xcassets */; };
-		20A75C301BDF84E400EED682 /* WikipediaImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A75C2E1BDF84E400EED682 /* WikipediaImageCell.xib */; };
-		20A75C311BDF84E400EED682 /* WikipediaSearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A75C2F1BDF84E400EED682 /* WikipediaSearchCell.xib */; };
+		20A75C301BDF84E400EED682 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A75C2E1BDF84E400EED682 /* ImageCell.xib */; };
+		20A75C311BDF84E400EED682 /* SearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A75C2F1BDF84E400EED682 /* SearchCell.xib */; };
 		20A75C331BDF89C800EED682 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		20A75C591BDF985400EED682 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A75C571BDF985400EED682 /* Fabric.framework */; };
 		20A75C5A1BDF985400EED682 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A75C581BDF985400EED682 /* Crashlytics.framework */; };
 		20A75C5E1BDF9E2D00EED682 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A75C5B1BDF9E2D00EED682 /* TwitterKit.framework */; };
 		20A75C5F1BDF9E2D00EED682 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20A75C5C1BDF9E2D00EED682 /* TwitterKitResources.bundle */; };
 		20A75C601BDF9E2D00EED682 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A75C5D1BDF9E2D00EED682 /* TwitterCore.framework */; };
-		20A75C631BDF9EF600EED682 /* MoPub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A75C611BDF9EF600EED682 /* MoPub.framework */; };
-		20A75C641BDF9EF600EED682 /* MoPub.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20A75C621BDF9EF600EED682 /* MoPub.bundle */; };
 		20B231EA1BD63E7100FDA56B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B231E91BD63E7100FDA56B /* MapKit.framework */; };
 		20B231ED1BD64D9500FDA56B /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231EB1BD64D9500FDA56B /* CollectionViewController.swift */; };
 		20B231EE1BD64D9500FDA56B /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231EC1BD64D9500FDA56B /* GridCell.swift */; };
@@ -42,17 +40,19 @@
 		20B231F81BD663F300FDA56B /* SearchResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231F61BD663F300FDA56B /* SearchResultViewModel.swift */; };
 		20B231F91BD663F300FDA56B /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231F71BD663F300FDA56B /* SearchViewModel.swift */; };
 		20B232001BD6642800FDA56B /* CollectionViewImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231FB1BD6642800FDA56B /* CollectionViewImageCell.swift */; };
-		20B232021BD6642800FDA56B /* WikipediaSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231FD1BD6642800FDA56B /* WikipediaSearchCell.swift */; };
-		20B232041BD6642800FDA56B /* WikipediaSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231FF1BD6642800FDA56B /* WikipediaSearchViewController.swift */; };
-		20B2320A1BD6644F00FDA56B /* WikipediaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232071BD6644F00FDA56B /* WikipediaAPI.swift */; };
-		20B2320B1BD6644F00FDA56B /* WikipediaPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232081BD6644F00FDA56B /* WikipediaPage.swift */; };
-		20B2320C1BD6644F00FDA56B /* WikipediaSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232091BD6644F00FDA56B /* WikipediaSearchResult.swift */; };
+		20B232021BD6642800FDA56B /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231FD1BD6642800FDA56B /* SearchCell.swift */; };
+		20B232041BD6642800FDA56B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231FF1BD6642800FDA56B /* SearchViewController.swift */; };
+		20B2320A1BD6644F00FDA56B /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232071BD6644F00FDA56B /* API.swift */; };
+		20B2320B1BD6644F00FDA56B /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232081BD6644F00FDA56B /* Page.swift */; };
+		20B2320C1BD6644F00FDA56B /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232091BD6644F00FDA56B /* SearchResult.swift */; };
 		20B2320F1BD664BD00FDA56B /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B2320E1BD664BD00FDA56B /* Dependencies.swift */; };
 		20B232111BD664D500FDA56B /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232101BD664D500FDA56B /* Wireframe.swift */; };
 		20B232141BD6650E00FDA56B /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232131BD6650E00FDA56B /* ImageService.swift */; };
 		20B232161BD6655800FDA56B /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232151BD6655800FDA56B /* Example.swift */; };
 		20B232181BD6659200FDA56B /* HtmlParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232171BD6659200FDA56B /* HtmlParsing.swift */; };
 		20B2321A1BD66AD100FDA56B /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B232191BD66AD100FDA56B /* RxCocoa.framework */; };
+		20C9033E1BE554C00004608A /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C9033D1BE554C00004608A /* Core.framework */; };
+		20C9033F1BE554C00004608A /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20C9033D1BE554C00004608A /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		20F764981BDE216200C98B1D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20F764971BDE216200C98B1D /* Info.plist */; };
 		CE6DABB71BD0FE8C00976127 /* App_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DABB61BD0FE8C00976127 /* App_iOSTests.swift */; };
 		CE6DABC21BD0FE8C00976127 /* App_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DABC11BD0FE8C00976127 /* App_iOSUITests.swift */; };
@@ -112,6 +112,17 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		20C903401BE554C10004608A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				20C9033F1BE554C00004608A /* Core.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -135,15 +146,13 @@
 		20A75BD81BDECC4F00EED682 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		20A75BDA1BDECC4F00EED682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20A75BDC1BDECC4F00EED682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20A75C2E1BDF84E400EED682 /* WikipediaImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WikipediaImageCell.xib; sourceTree = "<group>"; };
-		20A75C2F1BDF84E400EED682 /* WikipediaSearchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WikipediaSearchCell.xib; sourceTree = "<group>"; };
+		20A75C2E1BDF84E400EED682 /* ImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		20A75C2F1BDF84E400EED682 /* SearchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchCell.xib; sourceTree = "<group>"; };
 		20A75C571BDF985400EED682 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		20A75C581BDF985400EED682 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		20A75C5B1BDF9E2D00EED682 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
 		20A75C5C1BDF9E2D00EED682 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
 		20A75C5D1BDF9E2D00EED682 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
-		20A75C611BDF9EF600EED682 /* MoPub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MoPub.framework; sourceTree = "<group>"; };
-		20A75C621BDF9EF600EED682 /* MoPub.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MoPub.bundle; path = MoPub.framework/Versions/A/Resources/MoPub.bundle; sourceTree = "<group>"; };
 		20B231E91BD63E7100FDA56B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		20B231EB1BD64D9500FDA56B /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		20B231EC1BD64D9500FDA56B /* GridCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
@@ -152,17 +161,18 @@
 		20B231F61BD663F300FDA56B /* SearchResultViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultViewModel.swift; sourceTree = "<group>"; };
 		20B231F71BD663F300FDA56B /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		20B231FB1BD6642800FDA56B /* CollectionViewImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewImageCell.swift; sourceTree = "<group>"; };
-		20B231FD1BD6642800FDA56B /* WikipediaSearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaSearchCell.swift; sourceTree = "<group>"; };
-		20B231FF1BD6642800FDA56B /* WikipediaSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaSearchViewController.swift; sourceTree = "<group>"; };
-		20B232071BD6644F00FDA56B /* WikipediaAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaAPI.swift; sourceTree = "<group>"; };
-		20B232081BD6644F00FDA56B /* WikipediaPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaPage.swift; sourceTree = "<group>"; };
-		20B232091BD6644F00FDA56B /* WikipediaSearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaSearchResult.swift; sourceTree = "<group>"; };
+		20B231FD1BD6642800FDA56B /* SearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		20B231FF1BD6642800FDA56B /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		20B232071BD6644F00FDA56B /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		20B232081BD6644F00FDA56B /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		20B232091BD6644F00FDA56B /* SearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		20B2320E1BD664BD00FDA56B /* Dependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
 		20B232101BD664D500FDA56B /* Wireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
 		20B232131BD6650E00FDA56B /* ImageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
 		20B232151BD6655800FDA56B /* Example.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
 		20B232171BD6659200FDA56B /* HtmlParsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HtmlParsing.swift; sourceTree = "<group>"; };
 		20B232191BD66AD100FDA56B /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = ../Carthage/Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		20C9033D1BE554C00004608A /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Core.framework; path = "/Users/paveljacko/Library/Developer/Xcode/DerivedData/Template1-edutljhphddznlfkgkxodleorbcp/Build/Products/Debug-iphoneos/Core.framework"; sourceTree = "<absolute>"; };
 		20F764971BDE216200C98B1D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE6DAB9E1BD0FE8C00976127 /* Template1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6DABB21BD0FE8C00976127 /* Template1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Template1.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -192,10 +202,10 @@
 				20B2321A1BD66AD100FDA56B /* RxCocoa.framework in Frameworks */,
 				20A75C5A1BDF985400EED682 /* Crashlytics.framework in Frameworks */,
 				20A75C601BDF9E2D00EED682 /* TwitterCore.framework in Frameworks */,
+				20C9033E1BE554C00004608A /* Core.framework in Frameworks */,
 				20B231F31BD6573700FDA56B /* RxSwift.framework in Frameworks */,
 				20B231EA1BD63E7100FDA56B /* MapKit.framework in Frameworks */,
 				20A75C591BDF985400EED682 /* Fabric.framework in Frameworks */,
-				20A75C631BDF9EF600EED682 /* MoPub.framework in Frameworks */,
 				20A75C5E1BDF9E2D00EED682 /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,6 +227,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		204246901BE7636F00E258D7 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				20B231FB1BD6642800FDA56B /* CollectionViewImageCell.swift */,
+				20B231FD1BD6642800FDA56B /* SearchCell.swift */,
+				20B231FF1BD6642800FDA56B /* SearchViewController.swift */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		204246911BE763A900E258D7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				20B231EB1BD64D9500FDA56B /* CollectionViewController.swift */,
+				20B231EC1BD64D9500FDA56B /* GridCell.swift */,
+				20B231EF1BD656CA00FDA56B /* ViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		204246921BE763D400E258D7 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				2090929F1BD57C1C00E59A11 /* MenuController.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		204246931BE763F700E258D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20B2320D1BD664A000FDA56B /* Other */,
+				20B232121BD664FE00FDA56B /* Services */,
+				20B232061BD6643F00FDA56B /* Api */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		209092931BD57C1C00E59A11 /* Source */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,8 +278,8 @@
 		209092941BD57C1C00E59A11 /* Layout */ = {
 			isa = PBXGroup;
 			children = (
-				20A75C2E1BDF84E400EED682 /* WikipediaImageCell.xib */,
-				20A75C2F1BDF84E400EED682 /* WikipediaSearchCell.xib */,
+				20A75C2E1BDF84E400EED682 /* ImageCell.xib */,
+				20A75C2F1BDF84E400EED682 /* SearchCell.xib */,
 				209092951BD57C1C00E59A11 /* LaunchScreen.xib */,
 				209092961BD57C1C00E59A11 /* Main.storyboard */,
 			);
@@ -251,16 +299,10 @@
 		2090929C1BD57C1C00E59A11 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				20B232121BD664FE00FDA56B /* Services */,
-				20B2320D1BD664A000FDA56B /* Other */,
-				20B232061BD6643F00FDA56B /* Api */,
+				204246931BE763F700E258D7 /* Model */,
 				20B231FA1BD6641700FDA56B /* View */,
 				20B231F51BD6627200FDA56B /* ViewModel */,
-				20B231EF1BD656CA00FDA56B /* ViewController.swift */,
-				20B231EB1BD64D9500FDA56B /* CollectionViewController.swift */,
-				20B231EC1BD64D9500FDA56B /* GridCell.swift */,
 				2090929D1BD57C1C00E59A11 /* AppDelegate.swift */,
-				2090929F1BD57C1C00E59A11 /* MenuController.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -308,9 +350,9 @@
 		20B231FA1BD6641700FDA56B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				20B231FB1BD6642800FDA56B /* CollectionViewImageCell.swift */,
-				20B231FD1BD6642800FDA56B /* WikipediaSearchCell.swift */,
-				20B231FF1BD6642800FDA56B /* WikipediaSearchViewController.swift */,
+				204246921BE763D400E258D7 /* Menu */,
+				204246911BE763A900E258D7 /* Home */,
+				204246901BE7636F00E258D7 /* Search */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -318,9 +360,9 @@
 		20B232061BD6643F00FDA56B /* Api */ = {
 			isa = PBXGroup;
 			children = (
-				20B232071BD6644F00FDA56B /* WikipediaAPI.swift */,
-				20B232081BD6644F00FDA56B /* WikipediaPage.swift */,
-				20B232091BD6644F00FDA56B /* WikipediaSearchResult.swift */,
+				20B232071BD6644F00FDA56B /* API.swift */,
+				20B232081BD6644F00FDA56B /* Page.swift */,
+				20B232091BD6644F00FDA56B /* SearchResult.swift */,
 			);
 			name = Api;
 			sourceTree = "<group>";
@@ -344,15 +386,23 @@
 			name = Services;
 			sourceTree = "<group>";
 		};
+		20C9026D1BE380CF0004608A /* App-Watch */ = {
+			isa = PBXGroup;
+			children = (
+				20A75BD11BDECC4F00EED682 /* Watch Extension */,
+				20A75BC21BDECC4F00EED682 /* Watch */,
+			);
+			path = "App-Watch";
+			sourceTree = "<group>";
+		};
 		CE6DAB951BD0FE8C00976127 = {
 			isa = PBXGroup;
 			children = (
+				20C9026D1BE380CF0004608A /* App-Watch */,
 				CE6DABA01BD0FE8C00976127 /* Code */,
 				CE6DABB51BD0FE8C00976127 /* Tests */,
 				CE6DABC01BD0FE8C00976127 /* UITests */,
 				CEFD28E11BD12C4B000067CD /* Config */,
-				20A75BC21BDECC4F00EED682 /* Watch */,
-				20A75BD11BDECC4F00EED682 /* Watch Extension */,
 				CEFD29371BD13128000067CD /* Frameworks */,
 				CE6DAB9F1BD0FE8C00976127 /* Products */,
 			);
@@ -412,8 +462,7 @@
 		CEFD29371BD13128000067CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				20A75C611BDF9EF600EED682 /* MoPub.framework */,
-				20A75C621BDF9EF600EED682 /* MoPub.bundle */,
+				20C9033D1BE554C00004608A /* Core.framework */,
 				20A75C5B1BDF9E2D00EED682 /* TwitterKit.framework */,
 				20A75C5C1BDF9E2D00EED682 /* TwitterKitResources.bundle */,
 				20A75C5D1BDF9E2D00EED682 /* TwitterCore.framework */,
@@ -473,6 +522,8 @@
 				20B231F11BD656E000FDA56B /* ShellScript */,
 				20A75BE71BDECC4F00EED682 /* Embed Watch Content */,
 				20A75C561BDF981300EED682 /* ShellScript */,
+				20C903401BE554C10004608A /* Embed Frameworks */,
+				20C9033C1BE53F380004608A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -532,6 +583,7 @@
 				TargetAttributes = {
 					20A75BC01BDECC4E00EED682 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = J9VFE3KCBB;
 					};
 					20A75BCC1BDECC4F00EED682 = {
 						CreatedOnToolsVersion = 7.1;
@@ -599,12 +651,11 @@
 			files = (
 				209092A61BD57C1C00E59A11 /* LaunchScreen.xib in Resources */,
 				20A75C5F1BDF9E2D00EED682 /* TwitterKitResources.bundle in Resources */,
-				20A75C311BDF84E400EED682 /* WikipediaSearchCell.xib in Resources */,
+				20A75C311BDF84E400EED682 /* SearchCell.xib in Resources */,
 				209092A41BD57C1C00E59A11 /* Assets.xcassets in Resources */,
 				209092A71BD57C1C00E59A11 /* Main.storyboard in Resources */,
-				20A75C301BDF84E400EED682 /* WikipediaImageCell.xib in Resources */,
+				20A75C301BDF84E400EED682 /* ImageCell.xib in Resources */,
 				20F764981BDE216200C98B1D /* Info.plist in Resources */,
-				20A75C641BDF9EF600EED682 /* MoPub.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,6 +704,19 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
+		20C9033C1BE53F380004608A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"${CONFIGURATION_BUILD_DIR}/Core.Framework\"\nmkdir -p Satan\nif [[ -d \"Frameworks\" ]]; then\nrm -fr Frameworks\nfi";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -672,23 +736,23 @@
 			files = (
 				20B232111BD664D500FDA56B /* Wireframe.swift in Sources */,
 				209092AB1BD57C1C00E59A11 /* MenuController.swift in Sources */,
-				20B2320A1BD6644F00FDA56B /* WikipediaAPI.swift in Sources */,
+				20B2320A1BD6644F00FDA56B /* API.swift in Sources */,
 				209092A91BD57C1C00E59A11 /* AppDelegate.swift in Sources */,
-				20B232041BD6642800FDA56B /* WikipediaSearchViewController.swift in Sources */,
+				20B232041BD6642800FDA56B /* SearchViewController.swift in Sources */,
 				20B2320F1BD664BD00FDA56B /* Dependencies.swift in Sources */,
 				20B231F01BD656CA00FDA56B /* ViewController.swift in Sources */,
 				209092A31BD57C1C00E59A11 /* App_iOS.xcdatamodeld in Sources */,
 				20B232001BD6642800FDA56B /* CollectionViewImageCell.swift in Sources */,
-				20B232021BD6642800FDA56B /* WikipediaSearchCell.swift in Sources */,
+				20B232021BD6642800FDA56B /* SearchCell.swift in Sources */,
 				20B231ED1BD64D9500FDA56B /* CollectionViewController.swift in Sources */,
 				20B232141BD6650E00FDA56B /* ImageService.swift in Sources */,
 				209092A81BD57C1C00E59A11 /* SWRevealViewController.m in Sources */,
 				20B232161BD6655800FDA56B /* Example.swift in Sources */,
-				20B2320C1BD6644F00FDA56B /* WikipediaSearchResult.swift in Sources */,
+				20B2320C1BD6644F00FDA56B /* SearchResult.swift in Sources */,
 				20B231F91BD663F300FDA56B /* SearchViewModel.swift in Sources */,
 				20B231EE1BD64D9500FDA56B /* GridCell.swift in Sources */,
 				20B232181BD6659200FDA56B /* HtmlParsing.swift in Sources */,
-				20B2320B1BD6644F00FDA56B /* WikipediaPage.swift in Sources */,
+				20B2320B1BD6644F00FDA56B /* Page.swift in Sources */,
 				20B231F81BD663F300FDA56B /* SearchResultViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -767,6 +831,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -783,7 +848,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Watch Extension/Info.plist";
+				INFOPLIST_FILE = "App-Watch/Watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -819,6 +884,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -829,7 +895,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Watch Extension/Info.plist";
+				INFOPLIST_FILE = "App-Watch/Watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.ios.watchkitapp.watchkitextension;
@@ -861,8 +927,10 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = NO;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -881,7 +949,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IBSC_MODULE = Watch_Extension;
-				INFOPLIST_FILE = Watch/Info.plist;
+				INFOPLIST_FILE = "App-Watch/Watch/Info.plist";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.ios.watchkitapp;
@@ -912,8 +980,10 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = NO;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -926,7 +996,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IBSC_MODULE = Watch_Extension;
-				INFOPLIST_FILE = Watch/Info.plist;
+				INFOPLIST_FILE = "App-Watch/Watch/Info.plist";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.ios.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -942,6 +1012,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CEFD28E21BD12C6E000067CD /* App-iOS.xcconfig */;
 			buildSettings = {
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = YES;
 			};
 			name = Debug;
 		};
@@ -949,6 +1022,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CEFD28E21BD12C6E000067CD /* App-iOS.xcconfig */;
 			buildSettings = {
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = YES;
 			};
 			name = Release;
 		};
@@ -966,7 +1042,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Code/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @executable_path/../Frameworks @loader_path/../Frameworks @loader_path/../../Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.ios;
 				PRODUCT_NAME = Template1;
 				PROVISIONING_PROFILE = "";
@@ -989,7 +1065,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Code/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @executable_path/../Frameworks @loader_path/../Frameworks @loader_path/../../Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.ios;
 				PRODUCT_NAME = Template1;
 				PROVISIONING_PROFILE = "";
@@ -1005,7 +1081,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tests;
 				PRODUCT_NAME = Template1;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App-iOS.app/App-iOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Template1.app/Template1";
 			};
 			name = Debug;
 		};
@@ -1017,7 +1093,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tests;
 				PRODUCT_NAME = Template1;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App-iOS.app/App-iOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Template1.app/Template1";
 			};
 			name = Release;
 		};
