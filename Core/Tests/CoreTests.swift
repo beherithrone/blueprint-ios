@@ -8,7 +8,7 @@
 import XCTest
 @testable import Core
 
-import Alamofire
+//import Alamofire
 import RxSwift
 
 class CoreTests: XCTestCase {
@@ -28,7 +28,7 @@ class CoreTests: XCTestCase {
         XCTAssertEqual(core.coreStuff(), 1)
     }
 
-    func testAlamofireFromCoreTests() {
+    /*func testAlamofireFromCoreTests() {
         let expectation = self.expectationWithDescription("Expectation for third party library")
 
         Alamofire.request(.GET, "http://www.google.com")
@@ -38,7 +38,7 @@ class CoreTests: XCTestCase {
         self.waitForExpectationsWithTimeout(10) { error in
             XCTAssertNil(error)
         }
-    }
+    }*/
 
     func testRxSwiftFromCoreTests() {
         let expectation = self.expectationWithDescription("Expectation for RxSwift")

@@ -19,6 +19,8 @@
 		20C9031E1BE4FC710004608A /* CoreClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A75C4E1BDF8EFB00EED682 /* CoreClass.swift */; };
 		20C9032D1BE50B3D0004608A /* CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD29241BD12FBB000067CD /* CoreTests.swift */; };
 		20C9032E1BE50BAB0004608A /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A75C4B1BDF8EFB00EED682 /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20DB39D21BE7BEF2003A2B6B /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 20DB39D11BE7BEF2003A2B6B /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		20DB39D51BE7BF25003A2B6B /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 20DB39D41BE7BF25003A2B6B /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CE9F09421BD52A4800068ECB /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9F09411BD52A4800068ECB /* RxSwift.framework */; };
 		CE9F09441BD52ADA00068ECB /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9F09431BD52ADA00068ECB /* RxSwift.framework */; };
 		CE9F09471BD530DF00068ECB /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE9F09431BD52ADA00068ECB /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -53,6 +55,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		20DB39D01BE7BECA003A2B6B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				20DB39D21BE7BEF2003A2B6B /* RxSwift.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20DB39D31BE7BF00003A2B6B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				20DB39D51BE7BF25003A2B6B /* RxSwift.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE607EAD1BD4F52C008DD368 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -72,6 +94,8 @@
 		20A75C481BDF8EFB00EED682 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20A75C4B1BDF8EFB00EED682 /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		20A75C4E1BDF8EFB00EED682 /* CoreClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreClass.swift; sourceTree = "<group>"; };
+		20DB39D11BE7BEF2003A2B6B /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		20DB39D41BE7BF25003A2B6B /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../../Carthage/Carthage/Build/tvOS/RxSwift.framework; sourceTree = "<group>"; };
 		CE9F09411BD52A4800068ECB /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		CE9F09431BD52ADA00068ECB /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
 		CEE6FBAD1BD1595000594649 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -180,6 +204,8 @@
 		CEFD290B1BD12FBB000067CD = {
 			isa = PBXGroup;
 			children = (
+				20DB39D41BE7BF25003A2B6B /* RxSwift.framework */,
+				20DB39D11BE7BEF2003A2B6B /* RxSwift.framework */,
 				CEFD29171BD12FBB000067CD /* Code */,
 				CEFD29231BD12FBB000067CD /* Tests */,
 				CEE6FBDA1BD15F3100594649 /* Frameworks */,
@@ -274,6 +300,7 @@
 				20200CAA1BE0C75400DB893E /* Sources */,
 				20200CAB1BE0C75400DB893E /* Frameworks */,
 				20200CAC1BE0C75400DB893E /* Resources */,
+				20DB39D31BE7BF00003A2B6B /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -349,6 +376,7 @@
 				CEFD291B1BD12FBB000067CD /* Sources */,
 				CEFD291C1BD12FBB000067CD /* Frameworks */,
 				CEFD291D1BD12FBB000067CD /* Resources */,
+				20DB39D01BE7BECA003A2B6B /* CopyFiles */,
 			);
 			buildRules = (
 			);
