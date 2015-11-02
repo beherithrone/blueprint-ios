@@ -1,0 +1,8 @@
+language: objective-c  #1
+osx_image: xcode7.1 #2
+xcode_project: MovingHelper.xcodeproj #3
+xcode_scheme: MovingHelper #4
+xcode_sdk: iphonesimulator8.4 #5
+script:
+- xcodebuild build-tests -destination 'platform=iOS Simulator,name=iPhone 6' -workspace Template1.xcworkspace -scheme App-iOS
+- xcodebuild run-tests -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6' -workspace Template1.xcworkspace -scheme App-iOS
