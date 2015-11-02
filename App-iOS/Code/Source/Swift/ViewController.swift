@@ -6,25 +6,12 @@
 //
 
 import Foundation
-#if !RX_NO_MODULE
-    import RxSwift
-#endif
+import RxSwift
+import UIKit
 
-#if os(iOS)
-    import UIKit
-    typealias OSViewController = UIViewController
-    #elseif os(OSX)
-    import Cocoa
-    typealias OSViewController = NSViewController
-#endif
-
-class ViewController: OSViewController {
+class ViewController: UIViewController {
     #if TRACE_RESOURCES
-    #if !RX_NO_MODULE
     private let startResourceCount = RxSwift.resourceCount
-    #else
-    private let startResourceCount = resourceCount
-    #endif
     #endif
     
     override func viewDidLoad() {

@@ -1,5 +1,5 @@
 //
-//  WikipediaSearchCell.swift
+//  SearchCell.swift
 //  App-iOS
 //
 //  Copyright © 2015 Syerit Limited. All rights reserved.
@@ -12,7 +12,7 @@ import RxSwift
 import RxCocoa
 #endif
 
-public class WikipediaSearchCell: UITableViewCell {
+public class SearchCell: UITableViewCell {
 
     @IBOutlet var titleOutlet: UILabel!
     @IBOutlet var URLOutlet: UILabel!
@@ -25,7 +25,7 @@ public class WikipediaSearchCell: UITableViewCell {
     public override func awakeFromNib() {
         super.awakeFromNib()
 
-        self.imagesOutlet.registerNib(UINib(nibName: "WikipediaImageCell", bundle: nil), forCellWithReuseIdentifier: "ImageCell")
+        self.imagesOutlet.registerNib(UINib(nibName: "ImageCell", bundle: nil), forCellWithReuseIdentifier: "ImageCell")
     }
 
     var viewModel: SearchResultViewModel! {

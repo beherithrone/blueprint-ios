@@ -6,19 +6,12 @@
 //
 
 import Foundation
-#if !RX_NO_MODULE
 import RxSwift
 import RxCocoa
-#endif
-
-#if os(iOS)
-    import UIKit
-#elseif os(OSX)
-    import Cocoa
-#endif 
+import UIKit
 
 protocol ImageService {
-    func imageFromURL(URL: NSURL) -> Observable<Image>
+    func imageFromURL(URL: NSURL) -> Observable<UIImage>
 }
 
 class DefaultImageService: ImageService {
@@ -40,11 +33,11 @@ class DefaultImageService: ImageService {
         self.imageCache.countLimit = 20
     }
     
-    func decodeImage(imageData: NSData) -> Observable<Image> {
+    func decodeImage(imageData: NSData) -> Observable<UIImage> {
         return just(imageData)
             .observeOn($.backgroundWorkScheduler)
             .map { data in
-                guard let image = Image(data: data) else {
+                guard let image = UIImage(data: data) else {
                     // some error
                     throw apiError("Decoding image error")
                 }
@@ -53,11 +46,11 @@ class DefaultImageService: ImageService {
             .observeOn($.mainScheduler)
     }
     
-    func imageFromURL(URL: NSURL) -> Observable<Image> {
+    func imageFromURL(URL: NSURL) -> Observable<UIImage> {
         return deferred {
-            let maybeImage = self.imageCache.objectForKey(URL) as? Image
+            let maybeImage = self.imageCache.objectForKey(URL) as? UIImage
             
-            let decodedImage: Observable<Image>
+            let decodedImage: Observable<UIImage>
             
             // best case scenario, it's already decoded an in memory
             if let image = maybeImage {

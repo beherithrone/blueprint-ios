@@ -6,27 +6,25 @@
 //
 
 import Foundation
-#if !RX_NO_MODULE
 import RxSwift
 import RxCocoa
-#endif
 
 class SearchViewModel {
-    
+
     // outputs
     let rows: Observable<[SearchResultViewModel]>
-    
+
     let subscriptions = DisposeBag()
 
     // public methods
-    
+
     init(searchText: Observable<String>,
         selectedResult: Observable<SearchResultViewModel>) {
-        
+
         let $: Dependencies = Dependencies.sharedDependencies
         let wireframe = Dependencies.sharedDependencies.wireframe
-        let API = DefaultWikipediaAPI.sharedAPI
-        
+        let API = DefaultAPI.sharedAPI
+
         self.rows = searchText
             .throttle(0.3, $.mainScheduler)
             .distinctUntilChanged()
@@ -44,7 +42,7 @@ class SearchViewModel {
                     )
                 }
             }
-        
+
         selectedResult
             .subscribeNext { searchResult in
                 wireframe.openURL(searchResult.searchResult.URL)

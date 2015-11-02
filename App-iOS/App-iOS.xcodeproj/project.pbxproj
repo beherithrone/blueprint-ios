@@ -24,8 +24,8 @@
 		20A75BDF1BDECC4F00EED682 /* Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 20A75BC11BDECC4E00EED682 /* Watch.app */; };
 		20A75BEA1BDECD5500EED682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209092911BD57C1C00E59A11 /* Assets.xcassets */; };
 		20A75BEB1BDECD5500EED682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209092911BD57C1C00E59A11 /* Assets.xcassets */; };
-		20A75C301BDF84E400EED682 /* WikipediaImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A75C2E1BDF84E400EED682 /* WikipediaImageCell.xib */; };
-		20A75C311BDF84E400EED682 /* WikipediaSearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A75C2F1BDF84E400EED682 /* WikipediaSearchCell.xib */; };
+		20A75C301BDF84E400EED682 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A75C2E1BDF84E400EED682 /* ImageCell.xib */; };
+		20A75C311BDF84E400EED682 /* SearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A75C2F1BDF84E400EED682 /* SearchCell.xib */; };
 		20A75C331BDF89C800EED682 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		20A75C591BDF985400EED682 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A75C571BDF985400EED682 /* Fabric.framework */; };
 		20A75C5A1BDF985400EED682 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A75C581BDF985400EED682 /* Crashlytics.framework */; };
@@ -40,11 +40,11 @@
 		20B231F81BD663F300FDA56B /* SearchResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231F61BD663F300FDA56B /* SearchResultViewModel.swift */; };
 		20B231F91BD663F300FDA56B /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231F71BD663F300FDA56B /* SearchViewModel.swift */; };
 		20B232001BD6642800FDA56B /* CollectionViewImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231FB1BD6642800FDA56B /* CollectionViewImageCell.swift */; };
-		20B232021BD6642800FDA56B /* WikipediaSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231FD1BD6642800FDA56B /* WikipediaSearchCell.swift */; };
-		20B232041BD6642800FDA56B /* WikipediaSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231FF1BD6642800FDA56B /* WikipediaSearchViewController.swift */; };
-		20B2320A1BD6644F00FDA56B /* WikipediaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232071BD6644F00FDA56B /* WikipediaAPI.swift */; };
-		20B2320B1BD6644F00FDA56B /* WikipediaPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232081BD6644F00FDA56B /* WikipediaPage.swift */; };
-		20B2320C1BD6644F00FDA56B /* WikipediaSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232091BD6644F00FDA56B /* WikipediaSearchResult.swift */; };
+		20B232021BD6642800FDA56B /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231FD1BD6642800FDA56B /* SearchCell.swift */; };
+		20B232041BD6642800FDA56B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B231FF1BD6642800FDA56B /* SearchViewController.swift */; };
+		20B2320A1BD6644F00FDA56B /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232071BD6644F00FDA56B /* API.swift */; };
+		20B2320B1BD6644F00FDA56B /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232081BD6644F00FDA56B /* Page.swift */; };
+		20B2320C1BD6644F00FDA56B /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232091BD6644F00FDA56B /* SearchResult.swift */; };
 		20B2320F1BD664BD00FDA56B /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B2320E1BD664BD00FDA56B /* Dependencies.swift */; };
 		20B232111BD664D500FDA56B /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232101BD664D500FDA56B /* Wireframe.swift */; };
 		20B232141BD6650E00FDA56B /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B232131BD6650E00FDA56B /* ImageService.swift */; };
@@ -146,8 +146,8 @@
 		20A75BD81BDECC4F00EED682 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		20A75BDA1BDECC4F00EED682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20A75BDC1BDECC4F00EED682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20A75C2E1BDF84E400EED682 /* WikipediaImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WikipediaImageCell.xib; sourceTree = "<group>"; };
-		20A75C2F1BDF84E400EED682 /* WikipediaSearchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WikipediaSearchCell.xib; sourceTree = "<group>"; };
+		20A75C2E1BDF84E400EED682 /* ImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		20A75C2F1BDF84E400EED682 /* SearchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchCell.xib; sourceTree = "<group>"; };
 		20A75C571BDF985400EED682 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		20A75C581BDF985400EED682 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		20A75C5B1BDF9E2D00EED682 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
@@ -161,11 +161,11 @@
 		20B231F61BD663F300FDA56B /* SearchResultViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultViewModel.swift; sourceTree = "<group>"; };
 		20B231F71BD663F300FDA56B /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		20B231FB1BD6642800FDA56B /* CollectionViewImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewImageCell.swift; sourceTree = "<group>"; };
-		20B231FD1BD6642800FDA56B /* WikipediaSearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaSearchCell.swift; sourceTree = "<group>"; };
-		20B231FF1BD6642800FDA56B /* WikipediaSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaSearchViewController.swift; sourceTree = "<group>"; };
-		20B232071BD6644F00FDA56B /* WikipediaAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaAPI.swift; sourceTree = "<group>"; };
-		20B232081BD6644F00FDA56B /* WikipediaPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaPage.swift; sourceTree = "<group>"; };
-		20B232091BD6644F00FDA56B /* WikipediaSearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaSearchResult.swift; sourceTree = "<group>"; };
+		20B231FD1BD6642800FDA56B /* SearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		20B231FF1BD6642800FDA56B /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		20B232071BD6644F00FDA56B /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		20B232081BD6644F00FDA56B /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		20B232091BD6644F00FDA56B /* SearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		20B2320E1BD664BD00FDA56B /* Dependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
 		20B232101BD664D500FDA56B /* Wireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
 		20B232131BD6650E00FDA56B /* ImageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
@@ -227,6 +227,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		204246901BE7636F00E258D7 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				20B231FB1BD6642800FDA56B /* CollectionViewImageCell.swift */,
+				20B231FD1BD6642800FDA56B /* SearchCell.swift */,
+				20B231FF1BD6642800FDA56B /* SearchViewController.swift */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		204246911BE763A900E258D7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				20B231EB1BD64D9500FDA56B /* CollectionViewController.swift */,
+				20B231EC1BD64D9500FDA56B /* GridCell.swift */,
+				20B231EF1BD656CA00FDA56B /* ViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		204246921BE763D400E258D7 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				2090929F1BD57C1C00E59A11 /* MenuController.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		204246931BE763F700E258D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20B2320D1BD664A000FDA56B /* Other */,
+				20B232121BD664FE00FDA56B /* Services */,
+				20B232061BD6643F00FDA56B /* Api */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		209092931BD57C1C00E59A11 /* Source */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,8 +278,8 @@
 		209092941BD57C1C00E59A11 /* Layout */ = {
 			isa = PBXGroup;
 			children = (
-				20A75C2E1BDF84E400EED682 /* WikipediaImageCell.xib */,
-				20A75C2F1BDF84E400EED682 /* WikipediaSearchCell.xib */,
+				20A75C2E1BDF84E400EED682 /* ImageCell.xib */,
+				20A75C2F1BDF84E400EED682 /* SearchCell.xib */,
 				209092951BD57C1C00E59A11 /* LaunchScreen.xib */,
 				209092961BD57C1C00E59A11 /* Main.storyboard */,
 			);
@@ -261,16 +299,10 @@
 		2090929C1BD57C1C00E59A11 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				20B232121BD664FE00FDA56B /* Services */,
-				20B2320D1BD664A000FDA56B /* Other */,
-				20B232061BD6643F00FDA56B /* Api */,
+				204246931BE763F700E258D7 /* Model */,
 				20B231FA1BD6641700FDA56B /* View */,
 				20B231F51BD6627200FDA56B /* ViewModel */,
-				20B231EF1BD656CA00FDA56B /* ViewController.swift */,
-				20B231EB1BD64D9500FDA56B /* CollectionViewController.swift */,
-				20B231EC1BD64D9500FDA56B /* GridCell.swift */,
 				2090929D1BD57C1C00E59A11 /* AppDelegate.swift */,
-				2090929F1BD57C1C00E59A11 /* MenuController.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -318,9 +350,9 @@
 		20B231FA1BD6641700FDA56B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				20B231FB1BD6642800FDA56B /* CollectionViewImageCell.swift */,
-				20B231FD1BD6642800FDA56B /* WikipediaSearchCell.swift */,
-				20B231FF1BD6642800FDA56B /* WikipediaSearchViewController.swift */,
+				204246921BE763D400E258D7 /* Menu */,
+				204246911BE763A900E258D7 /* Home */,
+				204246901BE7636F00E258D7 /* Search */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -328,9 +360,9 @@
 		20B232061BD6643F00FDA56B /* Api */ = {
 			isa = PBXGroup;
 			children = (
-				20B232071BD6644F00FDA56B /* WikipediaAPI.swift */,
-				20B232081BD6644F00FDA56B /* WikipediaPage.swift */,
-				20B232091BD6644F00FDA56B /* WikipediaSearchResult.swift */,
+				20B232071BD6644F00FDA56B /* API.swift */,
+				20B232081BD6644F00FDA56B /* Page.swift */,
+				20B232091BD6644F00FDA56B /* SearchResult.swift */,
 			);
 			name = Api;
 			sourceTree = "<group>";
@@ -619,10 +651,10 @@
 			files = (
 				209092A61BD57C1C00E59A11 /* LaunchScreen.xib in Resources */,
 				20A75C5F1BDF9E2D00EED682 /* TwitterKitResources.bundle in Resources */,
-				20A75C311BDF84E400EED682 /* WikipediaSearchCell.xib in Resources */,
+				20A75C311BDF84E400EED682 /* SearchCell.xib in Resources */,
 				209092A41BD57C1C00E59A11 /* Assets.xcassets in Resources */,
 				209092A71BD57C1C00E59A11 /* Main.storyboard in Resources */,
-				20A75C301BDF84E400EED682 /* WikipediaImageCell.xib in Resources */,
+				20A75C301BDF84E400EED682 /* ImageCell.xib in Resources */,
 				20F764981BDE216200C98B1D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -704,23 +736,23 @@
 			files = (
 				20B232111BD664D500FDA56B /* Wireframe.swift in Sources */,
 				209092AB1BD57C1C00E59A11 /* MenuController.swift in Sources */,
-				20B2320A1BD6644F00FDA56B /* WikipediaAPI.swift in Sources */,
+				20B2320A1BD6644F00FDA56B /* API.swift in Sources */,
 				209092A91BD57C1C00E59A11 /* AppDelegate.swift in Sources */,
-				20B232041BD6642800FDA56B /* WikipediaSearchViewController.swift in Sources */,
+				20B232041BD6642800FDA56B /* SearchViewController.swift in Sources */,
 				20B2320F1BD664BD00FDA56B /* Dependencies.swift in Sources */,
 				20B231F01BD656CA00FDA56B /* ViewController.swift in Sources */,
 				209092A31BD57C1C00E59A11 /* App_iOS.xcdatamodeld in Sources */,
 				20B232001BD6642800FDA56B /* CollectionViewImageCell.swift in Sources */,
-				20B232021BD6642800FDA56B /* WikipediaSearchCell.swift in Sources */,
+				20B232021BD6642800FDA56B /* SearchCell.swift in Sources */,
 				20B231ED1BD64D9500FDA56B /* CollectionViewController.swift in Sources */,
 				20B232141BD6650E00FDA56B /* ImageService.swift in Sources */,
 				209092A81BD57C1C00E59A11 /* SWRevealViewController.m in Sources */,
 				20B232161BD6655800FDA56B /* Example.swift in Sources */,
-				20B2320C1BD6644F00FDA56B /* WikipediaSearchResult.swift in Sources */,
+				20B2320C1BD6644F00FDA56B /* SearchResult.swift in Sources */,
 				20B231F91BD663F300FDA56B /* SearchViewModel.swift in Sources */,
 				20B231EE1BD64D9500FDA56B /* GridCell.swift in Sources */,
 				20B232181BD6659200FDA56B /* HtmlParsing.swift in Sources */,
-				20B2320B1BD6644F00FDA56B /* WikipediaPage.swift in Sources */,
+				20B2320B1BD6644F00FDA56B /* Page.swift in Sources */,
 				20B231F81BD663F300FDA56B /* SearchResultViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -26,6 +26,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         core.coreStuff()
         core.coreStuffWithRxSwift()
         core.coreStuffWithThirdPartyLibrary()
+        
+        /*let sequence = sequenceOf(1, 2)
+        _ = sequence.subscribe({ event in
+            print("iOS app stuff with RxSwift: \(event)")
+        })*/
         return true
     }
 
