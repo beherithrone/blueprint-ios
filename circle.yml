@@ -13,11 +13,3 @@ dependencies:
   pre:
     - chmod +x setup.sh
     - ./setup.sh
-
-deployment:
-  testflight:
-    branch: master
-    commands:
-      - ./scripts/add-key.sh
-      - ./scripts/testflight.sh
-      - ./scripts/remove-key.sh
