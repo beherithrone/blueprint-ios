@@ -1,5 +1,7 @@
 # Blueprint project for iOS
 
+[![Travis CI](https://travis-ci.org/beherithrone/blueprint-ios.svg)](https://circleci.com/gh/sky-uk/atlas-android/tree/master)
+
 * reusable structure
 * multi flavours
 * free/pro
