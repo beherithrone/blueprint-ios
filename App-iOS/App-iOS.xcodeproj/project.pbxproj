@@ -490,8 +490,8 @@
 				20B231F11BD656E000FDA56B /* ShellScript */,
 				20A75BE71BDECC4F00EED682 /* Embed Watch Content */,
 				20A75C561BDF981300EED682 /* ShellScript */,
-				20C9033C1BE53F380004608A /* ShellScript */,
 				20C903401BE554C10004608A /* Embed Frameworks */,
+				20C9033C1BE53F380004608A /* ShellScript */,
 			);
 			buildRules = (
 			);

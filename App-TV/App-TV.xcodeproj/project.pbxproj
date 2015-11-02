@@ -192,6 +192,7 @@
 				20A75A9D1BDEBEFB00EED682 /* Resources */,
 				203A8D791BE1311F00334D3F /* Carthage Script */,
 				20C903441BE568E50004608A /* Embed Frameworks */,
+				204246501BE573EB00E258D7 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -323,6 +324,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		204246501BE573EB00E258D7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"${CONFIGURATION_BUILD_DIR}/Core.Framework\"\nmkdir -p Satan\nif [[ -d \"Frameworks\" ]]; then\nrm -fr Frameworks\nfi";
 		};
 /* End PBXShellScriptBuildPhase section */
 

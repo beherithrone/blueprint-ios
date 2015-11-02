@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		203A8D621BE10F4400334D3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 203A8D5A1BE10F4400334D3F /* Assets.xcassets */; };
-		203A8D631BE10F4400334D3F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 203A8D5B1BE10F4400334D3F /* Info.plist */; };
 		203A8D641BE10F4400334D3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203A8D5E1BE10F4400334D3F /* Main.storyboard */; };
 		203A8D651BE10F4400334D3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203A8D601BE10F4400334D3F /* AppDelegate.swift */; };
 		203A8D661BE10F4400334D3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203A8D611BE10F4400334D3F /* ViewController.swift */; };
@@ -35,6 +34,7 @@
 		203A8D5E1BE10F4400334D3F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		203A8D601BE10F4400334D3F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		203A8D611BE10F4400334D3F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2042468F1BE7587D00E258D7 /* Template1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Template1.entitlements; path = ../Template1.entitlements; sourceTree = "<group>"; };
 		20C902641BE36FC70004608A /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		20C902651BE36FC70004608A /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		20C9026A1BE378570004608A /* Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Core.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/Template1-edutljhphddznlfkgkxodleorbcp/Build/Products/Debug-iphoneos/Core.framework"; sourceTree = "<group>"; };
@@ -129,6 +129,7 @@
 		CEFD2BB61BD1586A000067CD /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				2042468F1BE7587D00E258D7 /* Template1.entitlements */,
 				203A8D5A1BE10F4400334D3F /* Assets.xcassets */,
 				203A8D5B1BE10F4400334D3F /* Info.plist */,
 				203A8D5C1BE10F4400334D3F /* Source */,
@@ -205,6 +206,11 @@
 				TargetAttributes = {
 					CEFD2BB31BD1586A000067CD = {
 						CreatedOnToolsVersion = 7.0.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					CEFD2BC41BD1586A000067CD = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -237,7 +243,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				203A8D641BE10F4400334D3F /* Main.storyboard in Resources */,
-				203A8D631BE10F4400334D3F /* Info.plist in Resources */,
 				203A8D621BE10F4400334D3F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +403,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Template1.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -415,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Template1.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
