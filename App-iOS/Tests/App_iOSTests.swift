@@ -6,10 +6,10 @@
 //
 
 import XCTest
-
 import Core
 import RxSwift
 
+//@testable import App_iOS
 class App_iOSTests: XCTestCase {
     
     override func setUp() {
@@ -21,12 +21,8 @@ class App_iOSTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-    
-    func testFake() {
-        XCTAssertEqual(1, 1)
-    }
 
-    /*func testCoreMethodFromiOSAppTests() {
+    func testCoreMethodFromiOSAppTests() {
         let core = CoreClass()
         XCTAssertEqual(core.coreStuff(), 1)
     }
@@ -44,6 +40,6 @@ class App_iOSTests: XCTestCase {
         self.waitForExpectationsWithTimeout(10) { error in
             XCTAssertNil(error)
         }
-    }*/
+    }
     
 }

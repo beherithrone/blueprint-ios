@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import App_OSX
+//@testable import App_OSX
 
 import Core
 import RxSwift
