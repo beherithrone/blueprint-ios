@@ -10,28 +10,24 @@ import Core
 
 class MenuController: NSViewController, NSTableViewDataSource,NSTableViewDelegate {
     
-    var dataArray: [MenuItem] = [
-        MenuItem(title: "Home"),
-        MenuItem(title: "RxSearch"),
-        MenuItem(title: "Login"),
-        MenuItem(title: "AdExample")
-    ];
-   
+    var appModel : AppModel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
+        appModel = AppModel()
     }
     
     
     func numberOfRowsInTableView(aTableView: NSTableView!) -> Int
     {
-        let numberOfRows:Int = dataArray.count
+        let numberOfRows:Int = appModel!.menuItems.count
         return numberOfRows
     }
     
     func tableView(tableView: NSTableView!, objectValueForTableColumn tableColumn: NSTableColumn!, row: Int) -> AnyObject!
     {
-        let object = dataArray[row] as MenuItem
+        let object = appModel!.menuItems[row] as MenuItem
         return object.getTitle()
     }
     
