@@ -15,7 +15,8 @@ public class AppModel {
         MenuItem(title: "Camera Example", icon: "comments", navigationId: "home"),
         MenuItem(title: "Maps", icon: "tag", navigationId: "home"),
         MenuItem(title: "Swipe Cards", icon: "wishlist", navigationId: "home"),
-        MenuItem(title: "Payments", icon: "calendar", navigationId: "home")
+        MenuItem(title: "Payments", icon: "calendar", navigationId: "home"),
+        MenuItem(title: "Video", icon: "map", navigationId: "home")
     ];
     
     public init() {
