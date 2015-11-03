@@ -27,3 +27,15 @@
 * Running UITests
 * in-app payment integration
 * Dependency injection
+
+Checklist
+
+|          | iOS App | OSX App | TV App  | Watch App | Core iOS | Core OSX | Core TV | Core Watch |
+| :------- | :-------| :-------| :-------| :-------| :-------| :-------| :-------| :-------|
+| Compile  | YES     | YES     | YES     | YES     | YES     | YES     | YES     | YES     |
+| Tests    | YES     | YES     | YES     |
+| UI Tests |
+| Simulator|
+| Device   | 
+| xctool   |
+| App Store|
