@@ -8,8 +8,8 @@
 import XCTest
 import Core
 import RxSwift
+//@testable import Template1
 
-//@testable import App_iOS
 class App_iOSTests: XCTestCase {
     
     override func setUp() {

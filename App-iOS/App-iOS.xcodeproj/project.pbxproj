@@ -56,7 +56,6 @@
 		20B2321A1BD66AD100FDA56B /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B232191BD66AD100FDA56B /* RxCocoa.framework */; };
 		20C9033E1BE554C00004608A /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C9033D1BE554C00004608A /* Core.framework */; };
 		20C9033F1BE554C00004608A /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20C9033D1BE554C00004608A /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		20F764981BDE216200C98B1D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20F764971BDE216200C98B1D /* Info.plist */; };
 		CE6DABB71BD0FE8C00976127 /* App_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DABB61BD0FE8C00976127 /* App_iOSTests.swift */; };
 		CE6DABC21BD0FE8C00976127 /* App_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DABC11BD0FE8C00976127 /* App_iOSUITests.swift */; };
 /* End PBXBuildFile section */
@@ -595,7 +594,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Syerit Limited";
 				TargetAttributes = {
 					20A75BC01BDECC4E00EED682 = {
@@ -673,7 +672,6 @@
 				209092A71BD57C1C00E59A11 /* Main.storyboard in Resources */,
 				205C88801BE8D22F00F329B0 /* MenuItemCell.xib in Resources */,
 				20A75C301BDF84E400EED682 /* ImageCell.xib in Resources */,
-				20F764981BDE216200C98B1D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1035,6 +1033,8 @@
 				DEFINES_MODULE = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_BITCODE = YES;
+				ENABLE_TESTABILITY = YES;
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
