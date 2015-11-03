@@ -53,6 +53,14 @@ class TableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         print("Selected \(appModel.menuItems[indexPath.row])");
+        
+        let item = appModel.menuItems[indexPath.row];
+        
+        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+        let viewController = storyboard.instantiateViewControllerWithIdentifier(item.getNavigationId())
+        
+        let seque = SWRevealViewControllerSeguePushController(identifier: item.getNavigationId() + "Segue", source: self, destination: viewController)
+        seque.perform()
     }
     
     /*
@@ -100,14 +108,20 @@ class TableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        if segue.identifier == "ShowCounterSegue"
+        {
+            /*if let destinationVC = segue.destinationViewController as? OtherViewController{
+                destinationVC.numberToDisplay = counter
+            }*/
+        }
     }
-    */
+    
 
 }
