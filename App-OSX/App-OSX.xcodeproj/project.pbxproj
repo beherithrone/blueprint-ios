@@ -15,6 +15,7 @@
 		20C902671BE36FC70004608A /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C902651BE36FC70004608A /* Crashlytics.framework */; };
 		20C9026B1BE378570004608A /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C9026A1BE378570004608A /* Core.framework */; };
 		20C9026C1BE378730004608A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDCA9D11BD639880000C140 /* RxSwift.framework */; };
+		20DB39E81BE8AF54003A2B6B /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DB39E71BE8AF54003A2B6B /* MenuController.swift */; };
 		CEFD2BCA1BD1586A000067CD /* App_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD2BC91BD1586A000067CD /* App_OSXTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		20C902641BE36FC70004608A /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		20C902651BE36FC70004608A /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		20C9026A1BE378570004608A /* Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Core.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/Template1-edutljhphddznlfkgkxodleorbcp/Build/Products/Debug-iphoneos/Core.framework"; sourceTree = "<group>"; };
+		20DB39E71BE8AF54003A2B6B /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		CEDCA9D11BD639880000C140 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
 		CEFD2BB41BD1586A000067CD /* Template1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFD2BC51BD1586A000067CD /* Template1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Template1.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +94,7 @@
 			children = (
 				203A8D601BE10F4400334D3F /* AppDelegate.swift */,
 				203A8D611BE10F4400334D3F /* ViewController.swift */,
+				20DB39E71BE8AF54003A2B6B /* MenuController.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				203A8D661BE10F4400334D3F /* ViewController.swift in Sources */,
+				20DB39E81BE8AF54003A2B6B /* MenuController.swift in Sources */,
 				203A8D651BE10F4400334D3F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
