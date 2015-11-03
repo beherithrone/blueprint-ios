@@ -19,5 +19,9 @@ public class MenuItem {
     public func getTitle() -> String {
         return title
     }
+    
+    public func getIcon() -> String {
+        return icon
+    }
 
 }
