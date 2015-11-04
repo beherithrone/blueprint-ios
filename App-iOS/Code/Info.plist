@@ -53,6 +53,10 @@
 	</dict>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>TyphoonInitialAssemblies</key>
+    <array>
+        <string>ApplicationAssembly</string>
+    </array>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>

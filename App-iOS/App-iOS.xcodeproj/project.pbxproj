@@ -9,14 +9,13 @@
 /* Begin PBXBuildFile section */
 		205C88801BE8D22F00F329B0 /* MenuItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 205C887F1BE8D22F00F329B0 /* MenuItemCell.xib */; };
 		205C88851BE8D34500F329B0 /* MenuItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205C88831BE8D34500F329B0 /* MenuItemViewCell.swift */; };
-		205C88891BE8DA2500F329B0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205C88881BE8DA2500F329B0 /* TableViewController.swift */; };
+		205C88891BE8DA2500F329B0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205C88881BE8DA2500F329B0 /* MenuViewController.swift */; };
 		209092A31BD57C1C00E59A11 /* App_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2090928F1BD57C1C00E59A11 /* App_iOS.xcdatamodeld */; };
 		209092A41BD57C1C00E59A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209092911BD57C1C00E59A11 /* Assets.xcassets */; };
 		209092A61BD57C1C00E59A11 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 209092951BD57C1C00E59A11 /* LaunchScreen.xib */; };
 		209092A71BD57C1C00E59A11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209092961BD57C1C00E59A11 /* Main.storyboard */; };
 		209092A81BD57C1C00E59A11 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2090929B1BD57C1C00E59A11 /* SWRevealViewController.m */; };
 		209092A91BD57C1C00E59A11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2090929D1BD57C1C00E59A11 /* AppDelegate.swift */; };
-		209092AB1BD57C1C00E59A11 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2090929F1BD57C1C00E59A11 /* MenuController.swift */; };
 		20A75BC51BDECC4F00EED682 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A75BC31BDECC4F00EED682 /* Interface.storyboard */; };
 		20A75BC71BDECC4F00EED682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A75BC61BDECC4F00EED682 /* Assets.xcassets */; };
 		20A75BCE1BDECC4F00EED682 /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 20A75BCD1BDECC4F00EED682 /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -50,6 +49,8 @@
 		20B2321A1BD66AD100FDA56B /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B232191BD66AD100FDA56B /* RxCocoa.framework */; };
 		20C9033E1BE554C00004608A /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C9033D1BE554C00004608A /* Core.framework */; };
 		20C9033F1BE554C00004608A /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20C9033D1BE554C00004608A /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		20D606E61BEA296900B7BBF6 /* Typhoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D606E51BEA296900B7BBF6 /* Typhoon.framework */; };
+		20D606E91BEA2B8900B7BBF6 /* ApplicationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D606E81BEA2B8900B7BBF6 /* ApplicationAssembly.swift */; };
 		CE6DABB71BD0FE8C00976127 /* App_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DABB61BD0FE8C00976127 /* App_iOSTests.swift */; };
 		CE6DABC21BD0FE8C00976127 /* App_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DABC11BD0FE8C00976127 /* App_iOSUITests.swift */; };
 /* End PBXBuildFile section */
@@ -124,7 +125,7 @@
 /* Begin PBXFileReference section */
 		205C887F1BE8D22F00F329B0 /* MenuItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuItemCell.xib; sourceTree = "<group>"; };
 		205C88831BE8D34500F329B0 /* MenuItemViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemViewCell.swift; sourceTree = "<group>"; };
-		205C88881BE8DA2500F329B0 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		205C88881BE8DA2500F329B0 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		209092901BD57C1C00E59A11 /* App_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = App_iOS.xcdatamodel; sourceTree = "<group>"; };
 		209092911BD57C1C00E59A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		209092951BD57C1C00E59A11 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -132,7 +133,6 @@
 		2090929A1BD57C1C00E59A11 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		2090929B1BD57C1C00E59A11 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		2090929D1BD57C1C00E59A11 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2090929F1BD57C1C00E59A11 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		209092AF1BD57D0100E59A11 /* App-iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App-iOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		20A75BC11BDECC4E00EED682 /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A75BC41BDECC4F00EED682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -166,6 +166,8 @@
 		20B232131BD6650E00FDA56B /* ImageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
 		20B232191BD66AD100FDA56B /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = ../Carthage/Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		20C9033D1BE554C00004608A /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Core.framework; path = "${CONFIGURATION_BUILD_DIR}/Core.framework"; sourceTree = "<group>"; };
+		20D606E51BEA296900B7BBF6 /* Typhoon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Typhoon.framework; path = ../Carthage/Carthage/Build/iOS/Typhoon.framework; sourceTree = "<group>"; };
+		20D606E81BEA2B8900B7BBF6 /* ApplicationAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationAssembly.swift; sourceTree = "<group>"; };
 		20F764971BDE216200C98B1D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE6DAB9E1BD0FE8C00976127 /* Template1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6DABB21BD0FE8C00976127 /* Template1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Template1.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -192,6 +194,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20D606E61BEA296900B7BBF6 /* Typhoon.framework in Frameworks */,
 				20B2321A1BD66AD100FDA56B /* RxCocoa.framework in Frameworks */,
 				20A75C5A1BDF985400EED682 /* Crashlytics.framework in Frameworks */,
 				20A75C601BDF9E2D00EED682 /* TwitterCore.framework in Frameworks */,
@@ -243,8 +246,7 @@
 		204246921BE763D400E258D7 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				205C88881BE8DA2500F329B0 /* TableViewController.swift */,
-				2090929F1BD57C1C00E59A11 /* MenuController.swift */,
+				205C88881BE8DA2500F329B0 /* MenuViewController.swift */,
 				205C88831BE8D34500F329B0 /* MenuItemViewCell.swift */,
 			);
 			name = Menu;
@@ -257,13 +259,6 @@
 				20B232121BD664FE00FDA56B /* Services */,
 			);
 			name = Model;
-			sourceTree = "<group>";
-		};
-		205C88871BE8D9ED00F329B0 /* List */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = List;
 			sourceTree = "<group>";
 		};
 		209092931BD57C1C00E59A11 /* Source */ = {
@@ -301,6 +296,7 @@
 		2090929C1BD57C1C00E59A11 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				20D606E71BEA2B6200B7BBF6 /* Assembly */,
 				204246931BE763F700E258D7 /* Model */,
 				20B231FA1BD6641700FDA56B /* View */,
 				20B231F51BD6627200FDA56B /* ViewModel */,
@@ -352,7 +348,6 @@
 		20B231FA1BD6641700FDA56B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				205C88871BE8D9ED00F329B0 /* List */,
 				204246921BE763D400E258D7 /* Menu */,
 				204246911BE763A900E258D7 /* Home */,
 				204246901BE7636F00E258D7 /* Search */,
@@ -383,6 +378,14 @@
 				20A75BC21BDECC4F00EED682 /* Watch */,
 			);
 			path = "App-Watch";
+			sourceTree = "<group>";
+		};
+		20D606E71BEA2B6200B7BBF6 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				20D606E81BEA2B8900B7BBF6 /* ApplicationAssembly.swift */,
+			);
+			name = Assembly;
 			sourceTree = "<group>";
 		};
 		CE6DAB951BD0FE8C00976127 = {
@@ -452,6 +455,7 @@
 		CEFD29371BD13128000067CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				20D606E51BEA296900B7BBF6 /* Typhoon.framework */,
 				20C9033D1BE554C00004608A /* Core.framework */,
 				20A75C5B1BDF9E2D00EED682 /* TwitterKit.framework */,
 				20A75C5C1BDF9E2D00EED682 /* TwitterKitResources.bundle */,
@@ -687,6 +691,7 @@
 			inputPaths = (
 				"$(SRCROOT)/../Carthage/Carthage/Build/iOS/RxSwift.framework",
 				"$(SRCROOT)/../Carthage/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/../Carthage/Carthage/Build/iOS/Typhoon.framework",
 			);
 			outputPaths = (
 			);
@@ -725,7 +730,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				20B232111BD664D500FDA56B /* Wireframe.swift in Sources */,
-				209092AB1BD57C1C00E59A11 /* MenuController.swift in Sources */,
 				205C88851BE8D34500F329B0 /* MenuItemViewCell.swift in Sources */,
 				209092A91BD57C1C00E59A11 /* AppDelegate.swift in Sources */,
 				20B232041BD6642800FDA56B /* SearchViewController.swift in Sources */,
@@ -733,11 +737,12 @@
 				209092A31BD57C1C00E59A11 /* App_iOS.xcdatamodeld in Sources */,
 				20B232001BD6642800FDA56B /* CollectionViewImageCell.swift in Sources */,
 				20B232021BD6642800FDA56B /* SearchCell.swift in Sources */,
+				20D606E91BEA2B8900B7BBF6 /* ApplicationAssembly.swift in Sources */,
 				20B231ED1BD64D9500FDA56B /* CollectionViewController.swift in Sources */,
 				20B232141BD6650E00FDA56B /* ImageService.swift in Sources */,
 				209092A81BD57C1C00E59A11 /* SWRevealViewController.m in Sources */,
 				20B231F91BD663F300FDA56B /* SearchViewModel.swift in Sources */,
-				205C88891BE8DA2500F329B0 /* TableViewController.swift in Sources */,
+				205C88891BE8DA2500F329B0 /* MenuViewController.swift in Sources */,
 				20B231EE1BD64D9500FDA56B /* GridCell.swift in Sources */,
 				20B231F81BD663F300FDA56B /* SearchResultViewModel.swift in Sources */,
 			);

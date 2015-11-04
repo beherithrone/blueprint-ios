@@ -6,7 +6,7 @@
 //
 import Foundation
 
-public class AppModel {
+public class AppModel : NSObject {
     public var menuItems : [MenuItem] = [
         MenuItem(title: "Home", icon: "calendar", navigationId: "home"),
         MenuItem(title: "RxSearch", icon: "map", navigationId: "search"),
@@ -19,7 +19,5 @@ public class AppModel {
         MenuItem(title: "Video", icon: "map", navigationId: "home")
     ];
     
-    public init() {
-        
-    }
+    
 }

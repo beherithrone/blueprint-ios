@@ -136,10 +136,10 @@
             </objects>
             <point key="canvasLocation" x="2609" y="159"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Menu View Controller-->
         <scene sceneID="Uks-PG-AFS">
             <objects>
-                <tableViewController id="lah-rs-JmZ" customClass="TableViewController" customModule="Template1" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="lah-rs-JmZ" customClass="MenuViewController" customModule="Template1" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="65" sectionHeaderHeight="28" sectionFooterHeight="28" id="FO6-uV-4cb">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
