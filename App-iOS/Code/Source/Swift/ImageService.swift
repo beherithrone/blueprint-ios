@@ -9,6 +9,7 @@ import Foundation
 import RxSwift
 import RxCocoa
 import UIKit
+import Core
 
 protocol ImageService {
     func imageFromURL(URL: NSURL) -> Observable<UIImage>

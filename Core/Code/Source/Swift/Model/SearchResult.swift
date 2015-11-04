@@ -6,14 +6,12 @@
 //
 
 import Foundation
-#if !RX_NO_MODULE
 import RxSwift
-#endif
 
-struct SearchResult: CustomStringConvertible {
-    let title: String
-    let description: String
-    let URL: NSURL
+public struct SearchResult: CustomStringConvertible {
+    public let title: String
+    public let description: String
+    public let URL: NSURL
 
     init(title: String, description: String, URL: NSURL) {
         self.title = title

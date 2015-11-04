@@ -19,6 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        Dependencies.sharedDependencies.wireframe = DefaultWireframe()
+        
         // Override point for customization after application launch.
         Fabric.with([Crashlytics.self, Twitter.self/*, MoPub.self*/])
         

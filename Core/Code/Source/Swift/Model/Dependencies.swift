@@ -8,17 +8,17 @@
 import Foundation
 import RxSwift
 
-class Dependencies {
+public class Dependencies {
     
-    static let sharedDependencies = Dependencies() // Singleton
+    public static let sharedDependencies = Dependencies() // Singleton
     
-    let URLSession = NSURLSession.sharedSession()
-    let backgroundWorkScheduler: ImmediateSchedulerType
-    let mainScheduler: SerialDispatchQueueScheduler
-    let wireframe: Wireframe
+    public let URLSession = NSURLSession.sharedSession()
+    public let backgroundWorkScheduler: ImmediateSchedulerType
+    public let mainScheduler: SerialDispatchQueueScheduler
+    public var wireframe: Wireframe?
     
     private init() {
-        wireframe = DefaultWireframe()
+        //wireframe = DefaultWireframe()
         
         let operationQueue = NSOperationQueue()
         operationQueue.maxConcurrentOperationCount = 2

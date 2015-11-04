@@ -9,13 +9,13 @@ import Foundation
 import RxSwift
 import RxCocoa
 
-func apiError(error: String) -> NSError {
+public func apiError(error: String) -> NSError {
     return NSError(domain: "API", code: -1, userInfo: [NSLocalizedDescriptionKey: error])
 }
 
 public let ParseError = apiError("Error during parsing")
 
-protocol API {
+public protocol API {
     func getSearchResults(query: String) -> Observable<[SearchResult]>
     func articleContent(searchResult: SearchResult) -> Observable<Page>
 }
@@ -24,16 +24,16 @@ func URLEscape(pathSegment: String) -> String {
    return pathSegment.stringByAddingPercentEncodingWithAllowedCharacters(.URLHostAllowedCharacterSet())!
 }
 
-class DefaultAPI: API {
+public class DefaultAPI: API {
 
-    static let sharedAPI = DefaultAPI() // Singleton
+    public static let sharedAPI = DefaultAPI() // Singleton
 
     let $: Dependencies = Dependencies.sharedDependencies
 
     private init() {}
 
     // Example wikipedia response http://en.wikipedia.org/w/api.php?action=opensearch&search=Rx
-    func getSearchResults(query: String) -> Observable<[SearchResult]> {
+    public func getSearchResults(query: String) -> Observable<[SearchResult]> {
         let escapedQuery = URLEscape(query)
         let urlContent = "http://en.wikipedia.org/w/api.php?action=opensearch&search=\(escapedQuery)"
         let url = NSURL(string: urlContent)!
@@ -52,7 +52,7 @@ class DefaultAPI: API {
     }
 
     // http://en.wikipedia.org/w/api.php?action=parse&page=rx&format=json
-    func articleContent(searchResult: SearchResult) -> Observable<Page> {
+    public func articleContent(searchResult: SearchResult) -> Observable<Page> {
         let escapedPage = URLEscape(searchResult.title)
         guard let url = NSURL(string: "http://en.wikipedia.org/w/api.php?action=parse&page=\(escapedPage)&format=json") else {
             return failWith(apiError("Can't create url"))

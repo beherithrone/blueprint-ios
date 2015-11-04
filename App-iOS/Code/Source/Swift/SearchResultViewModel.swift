@@ -6,10 +6,9 @@
 //
 
 import Foundation
-#if !RX_NO_MODULE
 import RxSwift
 import RxCocoa
-#endif
+import Core
 
 class SearchResultViewModel {
     let searchResult: SearchResult

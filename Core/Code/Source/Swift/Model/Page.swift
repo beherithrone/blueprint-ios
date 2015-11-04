@@ -6,13 +6,11 @@
 //
 
 import Foundation
-#if !RX_NO_MODULE
 import RxSwift
-#endif
 
-struct Page {
-    let title: String
-    let text: String
+public struct Page {
+    public let title: String
+    public let text: String
 
     init(title: String, text: String) {
         self.title = title

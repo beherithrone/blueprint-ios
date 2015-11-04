@@ -8,6 +8,7 @@
 import Foundation
 import RxSwift
 import RxCocoa
+import Core
 
 class SearchViewModel {
 
@@ -45,7 +46,7 @@ class SearchViewModel {
 
         selectedResult
             .subscribeNext { searchResult in
-                wireframe.openURL(searchResult.searchResult.URL)
+                wireframe!.openURL(searchResult.searchResult.URL)
             }
             .addDisposableTo(subscriptions)
     }

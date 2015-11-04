@@ -7,10 +7,7 @@
 
 import Foundation
 import UIKit
-
-protocol Wireframe {
-    func openURL(URL: NSURL)
-}
+import Core
 
 class DefaultWireframe: Wireframe {
     func openURL(URL: NSURL) {

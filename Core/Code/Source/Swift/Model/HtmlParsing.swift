@@ -7,7 +7,7 @@
 
 import Foundation
 
-func parseImageURLsfromHTML(html: NSString) throws -> [NSURL]  {
+public func parseImageURLsfromHTML(html: NSString) throws -> [NSURL]  {
     let regularExpression = try NSRegularExpression(pattern: "<img[^>]*src=\"([^\"]+)\"[^>]*>", options: [])
     
     let matches = regularExpression.matchesInString(html as String, options: [], range: NSMakeRange(0, html.length))
@@ -28,7 +28,7 @@ func parseImageURLsfromHTML(html: NSString) throws -> [NSURL]  {
     }.filter { $0 != nil }.map { $0! }
 }
 
-func parseImageURLsfromHTMLSuitableForDisplay(html: NSString) throws -> [NSURL] {
+public func parseImageURLsfromHTMLSuitableForDisplay(html: NSString) throws -> [NSURL] {
     return try parseImageURLsfromHTML(html).filter {
         return $0.absoluteString.rangeOfString(".svg.") == nil
     }
