@@ -41,7 +41,7 @@ PRODUCT_BUNDLE_IDENTIFIER = com.App-iOS
 ALWAYS_SEARCH_USER_PATHS = NO
 
 // MARK: Framework Search Paths
-FRAMEWORK_SEARCH_PATHS = $(SRCROOT)/../Carthage/Carthage/Build/iOS
+FRAMEWORK_SEARCH_PATHS = $(SRCROOT)/../Dependencies/Carthage/Build/iOS
 
 // MARK: -
 // MARK: DEPLOYMENT

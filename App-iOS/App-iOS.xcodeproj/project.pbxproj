@@ -156,7 +156,7 @@
 		20B231EB1BD64D9500FDA56B /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		20B231EC1BD64D9500FDA56B /* GridCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
 		20B231EF1BD656CA00FDA56B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		20B231F21BD6573700FDA56B /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		20B231F21BD6573700FDA56B /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Dependencies/Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		20B231F61BD663F300FDA56B /* SearchResultViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultViewModel.swift; sourceTree = "<group>"; };
 		20B231F71BD663F300FDA56B /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		20B231FB1BD6642800FDA56B /* CollectionViewImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewImageCell.swift; sourceTree = "<group>"; };
@@ -164,9 +164,9 @@
 		20B231FF1BD6642800FDA56B /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		20B232101BD664D500FDA56B /* Wireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
 		20B232131BD6650E00FDA56B /* ImageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
-		20B232191BD66AD100FDA56B /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = ../Carthage/Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		20B232191BD66AD100FDA56B /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = ../Dependencies/Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		20C9033D1BE554C00004608A /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Core.framework; path = "${CONFIGURATION_BUILD_DIR}/Core.framework"; sourceTree = "<group>"; };
-		20D606E51BEA296900B7BBF6 /* Typhoon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Typhoon.framework; path = ../Carthage/Carthage/Build/iOS/Typhoon.framework; sourceTree = "<group>"; };
+		20D606E51BEA296900B7BBF6 /* Typhoon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Typhoon.framework; path = ../Dependencies/Carthage/Build/iOS/Typhoon.framework; sourceTree = "<group>"; };
 		20D606E81BEA2B8900B7BBF6 /* ApplicationAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationAssembly.swift; sourceTree = "<group>"; };
 		20F764971BDE216200C98B1D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE6DAB9E1BD0FE8C00976127 /* Template1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template1.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -689,9 +689,9 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/../Carthage/Carthage/Build/iOS/RxSwift.framework",
-				"$(SRCROOT)/../Carthage/Carthage/Build/iOS/RxCocoa.framework",
-				"$(SRCROOT)/../Carthage/Carthage/Build/iOS/Typhoon.framework",
+				"$(SRCROOT)/../Dependencies/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/../Dependencies/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/../Dependencies/Carthage/Build/iOS/Typhoon.framework",
 			);
 			outputPaths = (
 			);

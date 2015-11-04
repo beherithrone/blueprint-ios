@@ -64,7 +64,7 @@
 		20A75ABE1BDEBEFB00EED682 /* UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A75AC21BDEBEFB00EED682 /* App_TVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_TVUITests.swift; sourceTree = "<group>"; };
 		20A75AC41BDEBEFB00EED682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20C902601BE2D5F20004608A /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Carthage/Build/tvOS/RxSwift.framework; sourceTree = "<group>"; };
+		20C902601BE2D5F20004608A /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Dependencies/Carthage/Build/tvOS/RxSwift.framework; sourceTree = "<group>"; };
 		20C903411BE568E40004608A /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Core.framework; path = "${CONFIGURATION_BUILD_DIR}/Core.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -316,7 +316,7 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/../Carthage/Carthage/Build/tvOS/RxSwift.framework",
+				"$(SRCROOT)/../Dependencies/Carthage/Build/tvOS/RxSwift.framework",
 			);
 			name = "Carthage Script";
 			outputPaths = (
@@ -473,7 +473,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Carthage/Build/tvOS";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Dependencies/Carthage/Build/tvOS";
 				INFOPLIST_FILE = Code/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.tv;
@@ -489,7 +489,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Carthage/Build/tvOS";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Dependencies/Carthage/Build/tvOS";
 				INFOPLIST_FILE = Code/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.tv;
@@ -525,7 +525,7 @@
 		20A75ACE1BDEBEFB00EED682 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Carthage/Build/tvOS";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Dependencies/Carthage/Build/tvOS";
 				INFOPLIST_FILE = UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.App-TV.UITests";
@@ -538,7 +538,7 @@
 		20A75ACF1BDEBEFB00EED682 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Carthage/Build/tvOS";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Dependencies/Carthage/Build/tvOS";
 				INFOPLIST_FILE = UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.App-TV.UITests";
