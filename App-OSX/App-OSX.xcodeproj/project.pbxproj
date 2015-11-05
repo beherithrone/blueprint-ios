@@ -11,6 +11,7 @@
 		203A8D641BE10F4400334D3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203A8D5E1BE10F4400334D3F /* Main.storyboard */; };
 		203A8D651BE10F4400334D3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203A8D601BE10F4400334D3F /* AppDelegate.swift */; };
 		203A8D661BE10F4400334D3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203A8D611BE10F4400334D3F /* ViewController.swift */; };
+		20909AE31BEA72A4004F87AC /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20909AE21BEA72A4004F87AC /* RxCocoa.framework */; };
 		20C902661BE36FC70004608A /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C902641BE36FC70004608A /* Fabric.framework */; };
 		20C902671BE36FC70004608A /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C902651BE36FC70004608A /* Crashlytics.framework */; };
 		20C9026B1BE378570004608A /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C9026A1BE378570004608A /* Core.framework */; };
@@ -36,6 +37,7 @@
 		203A8D601BE10F4400334D3F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		203A8D611BE10F4400334D3F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2042468F1BE7587D00E258D7 /* Template1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Template1.entitlements; path = ../Template1.entitlements; sourceTree = "<group>"; };
+		20909AE21BEA72A4004F87AC /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = ../Dependencies/Carthage/Build/Mac/RxCocoa.framework; sourceTree = "<group>"; };
 		20C902641BE36FC70004608A /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		20C902651BE36FC70004608A /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		20C9026A1BE378570004608A /* Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Core.framework; path = "${CONFIGURATION_BUILD_DIR}/Core.framework"; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20909AE31BEA72A4004F87AC /* RxCocoa.framework in Frameworks */,
 				20C9026C1BE378730004608A /* RxSwift.framework in Frameworks */,
 				20C9026B1BE378570004608A /* Core.framework in Frameworks */,
 				20C902671BE36FC70004608A /* Crashlytics.framework in Frameworks */,
@@ -109,6 +112,7 @@
 		CEE6FBCB1BD15AF700594649 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				20909AE21BEA72A4004F87AC /* RxCocoa.framework */,
 				20C9026A1BE378570004608A /* Core.framework */,
 				20C902641BE36FC70004608A /* Fabric.framework */,
 				20C902651BE36FC70004608A /* Crashlytics.framework */,
@@ -290,6 +294,7 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/../Dependencies/Carthage/Build/Mac/RxSwift.framework",
+				"$(SRCROOT)/../Dependencies/Carthage/Build/Mac/RxCocoa.framework",
 			);
 			name = "Carthage Script";
 			outputPaths = (

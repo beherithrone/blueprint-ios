@@ -12,6 +12,7 @@
 		203A8D741BE10FC700334D3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203A8D6D1BE10FC700334D3F /* Main.storyboard */; };
 		203A8D751BE10FC700334D3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203A8D6F1BE10FC700334D3F /* AppDelegate.swift */; };
 		203A8D761BE10FC700334D3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203A8D701BE10FC700334D3F /* ViewController.swift */; };
+		20909AE11BEA71D8004F87AC /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20909AE01BEA71D8004F87AC /* RxCocoa.framework */; };
 		20A75AB81BDEBEFB00EED682 /* App_TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A75AB71BDEBEFB00EED682 /* App_TVTests.swift */; };
 		20A75AC31BDEBEFB00EED682 /* App_TVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A75AC21BDEBEFB00EED682 /* App_TVUITests.swift */; };
 		20C902611BE2D5F20004608A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C902601BE2D5F20004608A /* RxSwift.framework */; };
@@ -57,6 +58,7 @@
 		203A8D6D1BE10FC700334D3F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		203A8D6F1BE10FC700334D3F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		203A8D701BE10FC700334D3F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20909AE01BEA71D8004F87AC /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = ../Dependencies/Carthage/Build/tvOS/RxCocoa.framework; sourceTree = "<group>"; };
 		20A75A9F1BDEBEFB00EED682 /* Template1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A75AB31BDEBEFB00EED682 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A75AB71BDEBEFB00EED682 /* App_TVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_TVTests.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20909AE11BEA71D8004F87AC /* RxCocoa.framework in Frameworks */,
 				20C902611BE2D5F20004608A /* RxSwift.framework in Frameworks */,
 				20C903421BE568E40004608A /* Core.framework in Frameworks */,
 			);
@@ -174,6 +177,7 @@
 		20C902621BE2D74E0004608A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				20909AE01BEA71D8004F87AC /* RxCocoa.framework */,
 				20C903411BE568E40004608A /* Core.framework */,
 				20C902601BE2D5F20004608A /* RxSwift.framework */,
 			);
@@ -317,6 +321,7 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/../Dependencies/Carthage/Build/tvOS/RxSwift.framework",
+				"$(SRCROOT)/../Dependencies/Carthage/Build/tvOS/RxCocoa.framework",
 			);
 			name = "Carthage Script";
 			outputPaths = (

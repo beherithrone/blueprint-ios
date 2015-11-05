@@ -16,6 +16,9 @@
 		209092A71BD57C1C00E59A11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209092961BD57C1C00E59A11 /* Main.storyboard */; };
 		209092A81BD57C1C00E59A11 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2090929B1BD57C1C00E59A11 /* SWRevealViewController.m */; };
 		209092A91BD57C1C00E59A11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2090929D1BD57C1C00E59A11 /* AppDelegate.swift */; };
+		20909AE51BEB9BE4004F87AC /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20909AE41BEB9BE4004F87AC /* RealmSwift.framework */; };
+		20909AE71BEBADF4004F87AC /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20909AE61BEBADF4004F87AC /* Realm.framework */; };
+		20909AE81BEBADF4004F87AC /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20909AE61BEBADF4004F87AC /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		20A75BC51BDECC4F00EED682 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A75BC31BDECC4F00EED682 /* Interface.storyboard */; };
 		20A75BC71BDECC4F00EED682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A75BC61BDECC4F00EED682 /* Assets.xcassets */; };
 		20A75BCE1BDECC4F00EED682 /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 20A75BCD1BDECC4F00EED682 /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -115,6 +118,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				20909AE81BEBADF4004F87AC /* Realm.framework in Embed Frameworks */,
 				20C9033F1BE554C00004608A /* Core.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -134,6 +138,8 @@
 		2090929B1BD57C1C00E59A11 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		2090929D1BD57C1C00E59A11 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		209092AF1BD57D0100E59A11 /* App-iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App-iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		20909AE41BEB9BE4004F87AC /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../Dependencies/Frameworks/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		20909AE61BEBADF4004F87AC /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = ../Dependencies/Frameworks/iOS/Realm.framework; sourceTree = "<group>"; };
 		20A75BC11BDECC4E00EED682 /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A75BC41BDECC4F00EED682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		20A75BC61BDECC4F00EED682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -194,6 +200,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20909AE51BEB9BE4004F87AC /* RealmSwift.framework in Frameworks */,
 				20D606E61BEA296900B7BBF6 /* Typhoon.framework in Frameworks */,
 				20B2321A1BD66AD100FDA56B /* RxCocoa.framework in Frameworks */,
 				20A75C5A1BDF985400EED682 /* Crashlytics.framework in Frameworks */,
@@ -203,6 +210,7 @@
 				20B231EA1BD63E7100FDA56B /* MapKit.framework in Frameworks */,
 				20A75C591BDF985400EED682 /* Fabric.framework in Frameworks */,
 				20A75C5E1BDF9E2D00EED682 /* TwitterKit.framework in Frameworks */,
+				20909AE71BEBADF4004F87AC /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +463,8 @@
 		CEFD29371BD13128000067CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				20909AE61BEBADF4004F87AC /* Realm.framework */,
+				20909AE41BEB9BE4004F87AC /* RealmSwift.framework */,
 				20D606E51BEA296900B7BBF6 /* Typhoon.framework */,
 				20C9033D1BE554C00004608A /* Core.framework */,
 				20A75C5B1BDF9E2D00EED682 /* TwitterKit.framework */,
@@ -513,11 +523,11 @@
 				CE6DAB9A1BD0FE8C00976127 /* Sources */,
 				CE6DAB9B1BD0FE8C00976127 /* Frameworks */,
 				CE6DAB9C1BD0FE8C00976127 /* Resources */,
-				20B231F11BD656E000FDA56B /* ShellScript */,
+				20B231F11BD656E000FDA56B /* Copy Frameworks */,
 				20A75BE71BDECC4F00EED682 /* Embed Watch Content */,
 				20A75C561BDF981300EED682 /* ShellScript */,
 				20C903401BE554C10004608A /* Embed Frameworks */,
-				20C9033C1BE53F380004608A /* ShellScript */,
+				20C9033C1BE53F380004608A /* Remove Frameworks */,
 			);
 			buildRules = (
 			);
@@ -683,7 +693,7 @@
 			shellPath = /bin/sh;
 			shellScript = "./Fabric.framework/run 2fd4e5361e810d659fa0bf5490388ee951d345a6 b015301063be99469649109666ff4a67b4a0aff0b12524cf7d711b033826625a";
 		};
-		20B231F11BD656E000FDA56B /* ShellScript */ = {
+		20B231F11BD656E000FDA56B /* Copy Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -692,20 +702,24 @@
 				"$(SRCROOT)/../Dependencies/Carthage/Build/iOS/RxSwift.framework",
 				"$(SRCROOT)/../Dependencies/Carthage/Build/iOS/RxCocoa.framework",
 				"$(SRCROOT)/../Dependencies/Carthage/Build/iOS/Typhoon.framework",
+				"$(SRCROOT)/../Dependencies/Frameworks/iOS/RealmSwift.framework",
+				"$(SRCROOT)/../Dependencies/Frameworks/iOS/Realm.framework",
 			);
+			name = "Copy Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
-		20C9033C1BE53F380004608A /* ShellScript */ = {
+		20C9033C1BE53F380004608A /* Remove Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Remove Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1007,6 +1021,10 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_BITCODE = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../Dependencies/Carthage/Build/iOS",
+					"$(SRCROOT)/../Dependencies/Frameworks/iOS",
+				);
 				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
@@ -1018,6 +1036,10 @@
 				DEFINES_MODULE = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../Dependencies/Carthage/Build/iOS",
+					"$(SRCROOT)/../Dependencies/Frameworks/iOS",
+				);
 			};
 			name = Release;
 		};
