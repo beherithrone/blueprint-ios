@@ -5,19 +5,22 @@
 //  Copyright © 2015 Syerit Limited. All rights reserved.
 //
 import Foundation
+import RealmSwift
 
-public class MenuItem {
+public class MenuItem : Object {
     
-    private let title : String
-    private let icon: String;
-    private let navigationId: String;
+    dynamic var title : String = "";
+    dynamic var icon : String  = "";
+    dynamic var navigationId : String = "";
     
-    public init(title : String, icon: String, navigationId: String) {
+    public convenience required init(title : String, icon: String, navigationId: String) {
+        self.init()
         self.title = title
         self.icon = icon
         self.navigationId = navigationId;
+        
     }
-    
+ 
     public func getTitle() -> String {
         return title
     }

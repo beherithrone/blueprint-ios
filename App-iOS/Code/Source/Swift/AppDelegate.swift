@@ -14,21 +14,12 @@ import Core
 import RealmSwift
 import RxSwift
 
-class Dog: Object {
-    dynamic var name = ""
-    dynamic var age = 0
-}
-
-class Person: Object {
-    dynamic var name = ""
-    let dogs = List<Dog>()
-}
-
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     var appModel : AppModel?
+    var realm : Realm?;
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
@@ -47,53 +38,53 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             print("iOS app stuff with RxSwift: \(event)")
         })
         
-        
-        
-        do {
+        /*do {
             try NSFileManager.defaultManager().removeItemAtPath(Realm.Configuration.defaultConfiguration.path!)
-        } catch {}
+        } catch {}*/
         
-        // Create a standalone object
-        let mydog = Dog()
-        
-        // Set & read properties
-        mydog.name = "Rex"
-        mydog.age = 9
-        print("Name of dog: \(mydog.name)")
-        
-        // Realms are used to group data together
-        let realm = try! Realm() // Create realm pointing to default file
-        
-        // Save your object
-        realm.beginWrite()
-        realm.add(mydog)
-        try! realm.commitWrite()
+        //Get Realm
+        let documentsPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as NSString
+        let realmPath = documentsPath.stringByAppendingPathComponent("AppCache.realm")
+        print("RealmPath: \(realmPath)")
+        realm = try! Realm(path: realmPath)
         
         // Query
-        let results = realm.objects(Dog).filter(NSPredicate(format:"name contains 'x'"))
+        let appModelArr = realm!.objects(AppModel)
+        print("BUM before: \(appModelArr.count)")
         
-        // Queries are chainable!
-        let results2 = results.filter("age > 8")
-        print("Number of dogs: \(results.count)")
-        print("Dogs older than eight: \(results2.count)")
-        
-        // Link objects
-        let person = Person()
-        person.name = "Tim"
-        person.dogs.append(mydog)
-        
-        try! realm.write {
-            realm.add(person)
-        }
-        
-        // Multi-threading
-        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)) {
-            let otherRealm = try! Realm()
-            let otherResults = otherRealm.objects(Dog).filter(NSPredicate(format:"name contains 'Rex'"))
-            print("Number of dogs \(otherResults.count)")
+        if(appModelArr.count > 0) {
+            appModel!.menuItems = appModelArr[0].menuItems;
+        } else {
+            appModel!.menuItems.append(createMenuItem("Home", icon: "calendar", navigationId: "home"));
+            appModel!.menuItems.append(createMenuItem("RxSearch", icon: "map", navigationId: "search"));
+            appModel!.menuItems.append(createMenuItem("Login", icon: "news", navigationId: "home"));
+            appModel!.menuItems.append(createMenuItem("Ad Example", icon: "photo", navigationId: "home"));
+            appModel!.menuItems.append(createMenuItem("Camera Example", icon: "comments", navigationId: "home"));
+            appModel!.menuItems.append(createMenuItem("Maps", icon: "tag", navigationId: "home"));
+            appModel!.menuItems.append(createMenuItem("Swipe Cards", icon: "wishlist", navigationId: "home"));
+            appModel!.menuItems.append(createMenuItem("Payments", icon: "calendar", navigationId: "home"));
+            appModel!.menuItems.append(createMenuItem("Video", icon: "map", navigationId: "home"));
+            appModel!.menuItems.append(createMenuItem("AWS Data", icon: "map", navigationId: "home"));
+            
+            // Save your object
+            realm!.beginWrite()
+            realm!.add(appModel!)
+            try! realm!.commitWrite()
         }
         
         return true
+    }
+    
+    private func createMenuItem(title: String, icon: String, navigationId: String) -> MenuItem {
+        let item = MenuItem(title: title, icon: icon, navigationId: navigationId);
+        save(item);
+        return item;
+    }
+    
+    private func save(item : MenuItem) -> Void {
+        realm!.beginWrite()
+        self.realm!.add(item)
+        try! realm!.commitWrite()
     }
 
     func applicationWillResignActive(application: UIApplication) {
