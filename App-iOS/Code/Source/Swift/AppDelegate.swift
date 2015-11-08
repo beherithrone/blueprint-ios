@@ -54,7 +54,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         if(appModelArr.count > 0) {
             appModel!.menuItems = appModelArr[0].menuItems;
-        } else {
+        }
+        if ( appModel?.menuItems.count != 10) {
+            // Save your object
+            realm!.beginWrite()
+            realm!.deleteAll();
+            try! realm!.commitWrite()
+            
             appModel!.menuItems.append(createMenuItem("Home", icon: "calendar", navigationId: "home"));
             appModel!.menuItems.append(createMenuItem("RxSearch", icon: "map", navigationId: "search"));
             appModel!.menuItems.append(createMenuItem("Login", icon: "news", navigationId: "home"));
@@ -65,8 +71,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             appModel!.menuItems.append(createMenuItem("Payments", icon: "calendar", navigationId: "home"));
             appModel!.menuItems.append(createMenuItem("Video", icon: "map", navigationId: "home"));
             appModel!.menuItems.append(createMenuItem("AWS Data", icon: "map", navigationId: "home"));
-            
-            // Save your object
+        
             realm!.beginWrite()
             realm!.add(appModel!)
             try! realm!.commitWrite()
