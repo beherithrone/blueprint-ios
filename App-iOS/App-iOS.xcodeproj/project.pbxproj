@@ -18,11 +18,10 @@
 		209092A81BD57C1C00E59A11 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2090929B1BD57C1C00E59A11 /* SWRevealViewController.m */; };
 		209092A91BD57C1C00E59A11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2090929D1BD57C1C00E59A11 /* AppDelegate.swift */; };
 		20909AE51BEB9BE4004F87AC /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20909AE41BEB9BE4004F87AC /* RealmSwift.framework */; };
-		20909AE71BEBADF4004F87AC /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20909AE61BEBADF4004F87AC /* Realm.framework */; };
-		20909AE81BEBADF4004F87AC /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20909AE61BEBADF4004F87AC /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		209AD9491BF0D5CF0003887E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209AD9481BF0D5CF0003887E /* LoginViewController.swift */; };
 		209AD94C1BF0D9490003887E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209AD94B1BF0D9490003887E /* CameraViewController.swift */; };
 		209AD94F1BF0DC100003887E /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209AD94E1BF0DC100003887E /* MapsViewController.swift */; };
+		209ADA041BF136080003887E /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209ADA031BF136080003887E /* Realm.framework */; };
 		20A75BC51BDECC4F00EED682 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A75BC31BDECC4F00EED682 /* Interface.storyboard */; };
 		20A75BC71BDECC4F00EED682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A75BC61BDECC4F00EED682 /* Assets.xcassets */; };
 		20A75BCE1BDECC4F00EED682 /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 20A75BCD1BDECC4F00EED682 /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -122,7 +121,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				20909AE81BEBADF4004F87AC /* Realm.framework in Embed Frameworks */,
 				20C9033F1BE554C00004608A /* Core.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -144,10 +142,10 @@
 		2090929D1BD57C1C00E59A11 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		209092AF1BD57D0100E59A11 /* App-iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App-iOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		20909AE41BEB9BE4004F87AC /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../Dependencies/Frameworks/iOS/RealmSwift.framework; sourceTree = "<group>"; };
-		20909AE61BEBADF4004F87AC /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = ../Dependencies/Frameworks/iOS/Realm.framework; sourceTree = "<group>"; };
 		209AD9481BF0D5CF0003887E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		209AD94B1BF0D9490003887E /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		209AD94E1BF0DC100003887E /* MapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
+		209ADA031BF136080003887E /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = ../Dependencies/Frameworks/iOS/Realm.framework; sourceTree = "<group>"; };
 		20A75BC11BDECC4E00EED682 /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A75BC41BDECC4F00EED682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		20A75BC61BDECC4F00EED682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -208,6 +206,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				209ADA041BF136080003887E /* Realm.framework in Frameworks */,
 				20909AE51BEB9BE4004F87AC /* RealmSwift.framework in Frameworks */,
 				20D606E61BEA296900B7BBF6 /* Typhoon.framework in Frameworks */,
 				20B2321A1BD66AD100FDA56B /* RxCocoa.framework in Frameworks */,
@@ -218,7 +217,6 @@
 				20B231EA1BD63E7100FDA56B /* MapKit.framework in Frameworks */,
 				20A75C591BDF985400EED682 /* Fabric.framework in Frameworks */,
 				20A75C5E1BDF9E2D00EED682 /* TwitterKit.framework in Frameworks */,
-				20909AE71BEBADF4004F87AC /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,7 +505,7 @@
 		CEFD29371BD13128000067CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				20909AE61BEBADF4004F87AC /* Realm.framework */,
+				209ADA031BF136080003887E /* Realm.framework */,
 				20909AE41BEB9BE4004F87AC /* RealmSwift.framework */,
 				20D606E51BEA296900B7BBF6 /* Typhoon.framework */,
 				20C9033D1BE554C00004608A /* Core.framework */,

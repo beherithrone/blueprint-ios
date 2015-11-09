@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 class AwsViewController: UIViewController {
 
@@ -29,7 +30,12 @@ class AwsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func populateDataClicked(sender: AnyObject) {
+        
+    }
 
+    @IBAction func refreshClicked(sender: AnyObject) {
+    }
     /*
     // MARK: - Navigation
 
@@ -41,3 +47,33 @@ class AwsViewController: UIViewController {
     */
 
 }
+
+/*class Template1TableRow :AWSDynamoDBObjectModel ,AWSDynamoDBModeling  {
+    
+    var id:String?
+    var value:String?
+    //var value:NSNumber?
+    //var desc:String? = "Lorem ipsum"
+    
+    class func dynamoDBTableName() -> String! {
+        return "Template1"
+    }
+    
+    class func hashKeyAttribute() -> String! {
+        return "id"
+    }
+    
+    class func rangeKeyAttribute() -> String! {
+        return "value"
+    }
+    
+    //MARK: NSObjectProtocol hack
+    override func isEqual(object: AnyObject?) -> Bool {
+        return super.isEqual(object)
+    }
+    
+    override func `self`() -> Self {
+        return self
+    }
+}*/
+
