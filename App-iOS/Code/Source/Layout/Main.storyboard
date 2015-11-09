@@ -207,6 +207,72 @@
             <point key="canvasLocation" x="1858" y="259"/>
         </scene>
         <!--Navigation Controller-->
+        <scene sceneID="aeC-wu-afE">
+            <objects>
+                <navigationController storyboardIdentifier="aws" id="nBK-LG-WP2" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eO5-p5-ahh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="eZs-oO-HPd" kind="relationship" relationship="rootViewController" id="Avg-GS-HNn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G7X-LA-b59" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1838" y="933"/>
+        </scene>
+        <!--Aws View Controller-->
+        <scene sceneID="vti-12-Zyh">
+            <objects>
+                <viewController id="eZs-oO-HPd" customClass="AwsViewController" customModule="Template1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iqy-oy-QwD"/>
+                        <viewControllerLayoutGuide type="bottom" id="dCF-Di-pQ7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Mbx-1w-RcJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pdy-ar-7ZD">
+                                <rect key="frame" x="20" y="72" width="97" height="30"/>
+                                <state key="normal" title="Populate Data"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ztz-aC-4Ve">
+                                <rect key="frame" x="527" y="72" width="53" height="30"/>
+                                <state key="normal" title="Refresh"/>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="avW-5T-5Cc">
+                                <rect key="frame" x="20" y="110" width="560" height="470"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="avW-5T-5Cc" firstAttribute="top" secondItem="Pdy-ar-7ZD" secondAttribute="bottom" constant="8" id="1gz-5V-Kad"/>
+                            <constraint firstItem="Ztz-aC-4Ve" firstAttribute="top" secondItem="iqy-oy-QwD" secondAttribute="bottom" constant="8" id="6dS-Gx-Q9U"/>
+                            <constraint firstItem="avW-5T-5Cc" firstAttribute="top" secondItem="Ztz-aC-4Ve" secondAttribute="bottom" constant="8" id="DUU-qC-UjI"/>
+                            <constraint firstItem="avW-5T-5Cc" firstAttribute="trailing" secondItem="Mbx-1w-RcJ" secondAttribute="trailingMargin" id="a6S-Yp-Hg2"/>
+                            <constraint firstItem="dCF-Di-pQ7" firstAttribute="top" secondItem="avW-5T-5Cc" secondAttribute="bottom" constant="20" id="bPe-1F-TB6"/>
+                            <constraint firstItem="avW-5T-5Cc" firstAttribute="leading" secondItem="Mbx-1w-RcJ" secondAttribute="leadingMargin" id="duc-Yc-XTD"/>
+                            <constraint firstItem="Ztz-aC-4Ve" firstAttribute="trailing" secondItem="Mbx-1w-RcJ" secondAttribute="trailingMargin" id="igG-v0-cjI"/>
+                            <constraint firstItem="Pdy-ar-7ZD" firstAttribute="leading" secondItem="Mbx-1w-RcJ" secondAttribute="leadingMargin" id="n7G-UX-Vab"/>
+                            <constraint firstItem="avW-5T-5Cc" firstAttribute="top" secondItem="Ztz-aC-4Ve" secondAttribute="bottom" constant="8" id="pZN-Ik-vHV"/>
+                            <constraint firstItem="Pdy-ar-7ZD" firstAttribute="top" secondItem="iqy-oy-QwD" secondAttribute="bottom" constant="8" id="zke-dM-RoZ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="3ul-68-ucX">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="frR-xh-thJ"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="menuButton" destination="frR-xh-thJ" id="3eu-aE-vcH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fh7-L2-nsg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2611" y="931"/>
+        </scene>
+        <!--Navigation Controller-->
         <scene sceneID="a23-LC-1XJ">
             <objects>
                 <navigationController storyboardIdentifier="home" automaticallyAdjustsScrollViewInsets="NO" id="dXH-rC-dKS" sceneMemberID="viewController">

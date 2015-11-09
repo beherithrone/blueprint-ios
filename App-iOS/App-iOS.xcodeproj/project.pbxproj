@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		202DD5961BF09851005EBFFA /* AwsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202DD5951BF09851005EBFFA /* AwsViewController.swift */; };
 		205C88801BE8D22F00F329B0 /* MenuItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 205C887F1BE8D22F00F329B0 /* MenuItemCell.xib */; };
 		205C88851BE8D34500F329B0 /* MenuItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205C88831BE8D34500F329B0 /* MenuItemViewCell.swift */; };
 		205C88891BE8DA2500F329B0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205C88881BE8DA2500F329B0 /* MenuViewController.swift */; };
@@ -127,6 +128,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		202DD5951BF09851005EBFFA /* AwsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwsViewController.swift; sourceTree = "<group>"; };
 		205C887F1BE8D22F00F329B0 /* MenuItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuItemCell.xib; sourceTree = "<group>"; };
 		205C88831BE8D34500F329B0 /* MenuItemViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemViewCell.swift; sourceTree = "<group>"; };
 		205C88881BE8DA2500F329B0 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
@@ -231,6 +233,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		202DD5941BF09802005EBFFA /* Aws */ = {
+			isa = PBXGroup;
+			children = (
+				202DD5951BF09851005EBFFA /* AwsViewController.swift */,
+			);
+			name = Aws;
+			sourceTree = "<group>";
+		};
 		204246901BE7636F00E258D7 /* Search */ = {
 			isa = PBXGroup;
 			children = (
@@ -356,6 +366,7 @@
 		20B231FA1BD6641700FDA56B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				202DD5941BF09802005EBFFA /* Aws */,
 				204246921BE763D400E258D7 /* Menu */,
 				204246911BE763A900E258D7 /* Home */,
 				204246901BE7636F00E258D7 /* Search */,
@@ -756,6 +767,7 @@
 				20B232141BD6650E00FDA56B /* ImageService.swift in Sources */,
 				209092A81BD57C1C00E59A11 /* SWRevealViewController.m in Sources */,
 				20B231F91BD663F300FDA56B /* SearchViewModel.swift in Sources */,
+				202DD5961BF09851005EBFFA /* AwsViewController.swift in Sources */,
 				205C88891BE8DA2500F329B0 /* MenuViewController.swift in Sources */,
 				20B231EE1BD64D9500FDA56B /* GridCell.swift in Sources */,
 				20B231F81BD663F300FDA56B /* SearchResultViewModel.swift in Sources */,

@@ -55,7 +55,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if(appModelArr.count > 0) {
             appModel!.menuItems = appModelArr[0].menuItems;
         }
-        if ( appModel?.menuItems.count != 10) {
+        if ( appModel?.menuItems.count != 11) {
             // Save your object
             realm!.beginWrite()
             realm!.deleteAll();
@@ -63,14 +63,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
             appModel!.menuItems.append(createMenuItem("Home", icon: "calendar", navigationId: "home"));
             appModel!.menuItems.append(createMenuItem("RxSearch", icon: "map", navigationId: "search"));
-            appModel!.menuItems.append(createMenuItem("Login", icon: "news", navigationId: "home"));
-            appModel!.menuItems.append(createMenuItem("Ad Example", icon: "photo", navigationId: "home"));
-            appModel!.menuItems.append(createMenuItem("Camera Example", icon: "comments", navigationId: "home"));
-            appModel!.menuItems.append(createMenuItem("Maps", icon: "tag", navigationId: "home"));
-            appModel!.menuItems.append(createMenuItem("Swipe Cards", icon: "wishlist", navigationId: "home"));
-            appModel!.menuItems.append(createMenuItem("Payments", icon: "calendar", navigationId: "home"));
+            appModel!.menuItems.append(createMenuItem("Login", icon: "news", navigationId: "login"));
+            appModel!.menuItems.append(createMenuItem("Ad Example", icon: "photo", navigationId: "ads"));
+            appModel!.menuItems.append(createMenuItem("Camera Example", icon: "comments", navigationId: "camera"));
+            appModel!.menuItems.append(createMenuItem("Maps", icon: "tag", navigationId: "maps"));
+            appModel!.menuItems.append(createMenuItem("Swipe Cards", icon: "wishlist", navigationId: "swipe"));
+            appModel!.menuItems.append(createMenuItem("Payments", icon: "calendar", navigationId: "payments"));
             appModel!.menuItems.append(createMenuItem("Video", icon: "map", navigationId: "home"));
-            appModel!.menuItems.append(createMenuItem("AWS Data", icon: "map", navigationId: "home"));
+            appModel!.menuItems.append(createMenuItem("AWS Data", icon: "news", navigationId: "aws"));
+            appModel!.menuItems.append(createMenuItem("Publishing", icon: "photo", navigationId: "publishing"));
         
             realm!.beginWrite()
             realm!.add(appModel!)
