@@ -20,6 +20,9 @@
 		20909AE51BEB9BE4004F87AC /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20909AE41BEB9BE4004F87AC /* RealmSwift.framework */; };
 		20909AE71BEBADF4004F87AC /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20909AE61BEBADF4004F87AC /* Realm.framework */; };
 		20909AE81BEBADF4004F87AC /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20909AE61BEBADF4004F87AC /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		209AD9491BF0D5CF0003887E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209AD9481BF0D5CF0003887E /* LoginViewController.swift */; };
+		209AD94C1BF0D9490003887E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209AD94B1BF0D9490003887E /* CameraViewController.swift */; };
+		209AD94F1BF0DC100003887E /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209AD94E1BF0DC100003887E /* MapsViewController.swift */; };
 		20A75BC51BDECC4F00EED682 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A75BC31BDECC4F00EED682 /* Interface.storyboard */; };
 		20A75BC71BDECC4F00EED682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A75BC61BDECC4F00EED682 /* Assets.xcassets */; };
 		20A75BCE1BDECC4F00EED682 /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 20A75BCD1BDECC4F00EED682 /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -142,6 +145,9 @@
 		209092AF1BD57D0100E59A11 /* App-iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App-iOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		20909AE41BEB9BE4004F87AC /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../Dependencies/Frameworks/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		20909AE61BEBADF4004F87AC /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = ../Dependencies/Frameworks/iOS/Realm.framework; sourceTree = "<group>"; };
+		209AD9481BF0D5CF0003887E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		209AD94B1BF0D9490003887E /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		209AD94E1BF0DC100003887E /* MapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
 		20A75BC11BDECC4E00EED682 /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A75BC41BDECC4F00EED682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		20A75BC61BDECC4F00EED682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -323,6 +329,30 @@
 			path = Swift;
 			sourceTree = "<group>";
 		};
+		209AD9471BF0D56A0003887E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				209AD9481BF0D5CF0003887E /* LoginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		209AD94A1BF0D9380003887E /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				209AD94B1BF0D9490003887E /* CameraViewController.swift */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		209AD94D1BF0DBCA0003887E /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				209AD94E1BF0DC100003887E /* MapsViewController.swift */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
 		20A75BC21BDECC4F00EED682 /* Watch */ = {
 			isa = PBXGroup;
 			children = (
@@ -366,6 +396,9 @@
 		20B231FA1BD6641700FDA56B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				209AD94D1BF0DBCA0003887E /* Maps */,
+				209AD94A1BF0D9380003887E /* Camera */,
+				209AD9471BF0D56A0003887E /* Login */,
 				202DD5941BF09802005EBFFA /* Aws */,
 				204246921BE763D400E258D7 /* Menu */,
 				204246911BE763A900E258D7 /* Home */,
@@ -754,6 +787,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				209AD9491BF0D5CF0003887E /* LoginViewController.swift in Sources */,
 				20B232111BD664D500FDA56B /* Wireframe.swift in Sources */,
 				205C88851BE8D34500F329B0 /* MenuItemViewCell.swift in Sources */,
 				209092A91BD57C1C00E59A11 /* AppDelegate.swift in Sources */,
@@ -768,7 +802,9 @@
 				209092A81BD57C1C00E59A11 /* SWRevealViewController.m in Sources */,
 				20B231F91BD663F300FDA56B /* SearchViewModel.swift in Sources */,
 				202DD5961BF09851005EBFFA /* AwsViewController.swift in Sources */,
+				209AD94F1BF0DC100003887E /* MapsViewController.swift in Sources */,
 				205C88891BE8DA2500F329B0 /* MenuViewController.swift in Sources */,
+				209AD94C1BF0D9490003887E /* CameraViewController.swift in Sources */,
 				20B231EE1BD64D9500FDA56B /* GridCell.swift in Sources */,
 				20B231F81BD663F300FDA56B /* SearchResultViewModel.swift in Sources */,
 			);
