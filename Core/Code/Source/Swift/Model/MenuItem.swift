@@ -5,9 +5,8 @@
 //  Copyright © 2015 Syerit Limited. All rights reserved.
 //
 import Foundation
-import RealmSwift
 
-public class MenuItem : Object {
+public class MenuItem : AnObject {
     
     dynamic var title : String = "";
     dynamic var icon : String  = "";

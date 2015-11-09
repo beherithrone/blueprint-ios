@@ -17,6 +17,9 @@
 		20909AEC1BEBBE0C004F87AC /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20909AEA1BEBBE0C004F87AC /* RealmSwift.framework */; };
 		20909AEF1BEBBE1B004F87AC /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20909AED1BEBBE1B004F87AC /* Realm.framework */; };
 		20909AF01BEBBE1B004F87AC /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20909AEE1BEBBE1B004F87AC /* RealmSwift.framework */; };
+		209AD9C31BF125620003887E /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209AD9C21BF125620003887E /* Aliases.swift */; };
+		209AD9C41BF125620003887E /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209AD9C21BF125620003887E /* Aliases.swift */; };
+		209AD9C51BF125620003887E /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209AD9C21BF125620003887E /* Aliases.swift */; };
 		20A75C4F1BDF8EFB00EED682 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20A75C481BDF8EFB00EED682 /* Info.plist */; };
 		20A75C501BDF8EFB00EED682 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20A75C481BDF8EFB00EED682 /* Info.plist */; };
 		20A75C511BDF8EFB00EED682 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A75C4B1BDF8EFB00EED682 /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -129,6 +132,8 @@
 		20909AEA1BEBBE0C004F87AC /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../Dependencies/Frameworks/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		20909AED1BEBBE1B004F87AC /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = ../Dependencies/Frameworks/Mac/Realm.framework; sourceTree = "<group>"; };
 		20909AEE1BEBBE1B004F87AC /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../Dependencies/Frameworks/Mac/RealmSwift.framework; sourceTree = "<group>"; };
+		209AD9BF1BF120F20003887E /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../Dependencies/Frameworks/tvOS/RealmSwift.framework; sourceTree = "<group>"; };
+		209AD9C21BF125620003887E /* Aliases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aliases.swift; sourceTree = "<group>"; };
 		20A75C481BDF8EFB00EED682 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20A75C4B1BDF8EFB00EED682 /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		20A75C4E1BDF8EFB00EED682 /* CoreClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreClass.swift; sourceTree = "<group>"; };
@@ -228,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				20A75C4D1BDF8EFB00EED682 /* Model */,
+				209AD9C21BF125620003887E /* Aliases.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -260,6 +266,7 @@
 		CEE6FBDA1BD15F3100594649 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				209AD9BF1BF120F20003887E /* RealmSwift.framework */,
 				20909AED1BEBBE1B004F87AC /* Realm.framework */,
 				20909AEE1BEBBE1B004F87AC /* RealmSwift.framework */,
 				20909AE91BEBBE0C004F87AC /* Realm.framework */,
@@ -617,6 +624,7 @@
 				20D606C51BEA0F4500B7BBF6 /* Wireframe.swift in Sources */,
 				20D606B71BEA08B400B7BBF6 /* Dependencies.swift in Sources */,
 				20C9031E1BE4FC710004608A /* CoreClass.swift in Sources */,
+				209AD9C51BF125620003887E /* Aliases.swift in Sources */,
 				20D606BD1BEA08B400B7BBF6 /* SearchResult.swift in Sources */,
 				20DB39F11BE8C117003A2B6B /* AppModel.swift in Sources */,
 				20D606BA1BEA08B400B7BBF6 /* Page.swift in Sources */,
@@ -643,6 +651,7 @@
 				20D606C41BEA0F4500B7BBF6 /* Wireframe.swift in Sources */,
 				20D606B61BEA08B400B7BBF6 /* Dependencies.swift in Sources */,
 				20A75C541BDF8EFB00EED682 /* CoreClass.swift in Sources */,
+				209AD9C41BF125620003887E /* Aliases.swift in Sources */,
 				20D606BC1BEA08B400B7BBF6 /* SearchResult.swift in Sources */,
 				20DB39F01BE8C117003A2B6B /* AppModel.swift in Sources */,
 				20D606B91BEA08B400B7BBF6 /* Page.swift in Sources */,
@@ -669,6 +678,7 @@
 				20D606C31BEA0F4500B7BBF6 /* Wireframe.swift in Sources */,
 				20D606B51BEA08B400B7BBF6 /* Dependencies.swift in Sources */,
 				20A75C531BDF8EFB00EED682 /* CoreClass.swift in Sources */,
+				209AD9C31BF125620003887E /* Aliases.swift in Sources */,
 				20D606BB1BEA08B400B7BBF6 /* SearchResult.swift in Sources */,
 				20DB39EF1BE8C117003A2B6B /* AppModel.swift in Sources */,
 				20D606B81BEA08B400B7BBF6 /* Page.swift in Sources */,
@@ -721,6 +731,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)/../Dependencies/Carthage/Build/tvOS",
 					"$(SRCROOT)/../Dependencies/Frameworks/tvOS",
+					"$(SRCROOT)/../Dependencies/Frameworks/iOS",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Code/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -746,6 +757,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)/../Dependencies/Carthage/Build/tvOS",
 					"$(SRCROOT)/../Dependencies/Frameworks/tvOS",
+					"$(SRCROOT)/../Dependencies/Frameworks/iOS",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Code/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
