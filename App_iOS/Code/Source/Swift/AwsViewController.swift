@@ -34,6 +34,13 @@ class AwsViewController: UIViewController, UITableViewDelegate, UITableViewDataS
         //}
         
         tableRows = []
+        tableView.delegate = self
+        tableView.dataSource = self
+        
+        let nib = UINib(nibName: "AwsViewCell", bundle: nil)
+        tableView.registerNib(nib, forCellReuseIdentifier: "cell")
+        
+        refreshList(true)
     }
 
     override func didReceiveMemoryWarning() {
@@ -54,7 +61,9 @@ class AwsViewController: UIViewController, UITableViewDelegate, UITableViewDataS
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        let cell:AwsViewCell = self.tableView.dequeueReusableCellWithIdentifier("cell") as! AwsViewCell
+        cell.cellLabel.text = tableRows![indexPath.row].title
+        return cell
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
@@ -71,6 +80,7 @@ class AwsViewController: UIViewController, UITableViewDelegate, UITableViewDataS
         for var i = 0; i < 25; i++ {
             let tableRow = Template1TableRow();
             tableRow.id = "id \(i)"
+            tableRow.title = "Title \(i)"
             tableRow.desc = "Lorem ipsum \(i)";
             tableRow.value = i * 10;
             tableRow.imageUrl = "http://loremflickr.com/240/320"
@@ -85,7 +95,7 @@ class AwsViewController: UIViewController, UITableViewDelegate, UITableViewDataS
             
             UIApplication.sharedApplication().networkActivityIndicatorVisible = false
             
-            //self.refreshList(true)
+            self.refreshList(true)
             return nil
         })
     }
@@ -137,6 +147,7 @@ class Template1TableRow :AWSDynamoDBObjectModel ,AWSDynamoDBModeling  {
     
     var id:String?
     var value:NSNumber?
+    var title:String?
     var desc:String?
     var imageUrl:String?
     
