@@ -201,9 +201,9 @@
 		203EF1871BF1DFA200BA42B7 = {
 			isa = PBXGroup;
 			children = (
-				203EF1921BF1DFA200BA42B7 /* App_iOS */,
-				203EF1AA1BF1DFA200BA42B7 /* App_iOSTests */,
-				203EF1B51BF1DFA200BA42B7 /* App_iOSUITests */,
+				203EF1921BF1DFA200BA42B7 /* Code */,
+				203EF1AA1BF1DFA200BA42B7 /* Tests */,
+				203EF1B51BF1DFA200BA42B7 /* UITests */,
 				203EF1C71BF1DFE100BA42B7 /* App_Watch */,
 				203EF1D61BF1DFE100BA42B7 /* App_Watch Extension */,
 				203EF1911BF1DFA200BA42B7 /* Products */,
@@ -224,7 +224,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		203EF1921BF1DFA200BA42B7 /* App_iOS */ = {
+		203EF1921BF1DFA200BA42B7 /* Code */ = {
 			isa = PBXGroup;
 			children = (
 				20F0AA6C1BF21BEB00835C79 /* App_iOS.xcdatamodeld */,
@@ -232,27 +232,24 @@
 				20F0AA6F1BF21BEB00835C79 /* Info.plist */,
 				20F0AA701BF21BEB00835C79 /* Source */,
 			);
-			name = App_iOS;
 			path = Code;
 			sourceTree = "<group>";
 		};
-		203EF1AA1BF1DFA200BA42B7 /* App_iOSTests */ = {
+		203EF1AA1BF1DFA200BA42B7 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				203EF1AB1BF1DFA200BA42B7 /* App_iOSTests.swift */,
 				203EF1AD1BF1DFA200BA42B7 /* Info.plist */,
 			);
-			name = App_iOSTests;
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		203EF1B51BF1DFA200BA42B7 /* App_iOSUITests */ = {
+		203EF1B51BF1DFA200BA42B7 /* UITests */ = {
 			isa = PBXGroup;
 			children = (
 				203EF1B61BF1DFA200BA42B7 /* App_iOSUITests.swift */,
 				203EF1B81BF1DFA200BA42B7 /* Info.plist */,
 			);
-			name = App_iOSUITests;
 			path = UITests;
 			sourceTree = "<group>";
 		};
