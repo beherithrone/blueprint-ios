@@ -62,17 +62,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             realm!.deleteAll();
             try! realm!.commitWrite()
             
-            appModel!.menuItems.append(createMenuItem("Home", icon: "calendar", navigationId: "home"));
-            appModel!.menuItems.append(createMenuItem("RxSearch", icon: "map", navigationId: "search"));
-            appModel!.menuItems.append(createMenuItem("Login", icon: "news", navigationId: "login"));
-            appModel!.menuItems.append(createMenuItem("Ad Example", icon: "photo", navigationId: "ads"));
-            appModel!.menuItems.append(createMenuItem("Camera Example", icon: "comments", navigationId: "camera"));
-            appModel!.menuItems.append(createMenuItem("Maps", icon: "tag", navigationId: "maps"));
-            appModel!.menuItems.append(createMenuItem("Swipe Cards", icon: "wishlist", navigationId: "swipe"));
-            appModel!.menuItems.append(createMenuItem("Payments", icon: "calendar", navigationId: "payments"));
-            appModel!.menuItems.append(createMenuItem("Video", icon: "map", navigationId: "home"));
-            appModel!.menuItems.append(createMenuItem("AWS Data", icon: "news", navigationId: "aws"));
-            appModel!.menuItems.append(createMenuItem("Publishing", icon: "photo", navigationId: "publishing"));
+            appModel!.populate()
+            
+            for item in appModel!.menuItems {
+                save(item)
+            }
         
             realm!.beginWrite()
             realm!.add(appModel!)
@@ -89,12 +83,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         AWSServiceManager.defaultServiceManager().defaultServiceConfiguration = configuration
         
         return true
-    }
-    
-    private func createMenuItem(title: String, icon: String, navigationId: String) -> MenuItem {
-        let item = MenuItem(title: title, icon: icon, navigationId: navigationId);
-        save(item);
-        return item;
     }
     
     private func save(item : MenuItem) -> Void {

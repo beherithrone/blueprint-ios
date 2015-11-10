@@ -28,7 +28,7 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>com.syerit.template1.App-iOS</string>
+	<string>com.syerit.template1.ios</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>

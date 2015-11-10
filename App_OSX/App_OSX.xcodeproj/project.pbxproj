@@ -515,7 +515,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = App_OSXTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.App-OSXTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.osxTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App_OSX.app/Contents/MacOS/App_OSX";
 			};
@@ -528,7 +528,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = App_OSXTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.App-OSXTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.osxTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App_OSX.app/Contents/MacOS/App_OSX";
 			};
@@ -540,7 +540,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = App_OSXUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.App-OSXUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.osxUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = App_OSX;
 				USES_XCTRUNNER = YES;
@@ -553,7 +553,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = App_OSXUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.App-OSXUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.osxUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = App_OSX;
 				USES_XCTRUNNER = YES;

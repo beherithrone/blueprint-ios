@@ -292,25 +292,11 @@
 		20F0AA7B1BF21BEB00835C79 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				20F0AAF41BF257A200835C79 /* Assembly */,
+				20F0AAF31BF2577F00835C79 /* Model */,
+				20F0AAF21BF2575A00835C79 /* ViewModel */,
+				20F0AAF11BF2574100835C79 /* View */,
 				20F0AA7C1BF21BEB00835C79 /* AppDelegate.swift */,
-				20F0AA7D1BF21BEB00835C79 /* ApplicationAssembly.swift */,
-				20F0AA7E1BF21BEB00835C79 /* AwsViewController.swift */,
-				20F0AA7F1BF21BEB00835C79 /* CameraViewController.swift */,
-				20F0AA801BF21BEB00835C79 /* CollectionViewController.swift */,
-				20F0AA811BF21BEB00835C79 /* CollectionViewImageCell.swift */,
-				20F0AA821BF21BEB00835C79 /* GridCell.swift */,
-				20F0AA831BF21BEB00835C79 /* ImageService.swift */,
-				20F0AA841BF21BEB00835C79 /* LoginViewController.swift */,
-				20F0AA851BF21BEB00835C79 /* MapsViewController.swift */,
-				20F0AA861BF21BEB00835C79 /* MenuItemViewCell.swift */,
-				20F0AA871BF21BEB00835C79 /* MenuViewController.swift */,
-				20F0AA881BF21BEB00835C79 /* SearchCell.swift */,
-				20F0AA891BF21BEB00835C79 /* SearchResultViewModel.swift */,
-				20F0AA8A1BF21BEB00835C79 /* SearchViewController.swift */,
-				20F0AA8B1BF21BEB00835C79 /* SearchViewModel.swift */,
-				20F0AA8C1BF21BEB00835C79 /* ViewController.swift */,
-				20F0AA8D1BF21BEB00835C79 /* Wireframe.swift */,
-				20F0AAEF1BF24AB900835C79 /* AwsViewCell.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -345,6 +331,52 @@
 				20F0AAEB1BF2274000835C79 /* Info.plist */,
 			);
 			path = Watch;
+			sourceTree = "<group>";
+		};
+		20F0AAF11BF2574100835C79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20F0AA8A1BF21BEB00835C79 /* SearchViewController.swift */,
+				20F0AAEF1BF24AB900835C79 /* AwsViewCell.swift */,
+				20F0AA8C1BF21BEB00835C79 /* ViewController.swift */,
+				20F0AA881BF21BEB00835C79 /* SearchCell.swift */,
+				20F0AA7F1BF21BEB00835C79 /* CameraViewController.swift */,
+				20F0AA861BF21BEB00835C79 /* MenuItemViewCell.swift */,
+				20F0AA871BF21BEB00835C79 /* MenuViewController.swift */,
+				20F0AA801BF21BEB00835C79 /* CollectionViewController.swift */,
+				20F0AA841BF21BEB00835C79 /* LoginViewController.swift */,
+				20F0AA851BF21BEB00835C79 /* MapsViewController.swift */,
+				20F0AA7E1BF21BEB00835C79 /* AwsViewController.swift */,
+				20F0AA821BF21BEB00835C79 /* GridCell.swift */,
+				20F0AA811BF21BEB00835C79 /* CollectionViewImageCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		20F0AAF21BF2575A00835C79 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				20F0AA8B1BF21BEB00835C79 /* SearchViewModel.swift */,
+				20F0AA891BF21BEB00835C79 /* SearchResultViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		20F0AAF31BF2577F00835C79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20F0AA8D1BF21BEB00835C79 /* Wireframe.swift */,
+				20F0AA831BF21BEB00835C79 /* ImageService.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		20F0AAF41BF257A200835C79 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				20F0AA7D1BF21BEB00835C79 /* ApplicationAssembly.swift */,
+			);
+			name = Assembly;
 			sourceTree = "<group>";
 		};
 		9E1E50DD7180338B52634B36 /* Frameworks */ = {
@@ -938,7 +970,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Code/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.App-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Code/Source/Objc/App_iOS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -953,7 +985,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Code/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.App-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Code/Source/Objc/App_iOS-Bridging-Header.h";
 			};
@@ -966,7 +998,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = App_iOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.App-iOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.iosTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App_iOS.app/App_iOS";
 			};
@@ -979,7 +1011,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = App_iOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.App-iOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.iosTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App_iOS.app/App_iOS";
 			};
@@ -991,7 +1023,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = App_iOSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.App-iOSUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.iosUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = App_iOS;
 				USES_XCTRUNNER = YES;
@@ -1004,7 +1036,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = App_iOSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.App-iOSUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.iosUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = App_iOS;
 				USES_XCTRUNNER = YES;
@@ -1017,7 +1049,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = App_Watch/Extension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.App-iOS.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.ios.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1032,7 +1064,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = App_Watch/Extension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.App-iOS.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.ios.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1048,7 +1080,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = App_Watch_Extension;
 				INFOPLIST_FILE = App_Watch/Watch/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.App-iOS.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.ios.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1064,7 +1096,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = App_Watch_Extension;
 				INFOPLIST_FILE = App_Watch/Watch/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.App-iOS.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.ios.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;

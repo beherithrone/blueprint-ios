@@ -16,6 +16,7 @@ class MenuController: NSViewController, NSTableViewDataSource,NSTableViewDelegat
         super.viewDidLoad()
         // Do view setup here.
         appModel = AppModel()
+        appModel!.populate()
     }
     
     

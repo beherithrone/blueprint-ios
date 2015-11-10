@@ -507,7 +507,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = App_TVTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.App-TVTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.tvTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App_TV.app/App_TV";
 			};
@@ -519,7 +519,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = App_TVTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.App-TVTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.tvTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App_TV.app/App_TV";
 			};
@@ -530,7 +530,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = App_TVUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.App-TVUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.tvUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = App_TV;
 				USES_XCTRUNNER = YES;
@@ -542,7 +542,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = App_TVUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.App-TVUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.tvUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = App_TV;
 				USES_XCTRUNNER = YES;
