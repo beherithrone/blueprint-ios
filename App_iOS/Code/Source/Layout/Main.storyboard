@@ -290,13 +290,40 @@
                     <view key="view" contentMode="scaleToFill" id="o4h-cP-seK">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dan-Sn-mMm">
+                                <rect key="frame" x="246" y="72" width="108" height="30"/>
+                                <state key="normal" title="Facebook Login"/>
+                                <connections>
+                                    <action selector="fbButtonClicked:" destination="rUj-Y5-YBU" eventType="touchUpInside" id="cdc-tF-gH7"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="no info" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SGy-iv-PLB">
+                                <rect key="frame" x="20" y="110" width="560" height="482"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SGy-iv-PLB" firstAttribute="trailing" secondItem="o4h-cP-seK" secondAttribute="trailingMargin" id="0eh-3t-q5t"/>
+                            <constraint firstItem="SGy-iv-PLB" firstAttribute="top" secondItem="Dan-Sn-mMm" secondAttribute="bottom" constant="8" id="0j6-wZ-LaR"/>
+                            <constraint firstItem="2ro-b1-C08" firstAttribute="top" secondItem="SGy-iv-PLB" secondAttribute="bottom" constant="8" id="99h-b6-PWX"/>
+                            <constraint firstItem="Dan-Sn-mMm" firstAttribute="centerX" secondItem="o4h-cP-seK" secondAttribute="centerX" id="Tag-qU-vNE"/>
+                            <constraint firstItem="SGy-iv-PLB" firstAttribute="leading" secondItem="o4h-cP-seK" secondAttribute="leadingMargin" id="aEe-Xs-4cP"/>
+                            <constraint firstItem="SGy-iv-PLB" firstAttribute="top" secondItem="Dan-Sn-mMm" secondAttribute="bottom" constant="8" id="d1L-dT-kr3"/>
+                            <constraint firstItem="Dan-Sn-mMm" firstAttribute="top" secondItem="iXq-Iu-cbI" secondAttribute="bottom" constant="8" id="lQR-z0-NMu"/>
+                            <constraint firstItem="SGy-iv-PLB" firstAttribute="centerX" secondItem="o4h-cP-seK" secondAttribute="centerX" id="vvH-en-8lI"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Login" id="Z2i-uD-9pM">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="eOD-6F-Dy1"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="fbLoginButton" destination="Dan-Sn-mMm" id="dzd-5S-P3f"/>
                         <outlet property="menuButton" destination="eOD-6F-Dy1" id="w0X-3l-kfV"/>
+                        <outlet property="textView" destination="SGy-iv-PLB" id="TnI-tN-EOy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SCj-PI-RE8" userLabel="First Responder" sceneMemberID="firstResponder"/>

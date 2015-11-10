@@ -20,6 +20,9 @@ target :'App_iOS' do
     pod 'Typhoon'
     pod 'TwitterKit'
     pod 'AWSDynamoDB', '~> 2.2.0'
+    pod 'FBSDKCoreKit'
+    pod 'FBSDKLoginKit'
+    pod 'FBSDKShareKit'
     xcodeproj 'App_iOS/App_iOS.xcodeproj'
 end
 

@@ -49,6 +49,8 @@
 		20F0AAED1BF2274000835C79 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F0AAE91BF2274000835C79 /* Interface.storyboard */; };
 		20F0AAEE1BF2274000835C79 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20F0AAEB1BF2274000835C79 /* Info.plist */; };
 		20F0AAF01BF24AB900835C79 /* AwsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F0AAEF1BF24AB900835C79 /* AwsViewCell.swift */; };
+		20F0AAF71BF2913400835C79 /* TegFacebookUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F0AAF61BF2913400835C79 /* TegFacebookUser.swift */; };
+		20F0AAF91BF2920A00835C79 /* FacebookUserLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F0AAF81BF2920A00835C79 /* FacebookUserLoader.swift */; };
 		3FA0787683929F81EE2C3D1E /* Pods_App_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F935F2C1605ACD48F7A5E537 /* Pods_App_iOS.framework */; };
 		44AE05A131709412B87F82FD /* Pods_App_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F935F2C1605ACD48F7A5E537 /* Pods_App_iOS.framework */; };
 		B5E03AE2E97E70ABEA5F1C0B /* Pods_App_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F935F2C1605ACD48F7A5E537 /* Pods_App_iOS.framework */; };
@@ -159,6 +161,8 @@
 		20F0AAEA1BF2274000835C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		20F0AAEB1BF2274000835C79 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20F0AAEF1BF24AB900835C79 /* AwsViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwsViewCell.swift; sourceTree = "<group>"; };
+		20F0AAF61BF2913400835C79 /* TegFacebookUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TegFacebookUser.swift; sourceTree = "<group>"; };
+		20F0AAF81BF2920A00835C79 /* FacebookUserLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookUserLoader.swift; sourceTree = "<group>"; };
 		743228E06495397979B790B6 /* Pods-App_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App_iOS.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-App_iOS/Pods-App_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		7B123E9A31D1B29A84D9C8FC /* Pods-App_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App_iOS.release.xcconfig"; path = "../Pods/Target Support Files/Pods-App_iOS/Pods-App_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		AC5F8F3DC35F8CAA84F505E7 /* Pods-App_Watch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App_Watch Extension.release.xcconfig"; path = "../Pods/Target Support Files/Pods-App_Watch Extension/Pods-App_Watch Extension.release.xcconfig"; sourceTree = "<group>"; };
@@ -365,6 +369,7 @@
 		20F0AAF31BF2577F00835C79 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				20F0AAF51BF2911A00835C79 /* Services */,
 				20F0AA8D1BF21BEB00835C79 /* Wireframe.swift */,
 				20F0AA831BF21BEB00835C79 /* ImageService.swift */,
 			);
@@ -377,6 +382,15 @@
 				20F0AA7D1BF21BEB00835C79 /* ApplicationAssembly.swift */,
 			);
 			name = Assembly;
+			sourceTree = "<group>";
+		};
+		20F0AAF51BF2911A00835C79 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				20F0AAF61BF2913400835C79 /* TegFacebookUser.swift */,
+				20F0AAF81BF2920A00835C79 /* FacebookUserLoader.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		9E1E50DD7180338B52634B36 /* Frameworks */ = {
@@ -794,6 +808,7 @@
 			files = (
 				20F0AAA81BF21BEB00835C79 /* Wireframe.swift in Sources */,
 				20F0AA981BF21BEB00835C79 /* ApplicationAssembly.swift in Sources */,
+				20F0AAF91BF2920A00835C79 /* FacebookUserLoader.swift in Sources */,
 				20F0AAA71BF21BEB00835C79 /* ViewController.swift in Sources */,
 				20F0AAF01BF24AB900835C79 /* AwsViewCell.swift in Sources */,
 				20F0AAA31BF21BEB00835C79 /* SearchCell.swift in Sources */,
@@ -803,6 +818,7 @@
 				20F0AAAC1BF21F7000835C79 /* SWRevealViewController.m in Sources */,
 				20F0AAA21BF21BEB00835C79 /* MenuViewController.swift in Sources */,
 				20F0AAA61BF21BEB00835C79 /* SearchViewModel.swift in Sources */,
+				20F0AAF71BF2913400835C79 /* TegFacebookUser.swift in Sources */,
 				20F0AAA01BF21BEB00835C79 /* MapsViewController.swift in Sources */,
 				20F0AA9E1BF21BEB00835C79 /* ImageService.swift in Sources */,
 				20F0AAA41BF21BEB00835C79 /* SearchResultViewModel.swift in Sources */,
