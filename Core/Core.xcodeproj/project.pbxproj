@@ -12,12 +12,12 @@
 		203EF1351BF1DF2C00BA42B7 /* Core_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203EF12A1BF1DF2C00BA42B7 /* Core_iOS.framework */; };
 		203EF13A1BF1DF2C00BA42B7 /* Core_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203EF1391BF1DF2C00BA42B7 /* Core_iOSTests.swift */; };
 		203EF14A1BF1DF5300BA42B7 /* Core_Watch.h in Headers */ = {isa = PBXBuildFile; fileRef = 203EF1491BF1DF5300BA42B7 /* Core_Watch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		203EF1571BF1DF6900BA42B7 /* Core_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 203EF1561BF1DF6900BA42B7 /* Core_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		203EF15E1BF1DF6900BA42B7 /* Core_TV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203EF1541BF1DF6900BA42B7 /* Core_TV.framework */; };
 		203EF1631BF1DF6900BA42B7 /* Core_TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203EF1621BF1DF6900BA42B7 /* Core_TVTests.swift */; };
 		203EF1731BF1DF7E00BA42B7 /* Core_OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 203EF1721BF1DF7E00BA42B7 /* Core_OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		203EF17A1BF1DF7F00BA42B7 /* Core_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203EF1701BF1DF7E00BA42B7 /* Core_OSX.framework */; };
 		203EF17F1BF1DF7F00BA42B7 /* Core_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203EF17E1BF1DF7F00BA42B7 /* Core_OSXTests.swift */; };
+		209B577B1BF1F99700FC0D99 /* Core_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 203EF12D1BF1DF2C00BA42B7 /* Core_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6335F51C62063E177FAAA339 /* Pods_Core_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB88FF0A0A7D6FE0AF8F1A /* Pods_Core_iOS.framework */; };
 		908A01E32596C2E737FF9EB6 /* Pods_Core_Watch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B603413ADD7EC2C4D7575A4F /* Pods_Core_Watch.framework */; };
 		A3E04879566FFBA0115F1A7A /* Pods_Core_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8308B1FE734FA894C0157DC8 /* Pods_Core_OSX.framework */; };
@@ -60,8 +60,6 @@
 		203EF1491BF1DF5300BA42B7 /* Core_Watch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core_Watch.h; sourceTree = "<group>"; };
 		203EF14B1BF1DF5300BA42B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		203EF1541BF1DF6900BA42B7 /* Core_TV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core_TV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		203EF1561BF1DF6900BA42B7 /* Core_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core_iOS.h; sourceTree = "<group>"; };
-		203EF1581BF1DF6900BA42B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		203EF15D1BF1DF6900BA42B7 /* Core_TVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Core_TVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		203EF1621BF1DF6900BA42B7 /* Core_TVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core_TVTests.swift; sourceTree = "<group>"; };
 		203EF1641BF1DF6900BA42B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -149,7 +147,6 @@
 				203EF12C1BF1DF2C00BA42B7 /* Core_iOS */,
 				203EF1381BF1DF2C00BA42B7 /* Core_iOSTests */,
 				203EF1481BF1DF5300BA42B7 /* Core_Watch */,
-				203EF1551BF1DF6900BA42B7 /* Core_TV */,
 				203EF1611BF1DF6900BA42B7 /* Core_TVTests */,
 				203EF1711BF1DF7E00BA42B7 /* Core_OSX */,
 				203EF17D1BF1DF7F00BA42B7 /* Core_OSXTests */,
@@ -198,16 +195,6 @@
 				203EF14B1BF1DF5300BA42B7 /* Info.plist */,
 			);
 			path = Core_Watch;
-			sourceTree = "<group>";
-		};
-		203EF1551BF1DF6900BA42B7 /* Core_TV */ = {
-			isa = PBXGroup;
-			children = (
-				203EF1561BF1DF6900BA42B7 /* Core_iOS.h */,
-				203EF1581BF1DF6900BA42B7 /* Info.plist */,
-			);
-			name = Core_TV;
-			path = Core_iOS;
 			sourceTree = "<group>";
 		};
 		203EF1611BF1DF6900BA42B7 /* Core_TVTests */ = {
@@ -287,7 +274,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				203EF1571BF1DF6900BA42B7 /* Core_iOS.h in Headers */,
+				209B577B1BF1F99700FC0D99 /* Core_iOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
