@@ -17,6 +17,8 @@ target :'App_iOS' do
     pod 'Alamofire', '~> 3.0'
     pod 'Fabric'
     pod 'Crashlytics'
+    pod 'Typhoon'
+    pod 'TwitterKit'
     xcodeproj 'App_iOS/App_iOS.xcodeproj'
 end
 
