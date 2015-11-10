@@ -15,10 +15,7 @@ public class List2<T> {
     public typealias AnObject = NSObject
     public typealias AnList = List2<MenuItem>
 #else
-    //import RealmSwift
-    //public typealias AnObject = Object
-    //public typealias AnList = List<MenuItem>
-    
-    public typealias AnObject = NSObject
-    public typealias AnList = List2<MenuItem>
+    import RealmSwift
+    public typealias AnObject = Object
+    public typealias AnList = List<MenuItem>
 #endif

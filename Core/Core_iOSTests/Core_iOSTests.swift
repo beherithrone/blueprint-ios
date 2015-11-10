@@ -1,36 +1,57 @@
 //
-//  Core_iOSTests.swift
-//  Core_iOSTests
+//  CoreTests.swift
+//  CoreTests
 //
-//  Created by Pavel Jacko on 10/11/2015.
-//
+//  Copyright © 2015 Syerit Limited. All rights reserved.
 //
 
 import XCTest
 @testable import Core_iOS
 
+//import Alamofire
+import RxSwift
+
 class Core_iOSTests: XCTestCase {
-    
+
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
-    
+
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+
+    func testCoreMethodFromCoreTests() {
+        let core = CoreClass()
+        XCTAssertEqual(core.coreStuff(), 1)
     }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock {
-            // Put the code you want to measure the time of here.
+
+    /*func testAlamofireFromCoreTests() {
+        let expectation = self.expectationWithDescription("Expectation for third party library")
+
+        Alamofire.request(.GET, "http://www.google.com")
+            .responseJSON { response in
+                expectation.fulfill()
+        }
+        self.waitForExpectationsWithTimeout(10) { error in
+            XCTAssertNil(error)
+        }
+    }*/
+
+    func testRxSwiftFromCoreTests() {
+        let expectation = self.expectationWithDescription("Expectation for RxSwift")
+
+        let sequence = sequenceOf(1, 2)
+        _ = sequence.subscribe({ event in
+            if event == Event.Completed {
+                expectation.fulfill()
+            }
+        })
+
+        self.waitForExpectationsWithTimeout(10) { error in
+            XCTAssertNil(error)
         }
     }
-    
 }

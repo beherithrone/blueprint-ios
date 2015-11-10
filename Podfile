@@ -13,13 +13,17 @@ target :'App_iOS' do
     link_with 'App_iOS', 'App_iOSTests', 'App_iOSUITests'
     pod 'RxSwift', '~> 2.0.0-beta'
     pod 'RxCocoa', '~> 2.0.0-beta'
+    pod 'RealmSwift'
+    pod 'Alamofire', '~> 3.0'
     xcodeproj 'App_iOS/App_iOS.xcodeproj'
 end
 
 target :'App_Watch Extension' do
-    platform :watchos, '8.0'
+    platform :watchos, '2.0'
     pod 'RxSwift', '~> 2.0.0-beta'
     pod 'RxCocoa', '~> 2.0.0-beta'
+    pod 'RealmSwift'
+    pod 'Alamofire', '~> 3.0'
     xcodeproj 'App_iOS/App_iOS.xcodeproj'
 end
 
@@ -27,6 +31,8 @@ target :'App_OSX' do
     platform :osx, '10.9'
     pod 'RxSwift', '~> 2.0.0-beta'
     pod 'RxCocoa', '~> 2.0.0-beta'
+    pod 'RealmSwift'
+    pod 'Alamofire', '~> 3.0'
     xcodeproj 'App_OSX/App_OSX.xcodeproj'
 end
 
@@ -34,6 +40,8 @@ target :'App_TV' do
     platform :tvos, '9.0'
     pod 'RxSwift', '~> 2.0.0-beta'
     pod 'RxCocoa', '~> 2.0.0-beta'
+    #pod 'RealmSwift'
+    pod 'Alamofire', '~> 3.0'
     xcodeproj 'App_TV/App_TV.xcodeproj'
 end
 
@@ -41,13 +49,25 @@ target :'Core_iOS' do
     platform :ios, '8.0'
     pod 'RxSwift', '~> 2.0.0-beta'
     pod 'RxCocoa', '~> 2.0.0-beta'
+    pod 'RealmSwift'
+    pod 'Alamofire', '~> 3.0'
+    xcodeproj 'Core/Core.xcodeproj'
+end
+
+target :'Core_iOSTests' do
+    platform :ios, '8.0'
+    pod 'RxSwift', '~> 2.0.0-beta'
+    pod 'RxCocoa', '~> 2.0.0-beta'
+    pod 'RealmSwift'
+    pod 'Alamofire', '~> 3.0'
     xcodeproj 'Core/Core.xcodeproj'
 end
 
 target :'Core_Watch' do
-    platform :watchos, '8.0'
+    platform :watchos, '2.0'
     pod 'RxSwift', '~> 2.0.0-beta'
     pod 'RxCocoa', '~> 2.0.0-beta'
+    pod 'RealmSwift'
     xcodeproj 'Core/Core.xcodeproj'
 end
 
@@ -55,6 +75,17 @@ target :'Core_OSX' do
     platform :osx, '10.9'
     pod 'RxSwift', '~> 2.0.0-beta'
     pod 'RxCocoa', '~> 2.0.0-beta'
+    pod 'RealmSwift'
+    pod 'Alamofire', '~> 3.0'
+    xcodeproj 'Core/Core.xcodeproj'
+end
+
+target :'Core_OSXTests' do
+    platform :osx, '10.9'
+    pod 'RxSwift', '~> 2.0.0-beta'
+    pod 'RxCocoa', '~> 2.0.0-beta'
+    pod 'RealmSwift'
+    pod 'Alamofire', '~> 3.0'
     xcodeproj 'Core/Core.xcodeproj'
 end
 
@@ -62,5 +93,16 @@ target :'Core_TV' do
     platform :tvos, '9.0'
     pod 'RxSwift', '~> 2.0.0-beta'
     pod 'RxCocoa', '~> 2.0.0-beta'
+    #pod 'RealmSwift'
+    pod 'Alamofire', '~> 3.0'
+    xcodeproj 'Core/Core.xcodeproj'
+end
+
+target :'Core_TVTests' do
+    platform :tvos, '9.0'
+    pod 'RxSwift', '~> 2.0.0-beta'
+    pod 'RxCocoa', '~> 2.0.0-beta'
+    #pod 'RealmSwift'
+    pod 'Alamofire', '~> 3.0'
     xcodeproj 'Core/Core.xcodeproj'
 end
