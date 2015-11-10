@@ -1,5 +1,5 @@
 //
-//  Core_iOS.h
+//  Core.h
 //  Core_iOS
 //
 //  Created by Pavel Jacko on 10/11/2015.

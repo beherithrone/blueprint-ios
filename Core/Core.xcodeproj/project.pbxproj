@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		0AED536F7491C9E25DC48780 /* Pods_Core_OSXTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11A64D2EEACA493CF18F6E92 /* Pods_Core_OSXTests.framework */; };
 		0B662A591D48337AA8E2DF03 /* Pods_Core_TV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 355000D0A36E2DCFEA2AE725 /* Pods_Core_TV.framework */; };
-		203EF12E1BF1DF2C00BA42B7 /* Core_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 203EF12D1BF1DF2C00BA42B7 /* Core_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		203EF12E1BF1DF2C00BA42B7 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 203EF12D1BF1DF2C00BA42B7 /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		203EF1351BF1DF2C00BA42B7 /* Core_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203EF12A1BF1DF2C00BA42B7 /* Core_iOS.framework */; };
 		203EF13A1BF1DF2C00BA42B7 /* Core_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203EF1391BF1DF2C00BA42B7 /* Core_iOSTests.swift */; };
 		203EF15E1BF1DF6900BA42B7 /* Core_TV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203EF1541BF1DF6900BA42B7 /* Core_TV.framework */; };
 		203EF17A1BF1DF7F00BA42B7 /* Core_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203EF1701BF1DF7E00BA42B7 /* Core_OSX.framework */; };
-		209B577B1BF1F99700FC0D99 /* Core_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 203EF12D1BF1DF2C00BA42B7 /* Core_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		209B577C1BF1FCDC00FC0D99 /* Core_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 203EF12D1BF1DF2C00BA42B7 /* Core_iOS.h */; };
+		209B577B1BF1F99700FC0D99 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 203EF12D1BF1DF2C00BA42B7 /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		209B577C1BF1FCDC00FC0D99 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 203EF12D1BF1DF2C00BA42B7 /* Core.h */; };
 		20F0AA3E1BF2018A00835C79 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F0AA2E1BF2018A00835C79 /* Aliases.swift */; };
 		20F0AA3F1BF2018A00835C79 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F0AA2E1BF2018A00835C79 /* Aliases.swift */; };
 		20F0AA401BF2018A00835C79 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F0AA2E1BF2018A00835C79 /* Aliases.swift */; };
@@ -97,7 +97,7 @@
 		11A64D2EEACA493CF18F6E92 /* Pods_Core_OSXTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Core_OSXTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		129C938A0E5D0F50E7F3EAC5 /* Pods-Core_Watch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core_Watch.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Core_Watch/Pods-Core_Watch.debug.xcconfig"; sourceTree = "<group>"; };
 		203EF12A1BF1DF2C00BA42B7 /* Core_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		203EF12D1BF1DF2C00BA42B7 /* Core_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core_iOS.h; sourceTree = "<group>"; };
+		203EF12D1BF1DF2C00BA42B7 /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		203EF12F1BF1DF2C00BA42B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		203EF1341BF1DF2C00BA42B7 /* Core_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Core_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		203EF1391BF1DF2C00BA42B7 /* Core_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core_iOSTests.swift; sourceTree = "<group>"; };
@@ -205,8 +205,8 @@
 		203EF11E1BF1DF0700BA42B7 = {
 			isa = PBXGroup;
 			children = (
-				203EF12C1BF1DF2C00BA42B7 /* Core_iOS */,
-				203EF1381BF1DF2C00BA42B7 /* Core_iOSTests */,
+				203EF12C1BF1DF2C00BA42B7 /* Code */,
+				203EF1381BF1DF2C00BA42B7 /* Tests */,
 				203EF12B1BF1DF2C00BA42B7 /* Products */,
 				A3A5A837545B059967184CF1 /* Pods */,
 				AFF8D1E37095C56E3AF76C9B /* Frameworks */,
@@ -227,23 +227,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		203EF12C1BF1DF2C00BA42B7 /* Core_iOS */ = {
+		203EF12C1BF1DF2C00BA42B7 /* Code */ = {
 			isa = PBXGroup;
 			children = (
 				20F0AA2A1BF2018A00835C79 /* Source */,
-				203EF12D1BF1DF2C00BA42B7 /* Core_iOS.h */,
 				203EF12F1BF1DF2C00BA42B7 /* Info.plist */,
 			);
-			path = Core_iOS;
+			path = Code;
 			sourceTree = "<group>";
 		};
-		203EF1381BF1DF2C00BA42B7 /* Core_iOSTests */ = {
+		203EF1381BF1DF2C00BA42B7 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				203EF1391BF1DF2C00BA42B7 /* Core_iOSTests.swift */,
 				203EF13B1BF1DF2C00BA42B7 /* Info.plist */,
 			);
-			path = Core_iOSTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		20F0AA2A1BF2018A00835C79 /* Source */ = {
@@ -258,6 +257,7 @@
 		20F0AA2B1BF2018A00835C79 /* Objc */ = {
 			isa = PBXGroup;
 			children = (
+				203EF12D1BF1DF2C00BA42B7 /* Core.h */,
 			);
 			path = Objc;
 			sourceTree = "<group>";
@@ -330,7 +330,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				203EF12E1BF1DF2C00BA42B7 /* Core_iOS.h in Headers */,
+				203EF12E1BF1DF2C00BA42B7 /* Core.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +345,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				209B577B1BF1F99700FC0D99 /* Core_iOS.h in Headers */,
+				209B577B1BF1F99700FC0D99 /* Core.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +353,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				209B577C1BF1FCDC00FC0D99 /* Core_iOS.h in Headers */,
+				209B577C1BF1FCDC00FC0D99 /* Core.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1038,7 +1038,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Core_iOS/Info.plist;
+				INFOPLIST_FILE = Code/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1091,7 +1091,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Core_iOS/Info.plist;
+				INFOPLIST_FILE = Code/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1240,7 +1240,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Core_iOS/Info.plist;
+				INFOPLIST_FILE = Code/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -1293,7 +1293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Core_iOS/Info.plist;
+				INFOPLIST_FILE = Code/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -1350,7 +1350,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Core_iOS/Info.plist;
+				INFOPLIST_FILE = Code/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -1402,7 +1402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Core_iOS/Info.plist;
+				INFOPLIST_FILE = Code/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -1551,7 +1551,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Core_iOS/Info.plist;
+				INFOPLIST_FILE = Code/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -1605,7 +1605,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Core_iOS/Info.plist;
+				INFOPLIST_FILE = Code/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
