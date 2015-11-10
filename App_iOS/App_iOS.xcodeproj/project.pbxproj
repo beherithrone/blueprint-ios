@@ -278,6 +278,7 @@
 				203EF1EC1BF1DFE100BA42B7 /* Embed Watch Content */,
 				B2EBB1BE1C1ED04080045CE5 /* Embed Pods Frameworks */,
 				A269A7A026472FAF2A370E8C /* Copy Pods Resources */,
+				20F0AA6B1BF2157200835C79 /* Fabric */,
 			);
 			buildRules = (
 			);
@@ -507,6 +508,20 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-App_Watch Extension/Pods-App_Watch Extension-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		20F0AA6B1BF2157200835C79 /* Fabric */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Fabric;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/Fabric/Fabric.framework/run 2fd4e5361e810d659fa0bf5490388ee951d345a6 b015301063be99469649109666ff4a67b4a0aff0b12524cf7d711b033826625a";
 		};
 		746286D2BF91CA024CC7D30D /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;

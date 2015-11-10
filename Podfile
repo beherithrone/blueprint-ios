@@ -15,6 +15,8 @@ target :'App_iOS' do
     pod 'RxCocoa', '~> 2.0.0-beta'
     pod 'RealmSwift'
     pod 'Alamofire', '~> 3.0'
+    pod 'Fabric'
+    pod 'Crashlytics'
     xcodeproj 'App_iOS/App_iOS.xcodeproj'
 end
 

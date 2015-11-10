@@ -7,6 +7,8 @@
 //
 
 import XCTest
+import RxSwift
+import RealmSwift
 @testable import App_iOS
 
 class App_iOSTests: XCTestCase {
