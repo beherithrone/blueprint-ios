@@ -19,6 +19,7 @@ target :'App_iOS' do
     pod 'Crashlytics'
     pod 'Typhoon'
     pod 'TwitterKit'
+    pod 'AWSDynamoDB', '~> 2.2.0'
     xcodeproj 'App_iOS/App_iOS.xcodeproj'
 end
 

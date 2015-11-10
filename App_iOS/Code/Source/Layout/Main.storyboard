@@ -272,6 +272,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="frR-xh-thJ" id="3eu-aE-vcH"/>
+                        <outlet property="tableView" destination="avW-5T-5Cc" id="Xq2-sn-4EA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fh7-L2-nsg" userLabel="First Responder" sceneMemberID="firstResponder"/>

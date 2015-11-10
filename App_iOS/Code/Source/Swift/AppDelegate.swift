@@ -13,6 +13,7 @@ import TwitterKit
 import Core_iOS
 import RealmSwift
 import RxSwift
+import AWSDynamoDB
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -77,6 +78,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             realm!.add(appModel!)
             try! realm!.commitWrite()
         }
+        
+        let credentialProvider = AWSCognitoCredentialsProvider(regionType: AWSRegionType.USEast1, identityPoolId: "us-east-1:5af262d6-db1d-46c7-8a1e-d3d2c07e988e")
+        
+        let configuration = AWSServiceConfiguration(
+            region: AWSRegionType.USEast1,
+            credentialsProvider: credentialProvider)
+        
+        
+        AWSServiceManager.defaultServiceManager().defaultServiceConfiguration = configuration
         
         return true
     }

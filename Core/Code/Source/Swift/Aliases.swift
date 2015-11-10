@@ -7,13 +7,9 @@
 //
 import Foundation
 
-public class List2<T> {
-    
-}
-
 #if os(tvOS)
     public typealias AnObject = NSObject
-    public typealias AnList = List2<MenuItem>
+    public typealias AnList = Array<MenuItem>
 #else
     import RealmSwift
     public typealias AnObject = Object

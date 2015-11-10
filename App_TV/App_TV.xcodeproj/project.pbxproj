@@ -483,7 +483,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Code/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.App-TV";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.tv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -496,7 +496,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Code/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.App-TV";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.tv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
