@@ -11,13 +11,10 @@
 		203EF12E1BF1DF2C00BA42B7 /* Core_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 203EF12D1BF1DF2C00BA42B7 /* Core_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		203EF1351BF1DF2C00BA42B7 /* Core_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203EF12A1BF1DF2C00BA42B7 /* Core_iOS.framework */; };
 		203EF13A1BF1DF2C00BA42B7 /* Core_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203EF1391BF1DF2C00BA42B7 /* Core_iOSTests.swift */; };
-		203EF14A1BF1DF5300BA42B7 /* Core_Watch.h in Headers */ = {isa = PBXBuildFile; fileRef = 203EF1491BF1DF5300BA42B7 /* Core_Watch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		203EF15E1BF1DF6900BA42B7 /* Core_TV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203EF1541BF1DF6900BA42B7 /* Core_TV.framework */; };
-		203EF1631BF1DF6900BA42B7 /* Core_TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203EF1621BF1DF6900BA42B7 /* Core_TVTests.swift */; };
-		203EF1731BF1DF7E00BA42B7 /* Core_OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 203EF1721BF1DF7E00BA42B7 /* Core_OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		203EF17A1BF1DF7F00BA42B7 /* Core_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203EF1701BF1DF7E00BA42B7 /* Core_OSX.framework */; };
-		203EF17F1BF1DF7F00BA42B7 /* Core_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203EF17E1BF1DF7F00BA42B7 /* Core_OSXTests.swift */; };
 		209B577B1BF1F99700FC0D99 /* Core_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 203EF12D1BF1DF2C00BA42B7 /* Core_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		209B577C1BF1FCDC00FC0D99 /* Core_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 203EF12D1BF1DF2C00BA42B7 /* Core_iOS.h */; };
 		6335F51C62063E177FAAA339 /* Pods_Core_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB88FF0A0A7D6FE0AF8F1A /* Pods_Core_iOS.framework */; };
 		908A01E32596C2E737FF9EB6 /* Pods_Core_Watch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B603413ADD7EC2C4D7575A4F /* Pods_Core_Watch.framework */; };
 		A3E04879566FFBA0115F1A7A /* Pods_Core_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8308B1FE734FA894C0157DC8 /* Pods_Core_OSX.framework */; };
@@ -57,18 +54,10 @@
 		203EF1391BF1DF2C00BA42B7 /* Core_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core_iOSTests.swift; sourceTree = "<group>"; };
 		203EF13B1BF1DF2C00BA42B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		203EF1471BF1DF5300BA42B7 /* Core_Watch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core_Watch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		203EF1491BF1DF5300BA42B7 /* Core_Watch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core_Watch.h; sourceTree = "<group>"; };
-		203EF14B1BF1DF5300BA42B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		203EF1541BF1DF6900BA42B7 /* Core_TV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core_TV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		203EF15D1BF1DF6900BA42B7 /* Core_TVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Core_TVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		203EF1621BF1DF6900BA42B7 /* Core_TVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core_TVTests.swift; sourceTree = "<group>"; };
-		203EF1641BF1DF6900BA42B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		203EF1701BF1DF7E00BA42B7 /* Core_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		203EF1721BF1DF7E00BA42B7 /* Core_OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core_OSX.h; sourceTree = "<group>"; };
-		203EF1741BF1DF7E00BA42B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		203EF1791BF1DF7F00BA42B7 /* Core_OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Core_OSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		203EF17E1BF1DF7F00BA42B7 /* Core_OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core_OSXTests.swift; sourceTree = "<group>"; };
-		203EF1801BF1DF7F00BA42B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2829FA8C9832EA0432FC527A /* Pods-Core_OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core_OSX.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Core_OSX/Pods-Core_OSX.debug.xcconfig"; sourceTree = "<group>"; };
 		2971BC4201F5D8A16E29146D /* Pods-Core_Watch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core_Watch.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Core_Watch/Pods-Core_Watch.release.xcconfig"; sourceTree = "<group>"; };
 		355000D0A36E2DCFEA2AE725 /* Pods_Core_TV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Core_TV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,10 +135,6 @@
 			children = (
 				203EF12C1BF1DF2C00BA42B7 /* Core_iOS */,
 				203EF1381BF1DF2C00BA42B7 /* Core_iOSTests */,
-				203EF1481BF1DF5300BA42B7 /* Core_Watch */,
-				203EF1611BF1DF6900BA42B7 /* Core_TVTests */,
-				203EF1711BF1DF7E00BA42B7 /* Core_OSX */,
-				203EF17D1BF1DF7F00BA42B7 /* Core_OSXTests */,
 				203EF12B1BF1DF2C00BA42B7 /* Products */,
 				A3A5A837545B059967184CF1 /* Pods */,
 				AFF8D1E37095C56E3AF76C9B /* Frameworks */,
@@ -186,43 +171,6 @@
 				203EF13B1BF1DF2C00BA42B7 /* Info.plist */,
 			);
 			path = Core_iOSTests;
-			sourceTree = "<group>";
-		};
-		203EF1481BF1DF5300BA42B7 /* Core_Watch */ = {
-			isa = PBXGroup;
-			children = (
-				203EF1491BF1DF5300BA42B7 /* Core_Watch.h */,
-				203EF14B1BF1DF5300BA42B7 /* Info.plist */,
-			);
-			path = Core_Watch;
-			sourceTree = "<group>";
-		};
-		203EF1611BF1DF6900BA42B7 /* Core_TVTests */ = {
-			isa = PBXGroup;
-			children = (
-				203EF1621BF1DF6900BA42B7 /* Core_TVTests.swift */,
-				203EF1641BF1DF6900BA42B7 /* Info.plist */,
-			);
-			name = Core_TVTests;
-			path = Core_iOSTests;
-			sourceTree = "<group>";
-		};
-		203EF1711BF1DF7E00BA42B7 /* Core_OSX */ = {
-			isa = PBXGroup;
-			children = (
-				203EF1721BF1DF7E00BA42B7 /* Core_OSX.h */,
-				203EF1741BF1DF7E00BA42B7 /* Info.plist */,
-			);
-			path = Core_OSX;
-			sourceTree = "<group>";
-		};
-		203EF17D1BF1DF7F00BA42B7 /* Core_OSXTests */ = {
-			isa = PBXGroup;
-			children = (
-				203EF17E1BF1DF7F00BA42B7 /* Core_OSXTests.swift */,
-				203EF1801BF1DF7F00BA42B7 /* Info.plist */,
-			);
-			path = Core_OSXTests;
 			sourceTree = "<group>";
 		};
 		A3A5A837545B059967184CF1 /* Pods */ = {
@@ -266,7 +214,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				203EF14A1BF1DF5300BA42B7 /* Core_Watch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +229,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				203EF1731BF1DF7E00BA42B7 /* Core_OSX.h in Headers */,
+				209B577C1BF1FCDC00FC0D99 /* Core_iOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -687,7 +634,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				203EF1631BF1DF6900BA42B7 /* Core_TVTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,7 +648,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				203EF17F1BF1DF7F00BA42B7 /* Core_OSXTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -981,7 +926,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Core_Watch/Info.plist;
+				INFOPLIST_FILE = Core_iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -1034,7 +979,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Core_Watch/Info.plist;
+				INFOPLIST_FILE = Core_iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -1290,7 +1235,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Core_OSX/Info.plist;
+				INFOPLIST_FILE = Core_iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -1344,7 +1289,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Core_OSX/Info.plist;
+				INFOPLIST_FILE = Core_iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
