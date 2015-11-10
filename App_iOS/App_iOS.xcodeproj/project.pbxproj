@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06DC07A3EEC0CFABAC185879 /* Pods_App_Watch_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD785C17B3403E7646254F4 /* Pods_App_Watch_Extension.framework */; };
 		203EF1941BF1DFA200BA42B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203EF1931BF1DFA200BA42B7 /* AppDelegate.swift */; };
 		203EF1961BF1DFA200BA42B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203EF1951BF1DFA200BA42B7 /* ViewController.swift */; };
 		203EF1991BF1DFA200BA42B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203EF1971BF1DFA200BA42B7 /* Main.storyboard */; };
@@ -147,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06DC07A3EEC0CFABAC185879 /* Pods_App_Watch_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,9 +351,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 203EF1E51BF1DFE100BA42B7 /* Build configuration list for PBXNativeTarget "App_Watch Extension" */;
 			buildPhases = (
+				9335FA87694CB855C84941F2 /* Check Pods Manifest.lock */,
 				203EF1CE1BF1DFE100BA42B7 /* Sources */,
 				203EF1CF1BF1DFE100BA42B7 /* Frameworks */,
 				203EF1D01BF1DFE100BA42B7 /* Resources */,
+				746286D2BF91CA024CC7D30D /* Embed Pods Frameworks */,
+				1CA312F6B6D322DAC249714E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -488,7 +493,52 @@
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-App_iOS/Pods-App_iOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		1CA312F6B6D322DAC249714E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-App_Watch Extension/Pods-App_Watch Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		746286D2BF91CA024CC7D30D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-App_Watch Extension/Pods-App_Watch Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8ED4D1227CBEBC376022581F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9335FA87694CB855C84941F2 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (

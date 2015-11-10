@@ -16,11 +16,12 @@ target :'App_iOS' do
     xcodeproj 'App_iOS/App_iOS.xcodeproj'
 end
 
-#target :'App_Watch Extension' do
-#    platform :ios, '8.0'
-#    pod 'RxSwift', '~> 2.0.0-beta'
-#    xcodeproj 'App_iOS/App_iOS.xcodeproj'
-#end
+target :'App_Watch Extension' do
+    platform :watchos, '8.0'
+    pod 'RxSwift', '~> 2.0.0-beta'
+    pod 'RxCocoa', '~> 2.0.0-beta'
+    xcodeproj 'App_iOS/App_iOS.xcodeproj'
+end
 
 target :'App_OSX' do
     platform :osx, '10.9'
@@ -44,7 +45,7 @@ target :'Core_iOS' do
 end
 
 target :'Core_Watch' do
-    platform :ios, '8.0'
+    platform :watchos, '8.0'
     pod 'RxSwift', '~> 2.0.0-beta'
     pod 'RxCocoa', '~> 2.0.0-beta'
     xcodeproj 'Core/Core.xcodeproj'
