@@ -26,7 +26,13 @@ public class ApplicationAssembly: TyphoonAssembly {
     public dynamic func menuController() -> AnyObject {
         return TyphoonDefinition.withClass(MenuViewController.self) {
             (definition) in
-            //definition.scope = TyphoonScope.Singleton;
+            definition.injectProperty("appModel", with: self.getAppModel())
+        }
+    }
+    
+    public dynamic func loginController() -> AnyObject {
+        return TyphoonDefinition.withClass(LoginViewController.self) {
+            (definition) in
             definition.injectProperty("appModel", with: self.getAppModel())
         }
     }

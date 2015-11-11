@@ -8,6 +8,8 @@ import Foundation
 
 public class AppModel : AnObject {
     public var menuItems = AnList();
+    public var userFacebook : UserInfo?;
+    public var userGoogle: UserInfo?;
     
     public func populate() -> Void {
         menuItems.append(MenuItem(title: "Home", icon: "calendar", navigationId: "home"));

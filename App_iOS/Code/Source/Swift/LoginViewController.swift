@@ -11,12 +11,15 @@ import FBSDKLoginKit
 import FBSDKCoreKit
 import FBSDKShareKit
 import Google
+import Core_iOS
 
-class LoginViewController: UIViewController/*, FBSDKLoginButtonDelegate*/, GIDSignInDelegate {
+class LoginViewController: UIViewController/*, FBSDKLoginButtonDelegate*/, GIDSignInDelegate, GIDSignInUIDelegate {
 
     @IBOutlet weak var menuButton: UIBarButtonItem!
     @IBOutlet weak var fbLoginButton: UIButton!
     @IBOutlet weak var textView: UITextView!
+    
+    var appModel : AppModel?
     
     private let loader = FacebookUserLoader()
     
@@ -36,23 +39,14 @@ class LoginViewController: UIViewController/*, FBSDKLoginButtonDelegate*/, GIDSi
         }
         //}
         
-        /*
-        //Facebook
-        
-        let token : FBSDKAccessToken? = FBSDKAccessToken.currentAccessToken()
-        
-        if(token != nil) {
-            
-        } else {
-            let button = FBSDKLoginButton()
-            button.center = self.view.center;
-            button.delegate = self
-            self.view.addSubview(button)
-        }
-        */
-        
-        
+        //Google
         GIDSignIn.sharedInstance().delegate = self
+        GIDSignIn.sharedInstance().uiDelegate = self
+        
+        
+        let gButton = GIDSignInButton()
+        gButton.center = self.view.center
+        self.view.addSubview(gButton)
         
     }
     @IBAction func fbButtonClicked(sender: AnyObject) {
@@ -67,52 +61,40 @@ class LoginViewController: UIViewController/*, FBSDKLoginButtonDelegate*/, GIDSi
     }
     
     private func onUserLoaded(user: TegFacebookUser) {
+        appModel!.userFacebook = UserInfo(id: user.id, name: user.name!, email: user.email, token: user.accessToken)
+        
+        populateText(appModel!.userFacebook!)
+    }
+    
+    func populateText(user : UserInfo) -> Void {
         var fields = ["User id: \(user.id)"]
         
-        if let name = user.name {
-            fields.append("Name: \(name)")
-        }
+        fields.append("Name: \(user.name)")
         
-        if let email = user.email {
-            fields.append("Email: \(email)")
-        }
+        fields.append("Email: \(user.email)")
         
-        fields.append("Access token: \(user.accessToken)")
+        fields.append("Access token: \(user.token)")
         
         let outputText = "\n\n" + fields.joinWithSeparator(".")
         
         textView.text = outputText
         print(outputText)
     }
-
-    
-    
-    /*func loginButton(loginButton: FBSDKLoginButton!, didCompleteWithResult result: FBSDKLoginManagerLoginResult!, error: NSError!) {
-        let token : FBSDKAccessToken? = FBSDKAccessToken.currentAccessToken()
-        
-        
-    }
-    
-    
-    func loginButtonDidLogOut(loginButton: FBSDKLoginButton!) {
-        
-    }*/
     
     // [START signin_handler]
     func signIn(signIn: GIDSignIn!, didSignInForUser user: GIDGoogleUser!,
         withError error: NSError!) {
             if (error == nil) {
-                // Perform any operations on signed in user here.
-                let userId = user.userID                  // For client-side use only!
-                let idToken = user.authentication.idToken // Safe to send to the server
-                let name = user.profile.name
-                let email = user.profile.email
+                appModel!.userGoogle = UserInfo(id: user.userID, name: user.profile.name, email: user.profile.email, token: user.authentication.idToken)
+                
                 // [START_EXCLUDE]
                 NSNotificationCenter.defaultCenter().postNotificationName(
                     "ToggleAuthUINotification",
                     object: nil,
-                    userInfo: ["statusText": "Signed in user:\n\(name)"])
+                    userInfo: ["statusText": "Signed in user:\n\(appModel!.userGoogle!.name)"])
                 // [END_EXCLUDE]
+                
+                populateText(appModel!.userGoogle!)
             } else {
                 print("\(error.localizedDescription)")
                 // [START_EXCLUDE silent]
@@ -137,4 +119,21 @@ class LoginViewController: UIViewController/*, FBSDKLoginButtonDelegate*/, GIDSi
     // [END disconnect_handler]
     
 
+    
+    // pressed the Sign In button
+    func signInWillDispatch(signIn: GIDSignIn!, error: NSError!) {
+        //myActivityIndicator.stopAnimating()
+    }
+    
+    // Present a view that prompts the user to sign in with Google
+    func signIn(signIn: GIDSignIn!,
+        presentViewController viewController: UIViewController!) {
+            self.presentViewController(viewController, animated: true, completion: nil)
+    }
+    
+    // Dismiss the "Sign in with Google" view
+    func signIn(signIn: GIDSignIn!,
+        dismissViewController viewController: UIViewController!) {
+            self.dismissViewControllerAnimated(true, completion: nil)
+    }
 }
