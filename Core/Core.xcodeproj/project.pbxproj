@@ -6,6 +6,26 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		20B37D181BF3C66A0006AC22 /* Core_All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 20B37D191BF3C66A0006AC22 /* Build configuration list for PBXAggregateTarget "Core_All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				20B37D1D1BF3C67B0006AC22 /* PBXTargetDependency */,
+				20B37D1F1BF3C67B0006AC22 /* PBXTargetDependency */,
+				20B37D211BF3C67B0006AC22 /* PBXTargetDependency */,
+				20B37D231BF3C67B0006AC22 /* PBXTargetDependency */,
+				20B37D251BF3C67B0006AC22 /* PBXTargetDependency */,
+				20B37D271BF3C67B0006AC22 /* PBXTargetDependency */,
+				20B37D291BF3C67B0006AC22 /* PBXTargetDependency */,
+			);
+			name = Core_All;
+			productName = Core_All;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		0AED536F7491C9E25DC48780 /* Pods_Core_OSXTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11A64D2EEACA493CF18F6E92 /* Pods_Core_OSXTests.framework */; };
 		0B662A591D48337AA8E2DF03 /* Pods_Core_TV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 355000D0A36E2DCFEA2AE725 /* Pods_Core_TV.framework */; };
@@ -93,6 +113,55 @@
 			proxyType = 1;
 			remoteGlobalIDString = 203EF16F1BF1DF7E00BA42B7;
 			remoteInfo = Core_OSX;
+		};
+		20B37D1C1BF3C67B0006AC22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 203EF11F1BF1DF0700BA42B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 203EF1291BF1DF2C00BA42B7;
+			remoteInfo = Core_iOS;
+		};
+		20B37D1E1BF3C67B0006AC22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 203EF11F1BF1DF0700BA42B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 203EF1331BF1DF2C00BA42B7;
+			remoteInfo = Core_iOSTests;
+		};
+		20B37D201BF3C67B0006AC22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 203EF11F1BF1DF0700BA42B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 203EF1461BF1DF5300BA42B7;
+			remoteInfo = Core_Watch;
+		};
+		20B37D221BF3C67B0006AC22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 203EF11F1BF1DF0700BA42B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 203EF1531BF1DF6900BA42B7;
+			remoteInfo = Core_TV;
+		};
+		20B37D241BF3C67B0006AC22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 203EF11F1BF1DF0700BA42B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 203EF15C1BF1DF6900BA42B7;
+			remoteInfo = Core_TVTests;
+		};
+		20B37D261BF3C67B0006AC22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 203EF11F1BF1DF0700BA42B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 203EF16F1BF1DF7E00BA42B7;
+			remoteInfo = Core_OSX;
+		};
+		20B37D281BF3C67B0006AC22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 203EF11F1BF1DF0700BA42B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 203EF1781BF1DF7F00BA42B7;
+			remoteInfo = Core_OSXTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -539,6 +608,9 @@
 					203EF1781BF1DF7F00BA42B7 = {
 						CreatedOnToolsVersion = 7.2;
 					};
+					20B37D181BF3C66A0006AC22 = {
+						CreatedOnToolsVersion = 7.2;
+					};
 				};
 			};
 			buildConfigurationList = 203EF1221BF1DF0700BA42B7 /* Build configuration list for PBXProject "Core" */;
@@ -560,6 +632,7 @@
 				203EF15C1BF1DF6900BA42B7 /* Core_TVTests */,
 				203EF16F1BF1DF7E00BA42B7 /* Core_OSX */,
 				203EF1781BF1DF7F00BA42B7 /* Core_OSXTests */,
+				20B37D181BF3C66A0006AC22 /* Core_All */,
 			);
 		};
 /* End PBXProject section */
@@ -990,6 +1063,41 @@
 			isa = PBXTargetDependency;
 			target = 203EF16F1BF1DF7E00BA42B7 /* Core_OSX */;
 			targetProxy = 203EF17B1BF1DF7F00BA42B7 /* PBXContainerItemProxy */;
+		};
+		20B37D1D1BF3C67B0006AC22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 203EF1291BF1DF2C00BA42B7 /* Core_iOS */;
+			targetProxy = 20B37D1C1BF3C67B0006AC22 /* PBXContainerItemProxy */;
+		};
+		20B37D1F1BF3C67B0006AC22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 203EF1331BF1DF2C00BA42B7 /* Core_iOSTests */;
+			targetProxy = 20B37D1E1BF3C67B0006AC22 /* PBXContainerItemProxy */;
+		};
+		20B37D211BF3C67B0006AC22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 203EF1461BF1DF5300BA42B7 /* Core_Watch */;
+			targetProxy = 20B37D201BF3C67B0006AC22 /* PBXContainerItemProxy */;
+		};
+		20B37D231BF3C67B0006AC22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 203EF1531BF1DF6900BA42B7 /* Core_TV */;
+			targetProxy = 20B37D221BF3C67B0006AC22 /* PBXContainerItemProxy */;
+		};
+		20B37D251BF3C67B0006AC22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 203EF15C1BF1DF6900BA42B7 /* Core_TVTests */;
+			targetProxy = 20B37D241BF3C67B0006AC22 /* PBXContainerItemProxy */;
+		};
+		20B37D271BF3C67B0006AC22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 203EF16F1BF1DF7E00BA42B7 /* Core_OSX */;
+			targetProxy = 20B37D261BF3C67B0006AC22 /* PBXContainerItemProxy */;
+		};
+		20B37D291BF3C67B0006AC22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 203EF1781BF1DF7F00BA42B7 /* Core_OSXTests */;
+			targetProxy = 20B37D281BF3C67B0006AC22 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1721,6 +1829,20 @@
 			};
 			name = Release;
 		};
+		20B37D1A1BF3C66A0006AC22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20B37D1B1BF3C66A0006AC22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1795,6 +1917,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		20B37D191BF3C66A0006AC22 /* Build configuration list for PBXAggregateTarget "Core_All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B37D1A1BF3C66A0006AC22 /* Debug */,
+				20B37D1B1BF3C66A0006AC22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
