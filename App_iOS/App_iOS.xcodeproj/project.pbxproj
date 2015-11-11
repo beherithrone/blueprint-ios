@@ -12,6 +12,7 @@
 		203EF1B71BF1DFA200BA42B7 /* App_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203EF1B61BF1DFA200BA42B7 /* App_iOSUITests.swift */; };
 		203EF1D31BF1DFE100BA42B7 /* App_Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 203EF1D21BF1DFE100BA42B7 /* App_Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		203EF1E41BF1DFE100BA42B7 /* App_Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 203EF1C61BF1DFE100BA42B7 /* App_Watch.app */; };
+		205432DC1BF34B46004C7F30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 205432DB1BF34B46004C7F30 /* GoogleService-Info.plist */; };
 		20F0AA8E1BF21BEB00835C79 /* App_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20F0AA6C1BF21BEB00835C79 /* App_iOS.xcdatamodeld */; };
 		20F0AA8F1BF21BEB00835C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F0AA6E1BF21BEB00835C79 /* Assets.xcassets */; };
 		20F0AA901BF21BEB00835C79 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20F0AA6F1BF21BEB00835C79 /* Info.plist */; };
@@ -122,6 +123,7 @@
 		203EF1B81BF1DFA200BA42B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		203EF1C61BF1DFE100BA42B7 /* App_Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App_Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		203EF1D21BF1DFE100BA42B7 /* App_Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "App_Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		205432DB1BF34B46004C7F30 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		20F0AA6D1BF21BEB00835C79 /* Template1_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Template1_iOS.xcdatamodel; sourceTree = "<group>"; };
 		20F0AA6E1BF21BEB00835C79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20F0AA6F1BF21BEB00835C79 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -238,6 +240,7 @@
 				20F0AA6C1BF21BEB00835C79 /* App_iOS.xcdatamodeld */,
 				20F0AA6E1BF21BEB00835C79 /* Assets.xcassets */,
 				20F0AA6F1BF21BEB00835C79 /* Info.plist */,
+				205432DB1BF34B46004C7F30 /* GoogleService-Info.plist */,
 				20F0AA701BF21BEB00835C79 /* Source */,
 			);
 			path = Code;
@@ -630,6 +633,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20F0AA921BF21BEB00835C79 /* LaunchScreen.xib in Resources */,
+				205432DC1BF34B46004C7F30 /* GoogleService-Info.plist in Resources */,
 				20F0AA941BF21BEB00835C79 /* AwsViewCell.xib in Resources */,
 				20F0AA931BF21BEB00835C79 /* Main.storyboard in Resources */,
 				20F0AA911BF21BEB00835C79 /* ImageCell.xib in Resources */,

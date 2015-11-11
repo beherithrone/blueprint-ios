@@ -1,6 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
-
+inhibit_all_warnings!
 
 workspace 'Template1'
 xcodeproj 'App_iOS/App_iOS.xcodeproj'
@@ -23,7 +23,9 @@ target :'App_iOS' do
     pod 'FBSDKCoreKit'
     pod 'FBSDKLoginKit'
     pod 'FBSDKShareKit'
-    #pod 'google-plus-ios-sdk', '~> 1.7'
+    pod 'Google/Analytics'
+    pod 'Google/SignIn'
+    pod 'Google/AdMob'
     xcodeproj 'App_iOS/App_iOS.xcodeproj'
 end
 
