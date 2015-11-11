@@ -18,6 +18,7 @@ class LoginViewController: UIViewController/*, FBSDKLoginButtonDelegate*/, GIDSi
     @IBOutlet weak var menuButton: UIBarButtonItem!
     @IBOutlet weak var fbLoginButton: UIButton!
     @IBOutlet weak var textView: UITextView!
+    @IBOutlet weak var gidLoginButton: GIDSignInButton!
     
     var appModel : AppModel?
     
@@ -49,6 +50,8 @@ class LoginViewController: UIViewController/*, FBSDKLoginButtonDelegate*/, GIDSi
         self.view.addSubview(gButton)
         
     }
+    
+    //Facebook
     @IBAction func fbButtonClicked(sender: AnyObject) {
         textView.text = ""
         
