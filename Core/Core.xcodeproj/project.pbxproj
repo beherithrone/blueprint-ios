@@ -18,6 +18,10 @@
 		203EF1731BF1DF7E00BA42B7 /* Core_OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 203EF1721BF1DF7E00BA42B7 /* Core_OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		203EF17A1BF1DF7F00BA42B7 /* Core_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203EF1701BF1DF7E00BA42B7 /* Core_OSX.framework */; };
 		203EF17F1BF1DF7F00BA42B7 /* Core_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203EF17E1BF1DF7F00BA42B7 /* Core_OSXTests.swift */; };
+		208206101BF3FED4004AFF1B /* Kokot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2082060F1BF3FED4004AFF1B /* Kokot.swift */; };
+		208206111BF3FED4004AFF1B /* Kokot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2082060F1BF3FED4004AFF1B /* Kokot.swift */; };
+		208206121BF3FED4004AFF1B /* Kokot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2082060F1BF3FED4004AFF1B /* Kokot.swift */; };
+		208206131BF3FED4004AFF1B /* Kokot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2082060F1BF3FED4004AFF1B /* Kokot.swift */; };
 		6335F51C62063E177FAAA339 /* Pods_Core_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDB88FF0A0A7D6FE0AF8F1A /* Pods_Core_iOS.framework */; };
 		908A01E32596C2E737FF9EB6 /* Pods_Core_Watch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B603413ADD7EC2C4D7575A4F /* Pods_Core_Watch.framework */; };
 		A3E04879566FFBA0115F1A7A /* Pods_Core_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8308B1FE734FA894C0157DC8 /* Pods_Core_OSX.framework */; };
@@ -71,6 +75,7 @@
 		203EF1791BF1DF7F00BA42B7 /* Core_OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Core_OSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		203EF17E1BF1DF7F00BA42B7 /* Core_OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core_OSXTests.swift; sourceTree = "<group>"; };
 		203EF1801BF1DF7F00BA42B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2082060F1BF3FED4004AFF1B /* Kokot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kokot.swift; sourceTree = "<group>"; };
 		2829FA8C9832EA0432FC527A /* Pods-Core_OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core_OSX.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Core_OSX/Pods-Core_OSX.debug.xcconfig"; sourceTree = "<group>"; };
 		2971BC4201F5D8A16E29146D /* Pods-Core_Watch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core_Watch.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Core_Watch/Pods-Core_Watch.release.xcconfig"; sourceTree = "<group>"; };
 		355000D0A36E2DCFEA2AE725 /* Pods_Core_TV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Core_TV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,6 +183,7 @@
 			children = (
 				203EF12D1BF1DF2C00BA42B7 /* Core_iOS.h */,
 				203EF12F1BF1DF2C00BA42B7 /* Info.plist */,
+				2082060F1BF3FED4004AFF1B /* Kokot.swift */,
 			);
 			path = Core_iOS;
 			sourceTree = "<group>";
@@ -669,6 +675,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				208206101BF3FED4004AFF1B /* Kokot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -684,6 +691,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				208206111BF3FED4004AFF1B /* Kokot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -691,6 +699,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				208206121BF3FED4004AFF1B /* Kokot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -706,6 +715,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				208206131BF3FED4004AFF1B /* Kokot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -794,7 +804,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Core_iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -847,7 +857,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Core_iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.Core-iOS";

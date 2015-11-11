@@ -23,6 +23,8 @@
 		203EF1DE1BF1DFE100BA42B7 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203EF1DD1BF1DFE100BA42B7 /* NotificationController.swift */; };
 		203EF1E01BF1DFE100BA42B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 203EF1DF1BF1DFE100BA42B7 /* Assets.xcassets */; };
 		203EF1E41BF1DFE100BA42B7 /* App_Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 203EF1C61BF1DFE100BA42B7 /* App_Watch.app */; };
+		208206151BF4002F004AFF1B /* Core_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208206141BF4002F004AFF1B /* Core_iOS.framework */; };
+		208206161BF4002F004AFF1B /* Core_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 208206141BF4002F004AFF1B /* Core_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3FA0787683929F81EE2C3D1E /* Pods_App_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F935F2C1605ACD48F7A5E537 /* Pods_App_iOS.framework */; };
 		44AE05A131709412B87F82FD /* Pods_App_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F935F2C1605ACD48F7A5E537 /* Pods_App_iOS.framework */; };
 		B5E03AE2E97E70ABEA5F1C0B /* Pods_App_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F935F2C1605ACD48F7A5E537 /* Pods_App_iOS.framework */; };
@@ -82,6 +84,17 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		208206171BF40030004AFF1B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				208206161BF4002F004AFF1B /* Core_iOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -110,6 +123,7 @@
 		203EF1DD1BF1DFE100BA42B7 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		203EF1DF1BF1DFE100BA42B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		203EF1E11BF1DFE100BA42B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		208206141BF4002F004AFF1B /* Core_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Core_iOS.framework; path = "${CONFIGURATION_BUILD_DIR}/Core_iOS.framework"; sourceTree = "<group>"; };
 		743228E06495397979B790B6 /* Pods-App_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App_iOS.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-App_iOS/Pods-App_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		7B123E9A31D1B29A84D9C8FC /* Pods-App_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App_iOS.release.xcconfig"; path = "../Pods/Target Support Files/Pods-App_iOS/Pods-App_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		AC5F8F3DC35F8CAA84F505E7 /* Pods-App_Watch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App_Watch Extension.release.xcconfig"; path = "../Pods/Target Support Files/Pods-App_Watch Extension/Pods-App_Watch Extension.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				208206151BF4002F004AFF1B /* Core_iOS.framework in Frameworks */,
 				44AE05A131709412B87F82FD /* Pods_App_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,6 +171,7 @@
 		203EF1871BF1DFA200BA42B7 = {
 			isa = PBXGroup;
 			children = (
+				208206141BF4002F004AFF1B /* Core_iOS.framework */,
 				203EF1921BF1DFA200BA42B7 /* App_iOS */,
 				203EF1AA1BF1DFA200BA42B7 /* App_iOSTests */,
 				203EF1B51BF1DFA200BA42B7 /* App_iOSUITests */,
@@ -276,6 +292,7 @@
 				203EF1EC1BF1DFE100BA42B7 /* Embed Watch Content */,
 				B2EBB1BE1C1ED04080045CE5 /* Embed Pods Frameworks */,
 				A269A7A026472FAF2A370E8C /* Copy Pods Resources */,
+				208206171BF40030004AFF1B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -690,6 +707,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -735,6 +753,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -759,7 +778,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = App_iOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @loader_path/../Frameworks @loader_path/../../Frameworks @executable_path/../Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.App-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -771,7 +791,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = App_iOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @loader_path/../Frameworks @loader_path/../../Frameworks @executable_path/../Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.syerit.template1.App-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
