@@ -340,19 +340,14 @@
 		20F0AAF11BF2574100835C79 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				20F0AA8A1BF21BEB00835C79 /* SearchViewController.swift */,
-				20F0AAEF1BF24AB900835C79 /* AwsViewCell.swift */,
+				20F0AB001BF2962600835C79 /* Maps */,
+				20F0AAFF1BF2961400835C79 /* Home */,
+				20F0AAFE1BF2960600835C79 /* Camera */,
+				20F0AAFD1BF295F400835C79 /* Search */,
+				20F0AAFC1BF295E700835C79 /* Aws */,
+				20F0AAFB1BF295D400835C79 /* Menu */,
+				20F0AAFA1BF295C500835C79 /* Login */,
 				20F0AA8C1BF21BEB00835C79 /* ViewController.swift */,
-				20F0AA881BF21BEB00835C79 /* SearchCell.swift */,
-				20F0AA7F1BF21BEB00835C79 /* CameraViewController.swift */,
-				20F0AA861BF21BEB00835C79 /* MenuItemViewCell.swift */,
-				20F0AA871BF21BEB00835C79 /* MenuViewController.swift */,
-				20F0AA801BF21BEB00835C79 /* CollectionViewController.swift */,
-				20F0AA841BF21BEB00835C79 /* LoginViewController.swift */,
-				20F0AA851BF21BEB00835C79 /* MapsViewController.swift */,
-				20F0AA7E1BF21BEB00835C79 /* AwsViewController.swift */,
-				20F0AA821BF21BEB00835C79 /* GridCell.swift */,
-				20F0AA811BF21BEB00835C79 /* CollectionViewImageCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -391,6 +386,67 @@
 				20F0AAF81BF2920A00835C79 /* FacebookUserLoader.swift */,
 			);
 			name = Services;
+			sourceTree = "<group>";
+		};
+		20F0AAFA1BF295C500835C79 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				20F0AA841BF21BEB00835C79 /* LoginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		20F0AAFB1BF295D400835C79 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				20F0AA871BF21BEB00835C79 /* MenuViewController.swift */,
+				20F0AA861BF21BEB00835C79 /* MenuItemViewCell.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		20F0AAFC1BF295E700835C79 /* Aws */ = {
+			isa = PBXGroup;
+			children = (
+				20F0AAEF1BF24AB900835C79 /* AwsViewCell.swift */,
+				20F0AA7E1BF21BEB00835C79 /* AwsViewController.swift */,
+			);
+			name = Aws;
+			sourceTree = "<group>";
+		};
+		20F0AAFD1BF295F400835C79 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				20F0AA8A1BF21BEB00835C79 /* SearchViewController.swift */,
+				20F0AA881BF21BEB00835C79 /* SearchCell.swift */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		20F0AAFE1BF2960600835C79 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				20F0AA7F1BF21BEB00835C79 /* CameraViewController.swift */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		20F0AAFF1BF2961400835C79 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				20F0AA801BF21BEB00835C79 /* CollectionViewController.swift */,
+				20F0AA811BF21BEB00835C79 /* CollectionViewImageCell.swift */,
+				20F0AA821BF21BEB00835C79 /* GridCell.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		20F0AB001BF2962600835C79 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				20F0AA851BF21BEB00835C79 /* MapsViewController.swift */,
+			);
+			name = Maps;
 			sourceTree = "<group>";
 		};
 		9E1E50DD7180338B52634B36 /* Frameworks */ = {

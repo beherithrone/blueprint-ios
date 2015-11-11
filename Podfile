@@ -23,6 +23,7 @@ target :'App_iOS' do
     pod 'FBSDKCoreKit'
     pod 'FBSDKLoginKit'
     pod 'FBSDKShareKit'
+    #pod 'google-plus-ios-sdk', '~> 1.7'
     xcodeproj 'App_iOS/App_iOS.xcodeproj'
 end
 

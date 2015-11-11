@@ -2,13 +2,13 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:App_iOS/App_iOS.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:App_OSX/App_OSX.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:App_TV/App_TV.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:App_iOS/App_iOS.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Core/Core.xcodeproj">
