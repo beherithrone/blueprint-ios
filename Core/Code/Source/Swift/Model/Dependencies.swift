@@ -22,7 +22,11 @@ public class Dependencies {
         
         let operationQueue = NSOperationQueue()
         operationQueue.maxConcurrentOperationCount = 2
-        operationQueue.qualityOfService = NSQualityOfService.UserInitiated
+        if #available(OSX 10.10, *) {
+            operationQueue.qualityOfService = NSQualityOfService.UserInitiated
+        } else {
+            // Fallback on earlier versions
+        }
     
         backgroundWorkScheduler = OperationQueueScheduler(operationQueue: operationQueue)
         

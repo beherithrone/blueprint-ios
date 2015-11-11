@@ -17,6 +17,9 @@
 		205432E21BF374C8004C7F30 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205432E11BF374C8004C7F30 /* UserInfo.swift */; };
 		209B577B1BF1F99700FC0D99 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 203EF12D1BF1DF2C00BA42B7 /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		209B577C1BF1FCDC00FC0D99 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 203EF12D1BF1DF2C00BA42B7 /* Core.h */; };
+		20B37D151BF3C4640006AC22 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205432E11BF374C8004C7F30 /* UserInfo.swift */; };
+		20B37D161BF3C4650006AC22 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205432E11BF374C8004C7F30 /* UserInfo.swift */; };
+		20B37D171BF3C4650006AC22 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205432E11BF374C8004C7F30 /* UserInfo.swift */; };
 		20F0AA3E1BF2018A00835C79 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F0AA2E1BF2018A00835C79 /* Aliases.swift */; };
 		20F0AA3F1BF2018A00835C79 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F0AA2E1BF2018A00835C79 /* Aliases.swift */; };
 		20F0AA401BF2018A00835C79 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F0AA2E1BF2018A00835C79 /* Aliases.swift */; };
@@ -907,6 +910,7 @@
 				20F0AA4B1BF2018A00835C79 /* CoreClass.swift in Sources */,
 				20F0AA631BF2018A00835C79 /* SearchResult.swift in Sources */,
 				20F0AA531BF2018A00835C79 /* Example.swift in Sources */,
+				20B37D151BF3C4640006AC22 /* UserInfo.swift in Sources */,
 				20F0AA571BF2018A00835C79 /* HtmlParsing.swift in Sources */,
 				20F0AA671BF2018A00835C79 /* Wireframe.swift in Sources */,
 				20F0AA471BF2018A00835C79 /* AppModel.swift in Sources */,
@@ -925,6 +929,7 @@
 				20F0AA4C1BF2018A00835C79 /* CoreClass.swift in Sources */,
 				20F0AA641BF2018A00835C79 /* SearchResult.swift in Sources */,
 				20F0AA541BF2018A00835C79 /* Example.swift in Sources */,
+				20B37D161BF3C4650006AC22 /* UserInfo.swift in Sources */,
 				20F0AA581BF2018A00835C79 /* HtmlParsing.swift in Sources */,
 				20F0AA681BF2018A00835C79 /* Wireframe.swift in Sources */,
 				20F0AA481BF2018A00835C79 /* AppModel.swift in Sources */,
@@ -950,6 +955,7 @@
 				20F0AA4D1BF2018A00835C79 /* CoreClass.swift in Sources */,
 				20F0AA651BF2018A00835C79 /* SearchResult.swift in Sources */,
 				20F0AA551BF2018A00835C79 /* Example.swift in Sources */,
+				20B37D171BF3C4650006AC22 /* UserInfo.swift in Sources */,
 				20F0AA591BF2018A00835C79 /* HtmlParsing.swift in Sources */,
 				20F0AA691BF2018A00835C79 /* Wireframe.swift in Sources */,
 				20F0AA491BF2018A00835C79 /* AppModel.swift in Sources */,
@@ -1044,7 +1050,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Code/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1097,7 +1103,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Code/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.core.ios;
@@ -1558,7 +1564,7 @@
 				INFOPLIST_FILE = Code/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.core.osx;
@@ -1612,7 +1618,7 @@
 				INFOPLIST_FILE = Code/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.syerit.template1.core.osx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
