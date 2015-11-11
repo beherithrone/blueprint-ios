@@ -13,6 +13,8 @@
 		203EF1D31BF1DFE100BA42B7 /* App_Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 203EF1D21BF1DFE100BA42B7 /* App_Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		203EF1E41BF1DFE100BA42B7 /* App_Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 203EF1C61BF1DFE100BA42B7 /* App_Watch.app */; };
 		205432DC1BF34B46004C7F30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 205432DB1BF34B46004C7F30 /* GoogleService-Info.plist */; };
+		208206191BF40734004AFF1B /* Core_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208206181BF40734004AFF1B /* Core_iOS.framework */; };
+		2082061A1BF40734004AFF1B /* Core_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 208206181BF40734004AFF1B /* Core_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		20F0AA8E1BF21BEB00835C79 /* App_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20F0AA6C1BF21BEB00835C79 /* App_iOS.xcdatamodeld */; };
 		20F0AA8F1BF21BEB00835C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F0AA6E1BF21BEB00835C79 /* Assets.xcassets */; };
 		20F0AA901BF21BEB00835C79 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20F0AA6F1BF21BEB00835C79 /* Info.plist */; };
@@ -111,6 +113,17 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2082061B1BF40734004AFF1B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2082061A1BF40734004AFF1B /* Core_iOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -124,6 +137,7 @@
 		203EF1C61BF1DFE100BA42B7 /* App_Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App_Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		203EF1D21BF1DFE100BA42B7 /* App_Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "App_Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		205432DB1BF34B46004C7F30 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		208206181BF40734004AFF1B /* Core_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Core_iOS.framework; path = "${CONFIGURATION_BUILD_DIR}/Core_iOS.framework"; sourceTree = "<group>"; };
 		20F0AA6D1BF21BEB00835C79 /* Template1_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Template1_iOS.xcdatamodel; sourceTree = "<group>"; };
 		20F0AA6E1BF21BEB00835C79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20F0AA6F1BF21BEB00835C79 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -178,6 +192,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				208206191BF40734004AFF1B /* Core_iOS.framework in Frameworks */,
 				44AE05A131709412B87F82FD /* Pods_App_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +227,7 @@
 		203EF1871BF1DFA200BA42B7 = {
 			isa = PBXGroup;
 			children = (
+				208206181BF40734004AFF1B /* Core_iOS.framework */,
 				20F0AACD1BF2271800835C79 /* App_Watch */,
 				203EF1921BF1DFA200BA42B7 /* Code */,
 				203EF1AA1BF1DFA200BA42B7 /* Tests */,
@@ -487,6 +503,7 @@
 				B2EBB1BE1C1ED04080045CE5 /* Embed Pods Frameworks */,
 				A269A7A026472FAF2A370E8C /* Copy Pods Resources */,
 				20F0AA6B1BF2157200835C79 /* Fabric */,
+				2082061B1BF40734004AFF1B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1044,6 +1061,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Code/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1060,6 +1078,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Code/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
